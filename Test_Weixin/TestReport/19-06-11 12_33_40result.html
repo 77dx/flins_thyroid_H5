@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Test ReportThyroid</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    
+<style type="text/css" media="screen">
+
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 500px;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+</style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class="container">
+    <div class='heading'>
+<h1>Test ReportThyroid</h1>
+<p><strong>Start Time:</strong> 2019-06-11 12:33:40</p>
+<p><strong>Duration:</strong> 0:00:39.912000</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>1</strong></span></p>
+
+<p class='description'>Thyroid_H5</p>
+</div>
+
+
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">Summary</span>
+<span class="label label-danger" onclick="showCase(1)">Failed</span>
+<span class="label label-default" onclick="showCase(2)">All</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>Test Group/Test case</td>
+            <th>Count</td>
+            <th>Pass</td>
+            <th>Fail</td>
+            <th>Error</td>
+            <th>View</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-success'>
+    <td>test_breast.breast_H5</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 9f85839手机MP4已删除
+电脑没有vivo_MP4文件
+uiautomator初始化完成
+微信已重启
+2019-06-11 12:33:54,032 18984 initDriver url ----&gt; ws://localhost:9222/devtools/page/CADAB9385A0EAF2B1965018FB4D6D722
+9f85839录屏启动成功
+2019-06-11 12:33:54,053 18984 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 12:33:54,555 18984 isElementExist xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 12:33:54,565 18984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 12:33:54,782 18984 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[2]
+2019-06-11 12:33:55,282 18984 isElementExist xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[2]
+2019-06-11 12:33:55,299 18984 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[2]
+2019-06-11 12:33:55,551 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/a[2]
+2019-06-11 12:33:56,052 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/a[2]
+2019-06-11 12:33:56,069 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/a[2]
+2019-06-11 12:33:56,253 18984 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/div[2]/input text ---&gt; 156
+2019-06-11 12:33:56,947 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/div[2]/label[2]
+2019-06-11 12:33:57,447 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/div[2]/label[2]
+2019-06-11 12:33:57,459 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/div[2]/label[2]
+2019-06-11 12:33:57,744 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/a[3]
+2019-06-11 12:33:58,246 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/a[3]
+2019-06-11 12:33:58,253 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/a[3]
+2019-06-11 12:33:58,469 18984 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/div[2]/input text ---&gt; 70
+2019-06-11 12:33:59,038 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/div[2]/label[2]
+2019-06-11 12:33:59,539 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/div[2]/label[2]
+2019-06-11 12:33:59,546 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/div[2]/label[2]
+2019-06-11 12:33:59,729 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[3]
+2019-06-11 12:34:00,229 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[3]
+2019-06-11 12:34:00,244 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[3]
+2019-06-11 12:34:00,437 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[1]
+2019-06-11 12:34:00,937 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[1]
+2019-06-11 12:34:00,947 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[1]
+2019-06-11 12:34:01,122 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 12:34:01,624 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 12:34:01,641 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 12:34:01,875 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 12:34:02,377 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 12:34:02,394 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 12:34:02,579 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 12:34:03,079 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 12:34:03,098 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 12:34:03,336 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[1]
+2019-06-11 12:34:03,836 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[1]
+2019-06-11 12:34:03,845 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[1]
+2019-06-11 12:34:04,094 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[1]
+2019-06-11 12:34:04,595 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[1]
+2019-06-11 12:34:04,614 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[1]
+2019-06-11 12:34:04,894 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[1]
+2019-06-11 12:34:05,394 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[1]
+2019-06-11 12:34:05,411 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[1]
+2019-06-11 12:34:05,628 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/label
+2019-06-11 12:34:06,130 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/label
+2019-06-11 12:34:06,164 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/label
+2019-06-11 12:34:06,507 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 12:34:07,007 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 12:34:07,017 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 12:34:07,240 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[4]
+2019-06-11 12:34:07,740 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[4]
+2019-06-11 12:34:07,759 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[4]
+2019-06-11 12:34:08,056 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[2]
+2019-06-11 12:34:08,558 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[2]
+2019-06-11 12:34:08,575 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[2]
+2019-06-11 12:34:08,848 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[3]
+2019-06-11 12:34:09,348 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[3]
+2019-06-11 12:34:09,365 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[3]
+2019-06-11 12:34:09,631 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[1]
+2019-06-11 12:34:10,131 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[1]
+2019-06-11 12:34:10,150 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[1]
+2019-06-11 12:34:10,428 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/label
+2019-06-11 12:34:10,930 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/label
+2019-06-11 12:34:10,947 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/label
+2019-06-11 12:34:11,263 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[17]/div[2]/div/a[1]
+2019-06-11 12:34:11,765 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[17]/div[2]/div/a[1]
+2019-06-11 12:34:11,783 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[17]/div[2]/div/a[1]
+2019-06-11 12:34:12,030 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[17]/div[2]/div/label
+2019-06-11 12:34:12,532 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[17]/div[2]/div/label
+2019-06-11 12:34:12,540 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[17]/div[2]/div/label
+2019-06-11 12:34:12,821 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[18]/div[2]/div/a[1]
+2019-06-11 12:34:13,321 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[18]/div[2]/div/a[1]
+2019-06-11 12:34:13,331 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[18]/div[2]/div/a[1]
+2019-06-11 12:34:13,625 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[18]/div[2]/div/label
+2019-06-11 12:34:14,125 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[18]/div[2]/div/label
+2019-06-11 12:34:14,161 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[18]/div[2]/div/label
+2019-06-11 12:34:14,388 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[19]/div[2]/div/a[1]
+2019-06-11 12:34:14,888 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[19]/div[2]/div/a[1]
+2019-06-11 12:34:14,897 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[19]/div[2]/div/a[1]
+2019-06-11 12:34:15,174 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[20]/div[2]/div/a[1]
+2019-06-11 12:34:15,674 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[20]/div[2]/div/a[1]
+2019-06-11 12:34:15,694 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[20]/div[2]/div/a[1]
+2019-06-11 12:34:15,974 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[21]/div[2]/div/a[1]
+2019-06-11 12:34:16,476 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[21]/div[2]/div/a[1]
+2019-06-11 12:34:16,486 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[21]/div[2]/div/a[1]
+2019-06-11 12:34:16,739 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[22]/div[2]/div/a[1]
+2019-06-11 12:34:17,239 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[22]/div[2]/div/a[1]
+2019-06-11 12:34:17,247 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[22]/div[2]/div/a[1]
+2019-06-11 12:34:17,477 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[22]/div[2]/div/label
+2019-06-11 12:34:17,977 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[22]/div[2]/div/label
+2019-06-11 12:34:18,012 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[22]/div[2]/div/label
+2019-06-11 12:34:18,288 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[23]/div[2]/div/a[1]
+2019-06-11 12:34:18,788 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[23]/div[2]/div/a[1]
+2019-06-11 12:34:18,805 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[23]/div[2]/div/a[1]
+2019-06-11 12:34:19,122 18984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[23]/div[2]/div/label
+2019-06-11 12:34:19,624 18984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[23]/div[2]/div/label
+2019-06-11 12:34:19,657 18984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[23]/div[2]/div/label
+2019-06-11 12:34:19,974 18984 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 12:34:20,474 18984 isElementExist xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 12:34:20,483 18984 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 12:34:20,769 18984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[1]/div[1]/label
+already quit
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>1</td>
+            <td class="text text-success">1</td>
+            <td class="text text-danger">0</td>
+            <td class="text text-warning">0</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+
+</body>
+</html>

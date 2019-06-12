@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Test ReportFlins</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    
+<style type="text/css" media="screen">
+
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 500px;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+</style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class="container">
+    <div class='heading'>
+<h1>Test ReportFlins</h1>
+<p><strong>Start Time:</strong> 2019-06-11 14:10:27</p>
+<p><strong>Duration:</strong> 0:04:18.647000</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>2</strong></span> <span class="text text-warning">Error <strong>1</strong></span></p>
+
+<p class='description'>H5</p>
+</div>
+
+
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">Summary</span>
+<span class="label label-danger" onclick="showCase(1)">Failed</span>
+<span class="label label-default" onclick="showCase(2)">All</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>Test Group/Test case</td>
+            <th>Count</td>
+            <th>Pass</td>
+            <th>Fail</td>
+            <th>Error</td>
+            <th>View</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-warning'>
+    <td>test_breast.breast_H5</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
+</tr>
+
+<tr id='ft1.1' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: 9f85839手机MP4已删除
+电脑没有vivo_MP4文件
+uiautomator初始化完成
+微信已重启
+Traceback (most recent call last):
+  File "D:\git_repo\Test_Weixin\TestCase\test_breast.py", line 35, in setUp
+    d2(resourceId="com.tencent.mm:id/b6e", text=u"æä»¶ä¼ è¾å©æ").click()
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 39, in _inner
+    return fn(self, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 745, in click
+    self.must_wait(timeout=timeout)
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 930, in must_wait
+    raise UiObjectNotFoundError({'code': -32002, 'method': 'wait'})
+UiObjectNotFoundError: -32002 Client error: &lt;&gt; data: , method: None
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='text text-success'>
+    <td>test_thyroid.TestH5</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c2',2)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_01</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: 9f85839手机MP4已删除
+电脑没有vivo_MP4文件
+uiautomator初始化完成
+微信已重启
+case开始执行了
+9f85839手机MP4已删除
+电脑没有vivo_MP4文件
+uiautomator初始化完成
+微信已重启
+2019-06-11 14:11:51,381 2980 initDriver url ----&gt; ws://localhost:9222/devtools/page/42748367B573BEB0F9AD414987D408E5
+vivo初始化H5Driver完成
+9f85839录屏启动成功
+2019-06-11 14:11:54,382 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-06-11 14:11:54,882 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-06-11 14:11:54,900 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-06-11 14:11:55,184 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[77]
+2019-06-11 14:12:10,885 2980 returnLastPage 
+2019-06-11 14:12:11,920 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-06-11 14:12:12,420 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-06-11 14:12:12,456 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-06-11 14:12:12,790 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 14:12:13,292 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 14:12:13,326 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 14:12:13,664 2980 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-06-11 14:12:14,164 2980 isElementExist xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-06-11 14:12:14,181 2980 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-06-11 14:12:15,440 2980 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/input text ---&gt; 185
+2019-06-11 14:12:16,092 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:16,592 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:16,628 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:16,947 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-06-11 14:12:17,447 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-06-11 14:12:17,463 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-06-11 14:12:17,663 2980 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/input text ---&gt; 45
+2019-06-11 14:12:18,273 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:18,775 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:18,809 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:19,075 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-06-11 14:12:19,576 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-06-11 14:12:19,609 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-06-11 14:12:19,888 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-06-11 14:12:20,390 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-06-11 14:12:20,401 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-06-11 14:12:20,632 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-06-11 14:12:21,134 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-06-11 14:12:21,167 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-06-11 14:12:21,375 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 14:12:21,875 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 14:12:21,891 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 14:12:22,193 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 14:12:22,694 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 14:12:22,711 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 14:12:22,940 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 14:12:23,440 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 14:12:23,459 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 14:12:23,756 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-06-11 14:12:24,256 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-06-11 14:12:24,275 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-06-11 14:12:24,530 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-06-11 14:12:25,030 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-06-11 14:12:25,065 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-06-11 14:12:25,428 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-06-11 14:12:25,928 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-06-11 14:12:25,963 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-06-11 14:12:26,230 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-06-11 14:12:26,730 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-06-11 14:12:26,746 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-06-11 14:12:27,016 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 14:12:27,516 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 14:12:27,552 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 14:12:27,772 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-06-11 14:12:28,272 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-06-11 14:12:28,282 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-06-11 14:12:28,519 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-06-11 14:12:29,022 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-06-11 14:12:29,039 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-06-11 14:12:29,309 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-06-11 14:12:29,809 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-06-11 14:12:29,828 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-06-11 14:12:30,032 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-06-11 14:12:30,532 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-06-11 14:12:30,551 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-06-11 14:12:30,802 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-06-11 14:12:31,302 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-06-11 14:12:31,336 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-06-11 14:12:31,536 2980 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 14:12:32,038 2980 isElementExist xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 14:12:32,105 2980 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 14:12:32,526 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:12:33,026 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:12:33,144 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:12:34,437 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-06-11 14:12:34,437 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-06-11 14:12:36,489 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-06-11 14:12:36,489 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+黄金会员的价格是39.9
+2019-06-11 14:12:36,526 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:37,028 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:37,046 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:39,302 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:39,302 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:39,355 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:39,355 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+支付页与介绍页面会员类型和价格一致
+2019-06-11 14:12:39,392 2980 returnLastPage 
+2019-06-11 14:12:40,411 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:40,411 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:40,563 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:41,063 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:41,131 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:41,342 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-06-11 14:12:41,342 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+铂金会员的价格是：59.9
+2019-06-11 14:12:41,394 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:41,894 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:41,961 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:44,293 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:44,293 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:44,345 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:44,345 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+铂金会员支付页价格类型正确
+2019-06-11 14:12:44,382 2980 returnLastPage 
+2019-06-11 14:12:45,404 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:45,404 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:45,540 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:46,040 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:46,160 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:46,428 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-06-11 14:12:46,428 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+钻石会员的价格是：89.9
+2019-06-11 14:12:46,516 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:47,016 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:47,049 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:49,336 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:49,336 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:49,374 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:49,374 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:49,401 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[5]/label
+2019-06-11 14:12:49,901 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[5]/label
+2019-06-11 14:12:49,934 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[5]/label
+2019-06-11 14:12:50,276 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[77]
+already quit
+关闭9f85839录屏
+关闭9f85839手机录屏
+case已经执行完毕
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_02</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        pass</a>
+
+    <div id='div_pt2.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.2: 9f85839手机MP4已删除
+电脑没有vivo_MP4文件
+uiautomator初始化完成
+微信已重启
+case开始执行了
+9f85839手机MP4已删除
+电脑没有vivo_MP4文件
+uiautomator初始化完成
+微信已重启
+2019-06-11 14:11:51,381 2980 initDriver url ----&gt; ws://localhost:9222/devtools/page/42748367B573BEB0F9AD414987D408E5
+vivo初始化H5Driver完成
+9f85839录屏启动成功
+2019-06-11 14:11:54,382 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-06-11 14:11:54,882 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-06-11 14:11:54,900 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-06-11 14:11:55,184 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[77]
+2019-06-11 14:12:10,885 2980 returnLastPage 
+2019-06-11 14:12:11,920 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-06-11 14:12:12,420 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-06-11 14:12:12,456 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-06-11 14:12:12,790 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 14:12:13,292 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 14:12:13,326 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-06-11 14:12:13,664 2980 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-06-11 14:12:14,164 2980 isElementExist xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-06-11 14:12:14,181 2980 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-06-11 14:12:15,440 2980 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/input text ---&gt; 185
+2019-06-11 14:12:16,092 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:16,592 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:16,628 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:16,947 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-06-11 14:12:17,447 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-06-11 14:12:17,463 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-06-11 14:12:17,663 2980 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/input text ---&gt; 45
+2019-06-11 14:12:18,273 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:18,775 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:18,809 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-06-11 14:12:19,075 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-06-11 14:12:19,576 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-06-11 14:12:19,609 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-06-11 14:12:19,888 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-06-11 14:12:20,390 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-06-11 14:12:20,401 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-06-11 14:12:20,632 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-06-11 14:12:21,134 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-06-11 14:12:21,167 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-06-11 14:12:21,375 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 14:12:21,875 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 14:12:21,891 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-06-11 14:12:22,193 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 14:12:22,694 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 14:12:22,711 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-06-11 14:12:22,940 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 14:12:23,440 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 14:12:23,459 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-06-11 14:12:23,756 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-06-11 14:12:24,256 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-06-11 14:12:24,275 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-06-11 14:12:24,530 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-06-11 14:12:25,030 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-06-11 14:12:25,065 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-06-11 14:12:25,428 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-06-11 14:12:25,928 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-06-11 14:12:25,963 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-06-11 14:12:26,230 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-06-11 14:12:26,730 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-06-11 14:12:26,746 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-06-11 14:12:27,016 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 14:12:27,516 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 14:12:27,552 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-06-11 14:12:27,772 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-06-11 14:12:28,272 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-06-11 14:12:28,282 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-06-11 14:12:28,519 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-06-11 14:12:29,022 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-06-11 14:12:29,039 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-06-11 14:12:29,309 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-06-11 14:12:29,809 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-06-11 14:12:29,828 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-06-11 14:12:30,032 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-06-11 14:12:30,532 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-06-11 14:12:30,551 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-06-11 14:12:30,802 2980 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-06-11 14:12:31,302 2980 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-06-11 14:12:31,336 2980 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-06-11 14:12:31,536 2980 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 14:12:32,038 2980 isElementExist xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 14:12:32,105 2980 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-06-11 14:12:32,526 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:12:33,026 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:12:33,144 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:12:34,437 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-06-11 14:12:34,437 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-06-11 14:12:36,489 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-06-11 14:12:36,489 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+黄金会员的价格是39.9
+2019-06-11 14:12:36,526 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:37,028 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:37,046 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:39,302 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:39,302 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:39,355 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:39,355 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+支付页与介绍页面会员类型和价格一致
+2019-06-11 14:12:39,392 2980 returnLastPage 
+2019-06-11 14:12:40,411 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:40,411 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:40,563 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:41,063 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:41,131 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[2]/label
+2019-06-11 14:12:41,342 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-06-11 14:12:41,342 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+铂金会员的价格是：59.9
+2019-06-11 14:12:41,394 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:41,894 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:41,961 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:44,293 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:44,293 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:44,345 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:44,345 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+铂金会员支付页价格类型正确
+2019-06-11 14:12:44,382 2980 returnLastPage 
+2019-06-11 14:12:45,404 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:45,404 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:45,540 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:46,040 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:46,160 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[3]/label
+2019-06-11 14:12:46,428 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-06-11 14:12:46,428 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+钻石会员的价格是：89.9
+2019-06-11 14:12:46,516 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:47,016 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:47,049 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/a
+2019-06-11 14:12:49,336 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:49,336 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[1]/span
+2019-06-11 14:12:49,374 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:49,374 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[1]/div[2]/span[1]
+2019-06-11 14:12:49,401 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[5]/label
+2019-06-11 14:12:49,901 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[5]/label
+2019-06-11 14:12:49,934 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[5]/label
+2019-06-11 14:12:50,276 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[77]
+already quit
+关闭9f85839录屏
+关闭9f85839手机录屏
+case已经执行完毕
+case开始执行了
+9b1dee49手机MP4已删除
+电脑没有mi9_MP4文件
+微信已重启
+uiautomator初始化完成
+2019-06-11 14:14:08,563 2980 initDriver url ----&gt; ws://localhost:9222/devtools/page/909A6B2183F1A7652740D0E946A8F0E0
+mi9初始化H5Driver完成
+9b1dee49录屏启动成功
+2019-06-11 14:14:10,565 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[1]/div[1]/label
+2019-06-11 14:14:10,650 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[6]/span
+2019-06-11 14:14:12,733 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:14:13,233 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:14:13,267 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-06-11 14:14:14,381 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/div[1]/span
+2019-06-11 14:14:14,882 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[2]/div[1]/span
+2019-06-11 14:14:16,913 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/div[1]/span
+2019-06-11 14:14:17,328 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div[12]/label
+2019-06-11 14:14:21,453 2980 returnLastPage 
+2019-06-11 14:14:22,471 2980 clickElementByXpath xpath ---&gt; //*[@id="file"]
+2019-06-11 14:14:22,971 2980 isElementExist xpath ---&gt; //*[@id="file"]
+2019-06-11 14:14:22,989 2980 scrollToElementByXpath xpath ---&gt; //*[@id="file"]
+2019-06-11 14:14:35,105 2980 clickElementByXpath xpath ---&gt; //*[@id="checkTimeStr"]
+2019-06-11 14:14:35,607 2980 isElementExist xpath ---&gt; //*[@id="checkTimeStr"]
+2019-06-11 14:14:35,625 2980 scrollToElementByXpath xpath ---&gt; //*[@id="checkTimeStr"]
+2019-06-11 14:14:35,897 2980 clickElementByXpath xpath ---&gt; /html/body/div[6]/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/span
+2019-06-11 14:14:36,397 2980 isElementExist xpath ---&gt; /html/body/div[6]/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/span
+2019-06-11 14:14:42,446 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[2]
+2019-06-11 14:14:42,947 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[2]
+2019-06-11 14:14:42,983 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[3]/div[2]
+2019-06-11 14:14:43,226 2980 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[4]
+2019-06-11 14:14:43,726 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[4]
+2019-06-11 14:14:43,763 2980 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[4]
+2019-06-11 14:14:44,048 2980 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]
+2019-06-11 14:14:44,048 2980 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]
+发生异常
+关闭录屏
+case已经执行完毕
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>3</td>
+            <td class="text text-success">2</td>
+            <td class="text text-danger">0</td>
+            <td class="text text-warning">1</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+
+</body>
+</html>
