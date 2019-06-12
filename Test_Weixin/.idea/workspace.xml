@@ -39,7 +39,7 @@
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5.coverage" NAME="Unittests for test.TestH5 Coverage Results" MODIFIED="1560213522380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report.coverage" NAME="runtest_Report Coverage Results" MODIFIED="1556529960147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_Test_ThyroidH5_TestH5.coverage" NAME="Unittests for Test_ThyroidH5.TestH5 Coverage Results" MODIFIED="1556527620267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1560331164806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1560331333607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5_test_02.coverage" NAME="Unittests for test_H5_B.TestH5.test_02 Coverage Results" MODIFIED="1557911510277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5_test_02.coverage" NAME="Unittests for test.TestH5.test_02 Coverage Results" MODIFIED="1560212224687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_main_TestH5.coverage" NAME="Unittests for test_main.TestH5 Coverage Results" MODIFIED="1557992435983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -151,55 +151,50 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="49" />
+          <entry key="py" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="49" />
+          <entry key="Python" value="72" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+            <state relative-caret-position="171">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
-                <element signature="e#15#65#0" expanded="true" />
-                <marker date="1560331127465" expanded="true" signature="189:1542" ph="..." />
-                <marker date="1560331127465" expanded="true" signature="1306:1322" ph="..." />
-                <marker date="1560331127465" expanded="true" signature="1339:1340" ph="..." />
-                <marker date="1560331127465" expanded="true" signature="1339:1459" ph="..." />
-                <marker date="1560331127465" expanded="true" signature="1569:1574" ph="..." />
-                <marker date="1560331127465" expanded="true" signature="4550:4635" ph="..." />
+                <element signature="e#14#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="114">
+              <caret line="168" column="53" lean-forward="true" selection-start-line="168" selection-start-column="53" selection-end-line="168" selection-end-column="53" />
               <folding>
-                <element signature="e#14#30#0" expanded="true" />
+                <element signature="e#14#29#0" expanded="true" />
+                <marker date="1560331312849" expanded="true" signature="3265:3271" ph="..." />
               </folding>
             </state>
           </provider>
@@ -256,6 +251,7 @@
         <option value="$PROJECT_DIR$/runtest_Report_BS.py" />
         <option value="$PROJECT_DIR$/TestCase/test_thyroid.py" />
         <option value="$PROJECT_DIR$/TestCase/test_02_breast.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_01_thyroid.py" />
       </list>
     </option>
   </component>
@@ -265,7 +261,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -503,14 +499,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36334056" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36334056" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -675,27 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-            <marker date="1560331116362" expanded="true" signature="3265:3271" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="e#14#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -708,6 +682,27 @@
             <marker date="1560331127465" expanded="true" signature="1339:1459" ph="..." />
             <marker date="1560331127465" expanded="true" signature="1569:1574" ph="..." />
             <marker date="1560331127465" expanded="true" signature="4550:4635" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#14#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="168" column="53" lean-forward="true" selection-start-line="168" selection-start-column="53" selection-end-line="168" selection-end-column="53" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+            <marker date="1560331312849" expanded="true" signature="3265:3271" ph="..." />
           </folding>
         </state>
       </provider>

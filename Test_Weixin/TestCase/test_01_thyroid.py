@@ -133,13 +133,15 @@ class TestH5(unittest.TestCase):
 
         #打开微信X5调试
         d2(resourceId="com.tencent.mm:id/b6e", text=u"文件传输助手").click()
-        d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=5).click()
-        sleep(4)
-        d2.click(482, 1394)
-        d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=6).click()
-        d2(text=u"安装线上内核").click()
-        sleep(35)
-        d2(resourceId="android:id/button1").click()
+
+        #重置微信调试
+        # d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=5).click()
+        # sleep(4)
+        # d2.click(482, 1394)
+        # d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=6).click()
+        # d2(text=u"安装线上内核").click()
+        # sleep(35)
+        # d2(resourceId="android:id/button1").click()
 
         #进入H5链接
         d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=7).click()
@@ -156,13 +158,15 @@ class TestH5(unittest.TestCase):
 
         #微信X5内核调试打开
         d2(resourceId="com.tencent.mm:id/b6e", text=u"文件传输助手").click()
-        d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=1).click()
-        sleep(4)
-        d2.click(681, 1602)
-        d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=2).click()
-        d2(text=u"安装线上内核").click()
-        sleep(30)
-        d2(resourceId="android:id/button1").click()
+
+        #重置微信调试
+        # d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=1).click()
+        # sleep(4)
+        # d2.click(681, 1602)
+        # d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=2).click()
+        # d2(text=u"安装线上内核").click()
+        # sleep(30)
+        # d2(resourceId="android:id/button1").click()
 
         #进入H5链接
         d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=3).click()
