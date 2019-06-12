@@ -34,7 +34,7 @@ class breast_H5(unittest.TestCase):
         # 初始化H5Drvier
         d2(resourceId="com.tencent.mm:id/b6e", text=u"文件传输助手").click()
         d2(resourceId="com.tencent.mm:id/apn").click()
-        sleep(2)
+        sleep(3)
         self.h5Driver = H5Driver(device)
         self.h5Driver.initDriver()
 
@@ -54,8 +54,14 @@ class breast_H5(unittest.TestCase):
 
 
 def breast_index(h5Driver):
-    h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[3]/label')
-    h5Driver.clickElementByXpath('//*[@id="app"]/div/div/a')
+    h5Driver.clickElementByXpath('//*[@id="app"]/div/div/a')#点我测评
+    #判断是否进入问卷页
+    text = h5Driver.getElementTextByXpath('//*[@id="box"]/div/div[1]/label')
+    if text != '测评进度':
+        sleep(1)
+        h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[3]/label')
+        h5Driver.clickElementByXpath('//*[@id="app"]/div/div/a')
+
 
 def breast_evaluation(h5Driver):
     h5Driver.clickElementByXpath('//*[@id="box"]/div/div[3]/div[2]/a[2]')
@@ -94,7 +100,7 @@ def breast_evaluation(h5Driver):
     h5Driver.clickElementByXpath('//*[@id="box"]/div/div[5]/div/div[2]/a')
 
 def breast_result(h5Driver):
-    h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[1]/div[1]/div/div[1]')
+    h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[2]/div[1]')
 
 
 if __name__ == '__main__':

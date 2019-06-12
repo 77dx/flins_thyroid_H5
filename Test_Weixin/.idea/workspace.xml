@@ -6,7 +6,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestCase/test_02_breast.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mail_breast.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_02_breast_breast_H5.coverage" NAME="Unittests for test_02_breast.breast_H5 Coverage Results" MODIFIED="1560334016121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5_test_01.coverage" NAME="Unittests for test_H5_B.TestH5.test_01 Coverage Results" MODIFIED="1557972550097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_Test_ThyroidH5_TestH5_test_index.coverage" NAME="Unittests for Test_ThyroidH5.TestH5.test_index Coverage Results" MODIFIED="1556527597334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$test.coverage" NAME="test Coverage Results" MODIFIED="1556531288568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestReport/PIC_screenshot" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_Thyroid_H5_TestH5_test_04_B_report.coverage" NAME="Unittests for test_Thyroid_H5.TestH5.test_04_B_report Coverage Results" MODIFIED="1557044149286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_in_test_02_breast_py.coverage" NAME="Unittests in test_02_breast.py Coverage Results" MODIFIED="1560334345537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5.coverage" NAME="Unittests for test_H5_B.TestH5 Coverage Results" MODIFIED="1557972663150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1556589649694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5_test_01.coverage" NAME="Unittests for test.TestH5.test_01 Coverage Results" MODIFIED="1560214048139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -39,7 +41,7 @@
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5.coverage" NAME="Unittests for test.TestH5 Coverage Results" MODIFIED="1560213522380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report.coverage" NAME="runtest_Report Coverage Results" MODIFIED="1556529960147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_Test_ThyroidH5_TestH5.coverage" NAME="Unittests for Test_ThyroidH5.TestH5 Coverage Results" MODIFIED="1556527620267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1560331333607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1560333702841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5_test_02.coverage" NAME="Unittests for test_H5_B.TestH5.test_02 Coverage Results" MODIFIED="1557911510277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5_test_02.coverage" NAME="Unittests for test.TestH5.test_02 Coverage Results" MODIFIED="1560212224687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_main_TestH5.coverage" NAME="Unittests for test_main.TestH5 Coverage Results" MODIFIED="1557992435983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -151,35 +153,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="10" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="72" />
+          <entry key="py" value="354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="72" />
+          <entry key="Python" value="354" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="102" column="69" selection-start-line="102" selection-start-column="69" selection-end-line="102" selection-end-column="69" />
+              <folding>
+                <element signature="e#15#65#0" expanded="true" />
+                <marker date="1560334343994" expanded="true" signature="189:1542" ph="..." />
+                <marker date="1560334343994" expanded="true" signature="1306:1322" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="304">
+              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="e#14#30#0" expanded="true" />
               </folding>
@@ -187,14 +203,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="168" column="53" lean-forward="true" selection-start-line="168" selection-start-column="53" selection-end-line="168" selection-end-column="53" />
+            <state relative-caret-position="-620">
+              <caret line="175" column="45" lean-forward="true" selection-start-line="175" selection-start-column="45" selection-end-line="175" selection-end-column="45" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
-                <marker date="1560331312849" expanded="true" signature="3265:3271" ph="..." />
+                <marker date="1560333675416" expanded="true" signature="3265:3271" ph="..." />
               </folding>
             </state>
           </provider>
@@ -250,8 +266,8 @@
         <option value="C:/Python27/Lib/BSTestRunner.py" />
         <option value="$PROJECT_DIR$/runtest_Report_BS.py" />
         <option value="$PROJECT_DIR$/TestCase/test_thyroid.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_02_breast.py" />
         <option value="$PROJECT_DIR$/TestCase/test_01_thyroid.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_02_breast.py" />
       </list>
     </option>
   </component>
@@ -261,7 +277,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -328,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runtest_Report_BS">
+  <component name="RunManager" selected="Python tests.Unittests in test_02_breast.py">
     <configuration name="runtest_Report_BS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test_Weixin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -388,7 +404,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestCase.test_01_thyroid.TestH5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_02_breast.breast_H5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Test_Weixin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,11 +415,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestCase.test_01_thyroid.TestH5&quot;" />
+      <option name="_new_target" value="&quot;test_02_breast.breast_H5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestCase.test_01_thyroid.TestH5.test_01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_02_breast.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Test_Weixin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,23 +430,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestCase.test_01_thyroid.TestH5.test_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_02_breast.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for TestCase.test_01_thyroid.TestH5.test_01" />
-      <item itemvalue="Python tests.Unittests for TestCase.test_01_thyroid.TestH5" />
       <item itemvalue="Python.runtest_Report_BS" />
       <item itemvalue="Python.test_breast" />
       <item itemvalue="Python tests.Unittests for TestCase.test_01_thyroid.TestH5" />
+      <item itemvalue="Python tests.Unittests for test_02_breast.breast_H5" />
+      <item itemvalue="Python tests.Unittests in test_02_breast.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_02_breast.py" />
+        <item itemvalue="Python tests.Unittests for test_02_breast.breast_H5" />
         <item itemvalue="Python.runtest_Report_BS" />
         <item itemvalue="Python.test_breast" />
-        <item itemvalue="Python tests.Unittests for TestCase.test_01_thyroid.TestH5" />
-        <item itemvalue="Python tests.Unittests for TestCase.test_01_thyroid.TestH5.test_01" />
         <item itemvalue="Python tests.Unittests for TestCase.test_01_thyroid.TestH5" />
       </list>
     </recent_temporary>
@@ -457,35 +473,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_TestH5_test_02 - 2019.05.30 at 18h 22m 33s.xml">
-      <configuration name="Unittests for test.TestH5.test_02" configurationId="tests" />
+    <history-entry file="Unittests_for_test_02_breast_breast_H5 - 2019.06.12 at 17h 52m 25s.xml">
+      <configuration name="Unittests for test_02_breast.breast_H5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5_test_01 - 2019.05.30 at 18h 33m 52s.xml">
-      <configuration name="Unittests for test.TestH5.test_01" configurationId="tests" />
+    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 17h 53m 54s.xml">
+      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5_test_02 - 2019.06.11 at 08h 19m 16s.xml">
-      <configuration name="Unittests for test.TestH5.test_02" configurationId="tests" />
+    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 17h 55m 50s.xml">
+      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5 - 2019.06.11 at 08h 39m 42s.xml">
-      <configuration name="Unittests for test.TestH5" configurationId="tests" />
+    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 17h 58m 11s.xml">
+      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5_test_01 - 2019.06.11 at 08h 42m 13s.xml">
-      <configuration name="Unittests for test.TestH5.test_01" configurationId="tests" />
+    <history-entry file="Unittests_for_test_02_breast_breast_H5 - 2019.06.12 at 17h 59m 16s.xml">
+      <configuration name="Unittests for test_02_breast.breast_H5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5_test_01 - 2019.06.11 at 08h 43m 09s.xml">
-      <configuration name="Unittests for test.TestH5.test_01" configurationId="tests" />
+    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 18h 00m 23s.xml">
+      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5_test_01 - 2019.06.11 at 08h 43m 52s.xml">
-      <configuration name="Unittests for test.TestH5.test_01" configurationId="tests" />
+    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 18h 06m 46s.xml">
+      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5_test_01 - 2019.06.11 at 08h 45m 51s.xml">
-      <configuration name="Unittests for test.TestH5.test_01" configurationId="tests" />
+    <history-entry file="Unittests_for_test_02_breast_breast_H5 - 2019.06.12 at 18h 07m 38s.xml">
+      <configuration name="Unittests for test_02_breast.breast_H5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_TestH5_test_01 - 2019.06.11 at 08h 49m 51s.xml">
-      <configuration name="Unittests for test.TestH5.test_01" configurationId="tests" />
+    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 18h 09m 29s.xml">
+      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_thyroid_TestH5 - 2019.06.11 at 13h 35m 56s.xml">
-      <configuration name="Unittests for test_thyroid.TestH5" configurationId="tests" />
+    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 18h 11m 10s.xml">
+      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -499,6 +515,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -588,7 +605,6 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-762174762/_subprocess.py" />
     <entry file="file://C:/Python27/Lib/subprocess.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/fastAutoTest/core/h5/h5Engine.py" />
     <entry file="file://$PROJECT_DIR$/TestReport/19-05-06 17_04_07result.html" />
     <entry file="file://C:/Python27/Lib/email/mime/text.py" />
     <entry file="file://C:/Python27/Lib/email/mime/base.py" />
@@ -670,26 +686,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
+    <entry file="file://C:/Python27/Lib/site-packages/fastAutoTest/core/h5/h5Engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="e#15#65#0" expanded="true" />
-            <marker date="1560331127465" expanded="true" signature="189:1542" ph="..." />
-            <marker date="1560331127465" expanded="true" signature="1306:1322" ph="..." />
-            <marker date="1560331127465" expanded="true" signature="1339:1340" ph="..." />
-            <marker date="1560331127465" expanded="true" signature="1339:1459" ph="..." />
-            <marker date="1560331127465" expanded="true" signature="1569:1574" ph="..." />
-            <marker date="1560331127465" expanded="true" signature="4550:4635" ph="..." />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="424" selection-start-line="424" selection-end-line="424" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="304">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="e#14#30#0" expanded="true" />
           </folding>
@@ -698,11 +705,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="168" column="53" lean-forward="true" selection-start-line="168" selection-start-column="53" selection-end-line="168" selection-end-column="53" />
+        <state relative-caret-position="-620">
+          <caret line="175" column="45" lean-forward="true" selection-start-line="175" selection-start-column="45" selection-end-line="175" selection-end-column="45" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
-            <marker date="1560331312849" expanded="true" signature="3265:3271" ph="..." />
+            <marker date="1560333675416" expanded="true" signature="3265:3271" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="102" column="69" selection-start-line="102" selection-start-column="69" selection-end-line="102" selection-end-column="69" />
+          <folding>
+            <element signature="e#15#65#0" expanded="true" />
+            <marker date="1560334343994" expanded="true" signature="189:1542" ph="..." />
+            <marker date="1560334343994" expanded="true" signature="1306:1322" ph="..." />
           </folding>
         </state>
       </provider>
