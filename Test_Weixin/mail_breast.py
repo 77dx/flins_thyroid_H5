@@ -32,8 +32,8 @@ def mail(file,filename):
         msg.attach(html)
 
         # 附件二：case01视频
-        os.system('adb -s %s pull /sdcard/case03.mp4 D:/vivo_MP4' % ('9f85839'))
-        vivomp4 = MIMEApplication(open('D:/vivo_MP4/case03.mp4', 'rb').read())
+        os.system('adb -s %s pull /sdcard/case03.mp4 E:/vivo_MP4' % ('9f85839'))
+        vivomp4 = MIMEApplication(open('E:/vivo_MP4/case03.mp4', 'rb').read())
         vivomp4.add_header('Content-Disposition', 'attachment', filename='case03.mp4')
         msg.attach(vivomp4)
 

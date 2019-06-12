@@ -54,4 +54,9 @@ public class ImageUtil {
 			System.out.println("异常了");
 		}
 	}
+	
+	public static void main(String[] args) {
+		String base = ImageUtil.base64("E:/images/TR6.jpg");
+		System.out.println(base);
+	}
 }

@@ -32,14 +32,14 @@ def mail(file,filename):
         msg.attach(html)
 
         # 附件二：case01视频
-        os.system('adb -s %s pull /sdcard/case01.mp4 D:/vivo_MP4' % ('9f85839'))
-        vivomp4 = MIMEApplication(open('D:/vivo_MP4/case01.mp4', 'rb').read())
+        os.system('adb -s %s pull /sdcard/case01.mp4 E:/vivo_MP4' % ('9f85839'))
+        vivomp4 = MIMEApplication(open('E:/vivo_MP4/case01.mp4', 'rb').read())
         vivomp4.add_header('Content-Disposition', 'attachment', filename='case01.mp4')
         msg.attach(vivomp4)
 
         # 附件三：case02视频
-        os.system('adb -s %s pull /sdcard/case02.mp4 D:/mi9_MP4' % ('9b1dee49'))
-        mi9mp4 = MIMEApplication(open('D:/mi9_MP4/case02.mp4', 'rb').read())
+        os.system('adb -s %s pull /sdcard/case02.mp4 E:/mi9_MP4' % ('9b1dee49'))
+        mi9mp4 = MIMEApplication(open('E:/mi9_MP4/case02.mp4', 'rb').read())
         mi9mp4.add_header('Content-Disposition', 'attachment', filename='case02.mp4')
         msg.attach(mi9mp4)
 

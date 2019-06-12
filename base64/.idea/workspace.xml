@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="" />
+    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/B_base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/base64.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/base64.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/venv/data.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/flins/test/MD5WithRSAUtil1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/com/flins/test/MD5WithRSAUtil1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/flins/test2/MD5WithRSAUtil2_result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/com/flins/test2/MD5WithRSAUtil2_result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/image/util/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/com/image/util/ImageUtil.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +22,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/base64$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1559201169018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/base64$B_base64.coverage" NAME="B_base64 Coverage Results" MODIFIED="1560321021726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/base64$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1560318719616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1995058190">
@@ -43,18 +57,59 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1446690210">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="110" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="110" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/image_base64.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
-              <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
               <folding>
-                <element signature="e#15#28#0" expanded="true" />
-                <marker date="1559201223090" expanded="true" signature="146:533" ph="..." />
-                <marker date="1559201223090" expanded="true" signature="2213:2470" ph="..." />
+                <marker date="1560318717263" expanded="true" signature="146:533" ph="..." />
+                <marker date="1560318717263" expanded="true" signature="2213:2470" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/B_base64.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,10 +124,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/venv/image_base64.py" />
+        <option value="$PROJECT_DIR$/venv/B_base64.py" />
       </list>
     </option>
   </component>
@@ -82,17 +141,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-265" />
-    <option name="y" value="259" />
-    <option name="width" value="1932" />
-    <option name="height" value="991" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="152" />
+    <option name="y" value="466" />
+    <option name="width" value="1766" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,16 +163,10 @@
               <item name="base64" type="b2602c69:ProjectViewProjectNode" />
               <item name="base64" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="base64" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base64" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +193,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.B_base64">
+    <configuration name="B_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="base64" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/B_base64.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="image_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="base64" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,8 +238,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.image_base64" />
+      <item itemvalue="Python.B_base64" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.B_base64" />
         <item itemvalue="Python.image_base64" />
       </list>
     </recent_temporary>
@@ -179,15 +263,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102345414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104477614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35427952" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35357916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -211,35 +296,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="673" selection-start-line="673" selection-end-line="673" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1250">
-          <caret line="696" column="8" selection-start-line="696" selection-start-column="8" selection-end-line="696" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="335" column="13" selection-start-line="335" selection-start-column="13" selection-end-line="335" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/xlwt/Workbook.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/xlrd/book.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/xlrd/sheet.py" />
     <entry file="file://$PROJECT_DIR$/venv/image_base64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
           <folding>
-            <element signature="e#15#28#0" expanded="true" />
-            <marker date="1559201223090" expanded="true" signature="146:533" ph="..." />
-            <marker date="1559201223090" expanded="true" signature="2213:2470" ph="..." />
+            <marker date="1560318717263" expanded="true" signature="146:533" ph="..." />
+            <marker date="1560318717263" expanded="true" signature="2213:2470" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/B_base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
