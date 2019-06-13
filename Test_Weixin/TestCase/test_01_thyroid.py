@@ -32,8 +32,16 @@ class TestH5(unittest.TestCase):
 
             # 初始化uiautomator2
             d2 = self.change_device(device)
-            # d2.press('power')  # 点亮屏幕
-            # d2.swipe(293, 1994, 29, 619)  # 向上滑动屏幕解锁
+
+            #解锁手机屏幕--mi8
+            cmd = ' adb -s %s shell dumpsys power | findstr "Display Power:state=" '%(device)
+            r = os.popen(cmd)
+            result = r.readlines()
+            for i in result:
+                i = i.strip('\r\n')
+                if i == 'Display Power: state=OFF':
+                    d2.press('power')  # 点亮屏幕
+                    d2.swipe(293, 1994, 29, 619)  # 向上滑动屏幕解锁
 
             # 启动微信
             self.open_weixin(device)
@@ -47,12 +55,13 @@ class TestH5(unittest.TestCase):
             print device + '录屏启动成功'
 
             # 执行case
-            self.index(self.vivo_h5Driver)  # 首页
-            self.evaluation()  # 做问卷
+            # self.index(self.vivo_h5Driver)  # 首页
+            # self.evaluation()  # 做问卷
             self.vivo_h5Driver.clickElementByXpath('//*[@id="app"]/div/div[3]/label')
             self.vip_test01()  #检查黄金会员
             self.vip_test02()  #检查铂金会员
             self.vip_test03()  #检查钻石会员
+            d2(resourceId="com.tencent.mm:id/kx").click()
         except:
             print 'case01发生异常'
         else:
@@ -145,7 +154,7 @@ class TestH5(unittest.TestCase):
 
         #进入H5链接
         d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=7).click()
-        sleep(5)
+        sleep(3)
 
         #初始化mi9_H5Driver
         self.mi9_h5Driver = H5Driver(device)
@@ -170,7 +179,7 @@ class TestH5(unittest.TestCase):
 
         #进入H5链接
         d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=3).click()
-        sleep(5)
+        sleep(3)
 
         # 初始化mi8_H5Drvier
         self.vivo_h5Driver = H5Driver(device)

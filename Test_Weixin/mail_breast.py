@@ -8,7 +8,7 @@ from email import encoders
 from email.utils import formataddr
 from email.mime.application import MIMEApplication
 import os
-from Util import util
+
 
 
 def mail(file,filename):
@@ -21,7 +21,7 @@ def mail(file,filename):
         msg = MIMEMultipart()
         msg['From'] = formataddr(["cathy", my_sender])  # 括号里的对应发件人邮箱昵称、发件人邮箱账号
         msg['To'] = formataddr(["dx", my_user])  # 括号里的对应收件人邮箱昵称、收件人邮箱账号
-        msg['Subject'] = "甲状腺问卷测评自动化测试报告"  # 邮件的主题，也可以说是标题
+        msg['Subject'] = "乳腺问卷测评自动化测试报告"  # 邮件的主题，也可以说是标题
 
         #邮件文本内容
         msg.attach(MIMEText('请下载附件查看详情', 'plain', 'utf-8'))

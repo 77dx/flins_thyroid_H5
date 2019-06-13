@@ -7,6 +7,7 @@ import os
 import subprocess
 from time import sleep
 
+
 class breast_H5(unittest.TestCase):
 
     def setUp(self):
@@ -22,17 +23,18 @@ class breast_H5(unittest.TestCase):
         else:
             print '电脑没有vivo_MP4文件'
 
+
         # 初始化uiautomator2
         d2 = uiautomator2.connect_usb(device)
         print 'uiautomator初始化完成'
 
         # 启动微信
-        os.system('adb -s %s shell am force-stop com.tencent.mm' % (device))
-        os.system('adb -s %s shell am start com.tencent.mm/.ui.LauncherUI' % (device))
-        print '微信已重启'
+        # os.system('adb -s %s shell am force-stop com.tencent.mm' % (device))
+        # os.system('adb -s %s shell am start com.tencent.mm/.ui.LauncherUI' % (device))
+        # print '微信已重启'
 
         # 初始化H5Drvier
-        d2(resourceId="com.tencent.mm:id/b6e", text=u"文件传输助手").click()
+        # d2(resourceId="com.tencent.mm:id/b6e", text=u"文件传输助手").click()
         d2(resourceId="com.tencent.mm:id/apn").click()
         sleep(3)
         self.h5Driver = H5Driver(device)

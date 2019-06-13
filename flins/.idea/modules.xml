@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../flins/.idea/flins.iml" filepath="$PROJECT_DIR$/../flins/.idea/flins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my_demo/.idea/flins.iml" filepath="$PROJECT_DIR$/../my_demo/.idea/flins.iml" />
     </modules>
   </component>
 </project>
