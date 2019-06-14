@@ -3,25 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="44952d7f-fc21-4647-ae39-e4f98c7c38b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase/test_01_thyroid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase/test_01_thyroid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase/test_02_breast.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase/test_02_breast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Weixin/demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_Weixin/mail_breast.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/mail_breast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Weixin/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/.idea/flins.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conn-mysql/test_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/conn-mysql/test_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/auto_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/auto_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/doc/OCR-lang.md" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/doc/OCR-lang.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/images/1.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/images/1.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/images/flins_dx.png" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/images/flins_dx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/images/test.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/images/test.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/images/yanzhengma.png" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/images/yanzhengma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tesseract-ocr/questionnaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/tesseract-ocr/questionnaire.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Appium_Python_Client-0.40-py3.7.egg-info/PKG-INFO" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Appium_Python_Client-0.40-py3.7.egg-info/SOURCES.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Appium_Python_Client-0.40-py3.7.egg-info/dependency_links.txt" beforeDir="false" />
@@ -4753,8 +4738,6 @@
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytesseract-0.2.5-py3.7.egg-info/installed-files.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytesseract-0.2.5-py3.7.egg-info/requires.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytesseract-0.2.5-py3.7.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytesseract/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/venv/Lib/site-packages/pytesseract/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytesseract/pytesseract.py" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/venv/Lib/site-packages/pytesseract/pytesseract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytesseract/test-european.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytesseract/test.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pytz-2018.7.dist-info/DESCRIPTION.rst" beforeDir="false" />
@@ -5808,8 +5791,7 @@
       <change beforePath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/venv/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_demo/.idea/flins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_demo/.idea/flins.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -5819,6 +5801,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/flins$auto_image__1_.coverage" NAME="auto_image (1) Coverage Results" MODIFIED="1542617083306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tesseract-ocr" />
+    <SUITE FILE_PATH="coverage/flins$test_paddlepaddle.coverage" NAME="test_paddlepaddle Coverage Results" MODIFIED="1560473405895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../my_demo" />
+    <SUITE FILE_PATH="coverage/flins$test_mysql__1_.coverage" NAME="test_mysql (1) Coverage Results" MODIFIED="1560473220610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../my_demo/conn-mysql" />
     <SUITE FILE_PATH="coverage/flins$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1560157265599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conn-mysql" />
     <SUITE FILE_PATH="coverage/flins$questionnaire.coverage" NAME="questionnaire Coverage Results" MODIFIED="1542360987130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/flins$auto_image.coverage" NAME="auto_image Coverage Results" MODIFIED="1542615215406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
@@ -5899,27 +5883,35 @@
     <session id="-311915819">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../my_demo/conn-mysql/test_mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <marker date="1560157263603" expanded="true" signature="45:50" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -5943,6 +5935,7 @@
         <option value="$PROJECT_DIR$/tesseract-ocr/help.md" />
         <option value="$PROJECT_DIR$/tesseract-ocr/auto_image.py" />
         <option value="$PROJECT_DIR$/conn-mysql/test_mysql.py" />
+        <option value="$PROJECT_DIR$/../my_demo/test_paddlepaddle.py" />
       </list>
     </option>
   </component>
@@ -5952,13 +5945,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-343" />
-    <option name="y" value="258" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-165" />
+    <option name="y" value="82" />
+    <option name="width" value="1932" />
+    <option name="height" value="991" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -6013,7 +6008,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_mysql">
+  <component name="RunManager" selected="Python.test_paddlepaddle">
     <configuration name="auto_image (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flins" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -6058,7 +6053,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hyperacoustic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_mysql (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flins" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -6066,34 +6061,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../my_demo/conn-mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Users\cathy\PycharmProjects\flins\interface\questionnaire.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="questionnaire" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="flins" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/questionnaire.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../my_demo/conn-mysql/test_mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -6124,20 +6097,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_paddlepaddle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flins" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../my_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../my_demo/test_paddlepaddle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.hyperacoustic" />
-      <item itemvalue="Python.questionnaire" />
       <item itemvalue="Python.auto_image" />
       <item itemvalue="Python.auto_image (1)" />
       <item itemvalue="Python.test_mysql" />
+      <item itemvalue="Python.test_paddlepaddle" />
+      <item itemvalue="Python.test_mysql (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_paddlepaddle" />
+        <item itemvalue="Python.test_mysql (1)" />
         <item itemvalue="Python.test_mysql" />
         <item itemvalue="Python.auto_image (1)" />
         <item itemvalue="Python.auto_image" />
-        <item itemvalue="Python.questionnaire" />
-        <item itemvalue="Python.hyperacoustic" />
       </list>
     </recent_temporary>
   </component>
@@ -6155,14 +6150,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="473" y="363" width="1932" height="991" extended-state="0" />
+    <frame x="-165" y="82" width="1932" height="991" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17948718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30585682" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3997669" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3991323" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -6259,11 +6254,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../my_demo/conn-mysql/test_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <marker date="1560157263603" expanded="true" signature="45:50" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/paddle/fluid/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/paddle/fluid/framework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_demo/test_paddlepaddle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
