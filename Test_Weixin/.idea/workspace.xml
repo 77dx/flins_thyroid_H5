@@ -18,13 +18,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_01_thyroid_TestH5_test_01.coverage" NAME="Unittests for test_01_thyroid.TestH5.test_01 Coverage Results" MODIFIED="1560395062559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_02_breast_breast_H5.coverage" NAME="Unittests for test_02_breast.breast_H5 Coverage Results" MODIFIED="1560392394458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Test_Weixin$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1560393926383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1560991759511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5_test_01.coverage" NAME="Unittests for test_H5_B.TestH5.test_01 Coverage Results" MODIFIED="1557972550097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_Test_ThyroidH5_TestH5_test_index.coverage" NAME="Unittests for Test_ThyroidH5.TestH5.test_index Coverage Results" MODIFIED="1556527597334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$test.coverage" NAME="test Coverage Results" MODIFIED="1556531288568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestReport/PIC_screenshot" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_Thyroid_H5_TestH5_test_04_B_report.coverage" NAME="Unittests for test_Thyroid_H5.TestH5.test_04_B_report Coverage Results" MODIFIED="1557044149286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_in_test_02_breast_py.coverage" NAME="Unittests in test_02_breast.py Coverage Results" MODIFIED="1560393249792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5.coverage" NAME="Unittests for test_H5_B.TestH5 Coverage Results" MODIFIED="1557972663150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$scapy_demo.coverage" NAME="scapy_demo Coverage Results" MODIFIED="1560844990641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddos_demo" />
     <SUITE FILE_PATH="coverage/Test_Weixin$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1556589649694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5_test_01.coverage" NAME="Unittests for test.TestH5.test_01 Coverage Results" MODIFIED="1560214048139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$test_breast.coverage" NAME="test_breast Coverage Results" MODIFIED="1560329027221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -146,43 +147,55 @@
     <session id="-244299420">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="26" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="652" />
+          <entry key="py" value="695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="652" />
+          <entry key="Python" value="695" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -235,6 +248,7 @@
         <option value="$PROJECT_DIR$/TestCase/test_02_breast.py" />
         <option value="$PROJECT_DIR$/TestCase/test_01_thyroid.py" />
         <option value="$PROJECT_DIR$/mail_breast.py" />
+        <option value="$PROJECT_DIR$/ddos_demo/scapy_demo.py" />
       </list>
     </option>
   </component>
@@ -244,11 +258,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-242" />
-    <option name="y" value="44" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="524" />
+    <option name="y" value="267" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -278,24 +292,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_repo\Test_Weixin" />
+      <recent name="C:\Python27\Lib" />
+      <recent name="D:\git_repo\Test_Weixin" />
+      <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin" />
+      <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\Util" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\Util" />
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin" />
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\venv" />
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\TestCase" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Python27\Lib" />
-      <recent name="E:\git_repo\Test_Weixin" />
-      <recent name="D:\git_repo\Test_Weixin" />
-      <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin" />
-      <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\Util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runtest_Report_BS">
+  <component name="RunManager" selected="Python.test_demo">
     <configuration name="runtest_Report_BS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test_Weixin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,6 +339,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runtest_Report_BS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scapy_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test_Weixin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddos_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ddos_demo/scapy_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,35 +421,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_02_breast.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Test_Weixin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_02_breast.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.runtest_Report_BS" />
-      <item itemvalue="Python tests.Unittests in test_02_breast.py" />
       <item itemvalue="Python.test_demo" />
       <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5" />
       <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5.test_01" />
+      <item itemvalue="Python.scapy_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_demo" />
+        <item itemvalue="Python.scapy_demo" />
         <item itemvalue="Python.runtest_Report_BS" />
         <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5.test_01" />
         <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5" />
-        <item itemvalue="Python.test_demo" />
-        <item itemvalue="Python tests.Unittests in test_02_breast.py" />
       </list>
     </recent_temporary>
   </component>
@@ -480,9 +501,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-242" y="44" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -539,12 +561,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="初次上传" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-762174762/__builtin__.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8094" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/test.py" />
     <entry file="file://$PROJECT_DIR$/TestCase/screenshot.py" />
     <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/ss.png" />
@@ -674,17 +690,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hulk.py" />
+    <entry file="file://$PROJECT_DIR$/ddos_demo/scapy_demo.py" />
+    <entry file="file://$PROJECT_DIR$/test_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -56,7 +56,7 @@ public class ImageUtil {
 	}
 	
 	public static void main(String[] args) {
-		String base = ImageUtil.base64("E:/images/TR6.jpg");
+		String base = ImageUtil.base64("D:/images/TR6.jpg");
 		System.out.println(base);
 	}
 }

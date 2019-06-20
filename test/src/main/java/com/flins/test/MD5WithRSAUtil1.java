@@ -198,10 +198,10 @@ public class MD5WithRSAUtil1 {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		String sign = MD5WithRSAUtil1.type_2();
-		System.out.println(sign);
-//		String base = MD5WithRSAUtil1.base64("D:/images/TR6.jpg");
-//		System.out.println(base);
+//		String sign = MD5WithRSAUtil1.type_2();
+//		System.out.println(sign);
+		String base = MD5WithRSAUtil1.base64("D:/images/TR6.jpg");
+		System.out.println(base);
 	}
 	
 }
