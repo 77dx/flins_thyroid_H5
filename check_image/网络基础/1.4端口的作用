@@ -45,7 +45,7 @@ TCP状态：
     LISTENING:说明端口被监听，我开启了本地的服务
     ESTABLISHED:双方建立了连接，正在存在
 
-UDP端口不需要被监听 
+UDP端口不需要被监听
 
     
     
