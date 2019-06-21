@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0018d79-9c78-4742-a6f8-69071f393c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络基础/IP与子网掩码" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络基础/端口的作用" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络基础/1.5DNS的作用" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络基础/1.6网关的作用" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络基础/IP详解" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络基础/IP与子网掩码" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.3IP与子网掩码" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络基础/OSI七层模型" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.1OSI七层模型" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络基础/tcp-ip四层模型.md" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.2TCP-IP四层模型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络基础/端口的作用" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.4端口的作用" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +36,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="6网关的作用" value="1" />
+          <entry key="DNS的作用" value="1" />
           <entry key="IP详解" value="1" />
           <entry key="OSI七层模型" value="1" />
           <entry key="exe" value="2" />
-          <entry key="py" value="12" />
+          <entry key="md" value="1" />
+          <entry key="py" value="13" />
           <entry key="spec" value="1" />
           <entry key="端口的作用" value="1" />
           <entry key="网络协议" value="1" />
@@ -45,13 +51,15 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="2" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="6网关的作用" value="297" />
+          <entry key="DNS的作用" value="1473" />
           <entry key="IP详解" value="1761" />
           <entry key="dummy" value="2" />
           <entry key="md" value="1343" />
@@ -62,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4014" />
+          <entry key="Markdown" value="5784" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="259" />
         </counts>
@@ -70,20 +78,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络基础/端口的作用">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="494">
-                <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,6 +103,8 @@
         <option value="$PROJECT_DIR$/DDos/tcp-ip四层模型.md" />
         <option value="$PROJECT_DIR$/网络基础/IP详解" />
         <option value="$PROJECT_DIR$/网络基础/端口的作用" />
+        <option value="$PROJECT_DIR$/网络基础/DNS的作用" />
+        <option value="$PROJECT_DIR$/网络基础/1.6网关的作用" />
       </list>
     </option>
   </component>
@@ -117,9 +114,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="609" />
-    <option name="y" value="128" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="999" />
+    <option name="y" value="173" />
     <option name="width" value="1040" />
     <option name="height" value="739" />
   </component>
@@ -138,11 +135,6 @@
               <item name="check_image" type="b2602c69:ProjectViewProjectNode" />
               <item name="check_image" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="check_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_image" type="462c0819:PsiDirectoryNode" />
-              <item name="网络基础" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,6 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../flins" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -321,10 +314,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="609" y="128" width="1040" height="739" extended-state="0" />
-    <editor active="true" />
+    <frame x="999" y="173" width="1040" height="739" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24040511" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23979592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,14 +419,7 @@
     <entry file="file://$PROJECT_DIR$/DDos/TCP/IP四层模型.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络基础/tcp-ip四层模型.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络基础/OSI七层模型">
+    <entry file="file://$PROJECT_DIR$/网络基础/1.1OSI七层模型">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="133">
@@ -449,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络基础/IP与子网掩码">
+    <entry file="file://$PROJECT_DIR$/网络基础/1.3IP与子网掩码">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="950">
@@ -459,11 +444,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络基础/端口的作用">
+    <entry file="file://$PROJECT_DIR$/网络基础/dns_demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络基础/1.2TCP-IP四层模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="494">
-            <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络基础/1.4端口的作用">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络基础/1.5DNS的作用">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1425">
+            <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络基础/1.6网关的作用">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
