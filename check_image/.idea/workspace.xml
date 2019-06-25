@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0018d79-9c78-4742-a6f8-69071f393c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络基础/1.5DNS的作用" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络基础/1.6网关的作用" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_server/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_server/mock_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locust_api/locust_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock_api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock_api/.idea/mock_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock_api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock_api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock_api/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock_api/HttpRunner/test_medbarin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络基础/IP与子网掩码" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.3IP与子网掩码" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络基础/OSI七层模型" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.1OSI七层模型" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络基础/tcp-ip四层模型.md" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.2TCP-IP四层模型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络基础/端口的作用" beforeDir="false" afterPath="$PROJECT_DIR$/网络基础/1.4端口的作用" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/data.xls" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +23,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/check_image$image_base64__1_.coverage" NAME="image_base64 (1) Coverage Results" MODIFIED="1561016788641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/picc_demo" />
-    <SUITE FILE_PATH="coverage/check_image$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1560993215198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/check_image$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1561342040235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/check_image$locust_demo.coverage" NAME="locust_demo Coverage Results" MODIFIED="1561343849873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locust_api" />
     <SUITE FILE_PATH="coverage/check_image$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1561018278738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conn-mysql" />
     <SUITE FILE_PATH="coverage/check_image$upload_file.coverage" NAME="upload_file Coverage Results" MODIFIED="1560993078621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/check_image$love.coverage" NAME="love Coverage Results" MODIFIED="1561014613089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_demo" />
@@ -28,21 +34,24 @@
     <session id="524486600">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="6网关的作用" value="1" />
+          <entry key="6网关的作用" value="2" />
           <entry key="DNS的作用" value="1" />
           <entry key="IP详解" value="1" />
           <entry key="OSI七层模型" value="1" />
           <entry key="exe" value="2" />
+          <entry key="json" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="13" />
+          <entry key="py" value="17" />
           <entry key="spec" value="1" />
           <entry key="端口的作用" value="1" />
           <entry key="网络协议" value="1" />
@@ -51,9 +60,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="2" />
-          <entry key="Markdown" value="6" />
+          <entry key="JSON" value="2" />
+          <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -63,7 +73,7 @@
           <entry key="IP详解" value="1761" />
           <entry key="dummy" value="2" />
           <entry key="md" value="1343" />
-          <entry key="py" value="259" />
+          <entry key="py" value="618" />
           <entry key="端口的作用" value="811" />
           <entry key="网络协议" value="99" />
         </counts>
@@ -72,13 +82,13 @@
         <counts>
           <entry key="Markdown" value="5784" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="259" />
+          <entry key="Python" value="618" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,6 +115,9 @@
         <option value="$PROJECT_DIR$/网络基础/端口的作用" />
         <option value="$PROJECT_DIR$/网络基础/DNS的作用" />
         <option value="$PROJECT_DIR$/网络基础/1.6网关的作用" />
+        <option value="$PROJECT_DIR$/locust_api/locust_demo.py" />
+        <option value="$PROJECT_DIR$/json_server/mock_demo.py" />
+        <option value="$PROJECT_DIR$/json_server/db.json" />
       </list>
     </option>
   </component>
@@ -114,9 +127,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="999" />
-    <option name="y" value="173" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="764" />
+    <option name="y" value="194" />
     <option name="width" value="1040" />
     <option name="height" value="739" />
   </component>
@@ -145,7 +158,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test_Weixin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -172,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_mysql">
+  <component name="RunManager" selected="Python.locust_demo">
     <configuration name="image_base64 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="check_image" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +230,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="locust_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="check_image" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/locust_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/locust_api/locust_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="love" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="check_image" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,28 +266,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_demo/love.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rose" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="check_image" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_demo/rose.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,18 +298,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.image_base64" />
-      <item itemvalue="Python.rose" />
       <item itemvalue="Python.love" />
       <item itemvalue="Python.image_base64 (1)" />
       <item itemvalue="Python.test_mysql" />
+      <item itemvalue="Python.locust_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.locust_demo" />
+        <item itemvalue="Python.image_base64" />
         <item itemvalue="Python.test_mysql" />
         <item itemvalue="Python.image_base64 (1)" />
         <item itemvalue="Python.love" />
-        <item itemvalue="Python.rose" />
-        <item itemvalue="Python.image_base64" />
       </list>
     </recent_temporary>
   </component>
@@ -314,14 +327,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="999" y="173" width="1040" height="739" extended-state="0" />
+    <frame x="764" y="194" width="1040" height="739" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23979592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25306123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.505423" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3308026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +343,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21366595" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.13991323" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,9 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="16" column="112" selection-start-line="16" selection-start-column="112" selection-end-line="16" selection-end-column="112" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -370,25 +380,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/image_base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_demo/love.spec">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_demo/build/love/love.exe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_demo/dist/love.exe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/my_demo/love.spec" />
+    <entry file="file://$PROJECT_DIR$/my_demo/build/love/love.exe" />
+    <entry file="file://$PROJECT_DIR$/my_demo/dist/love.exe" />
     <entry file="file://$PROJECT_DIR$/my_demo/love_mac/setup.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -396,9 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-696">
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,9 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DDos/TCP/IP四层模型.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DDos/TCP/IP四层模型.py" />
     <entry file="file://$PROJECT_DIR$/网络基础/1.1OSI七层模型">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -444,9 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络基础/dns_demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/网络基础/dns_demo.py" />
     <entry file="file://$PROJECT_DIR$/网络基础/1.2TCP-IP四层模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -487,6 +474,39 @@
             <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/image_base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_server/mock_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_server/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locust_api/locust_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#23#65#0" expanded="true" />
+            <marker date="1561343846843" expanded="true" signature="251:252" ph="..." />
+            <marker date="1561343846843" expanded="true" signature="643:648" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

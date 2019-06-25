@@ -1,0 +1,16 @@
+- config:
+    name: testcase description
+    variables: {}
+
+- test:
+    name: /auth/login
+    request:
+        headers:
+            Content-Type: application/json
+        json:
+            account: cathy
+            pwd: 0c8abdb962f042d1857c66dd26b0c87b
+        method: POST
+        url: http://127.0.0.1:8000/auth/login/
+    validate:
+        - eq: [status_code, 200]
