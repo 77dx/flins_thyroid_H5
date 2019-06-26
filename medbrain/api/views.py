@@ -15,7 +15,18 @@ def auth_captcha(request):
             "captchaToken": "7c77edad75904a2f81c413dd702e4209"
         }
     }
-    return HttpResponse(json.dumps(data_json,ensure_ascii=False),content_type="application/json,charset=utf-8")
+    if request.method == 'POST':
+        fail = {
+            "code": "9999",
+            "desc": "用户名或者密码错误"
+        }
+        json_data = json.loads(request.body)
+        token = json_data.get('token')
+        if token == '7c77edad75904a2f81c413dd702e4209':
+            return HttpResponse(json.dumps(data_json, ensure_ascii=False), content_type="application/json,charset=utf-8")
+        else:
+            return HttpResponse(json.dumps(fail, ensure_ascii=False),content_type="application/json,charset=utf-8")
+
 
 #用户登录
 def auth_login(request):
