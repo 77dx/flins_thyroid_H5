@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/B_base64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renbao/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renbao/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/logDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/base64.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/base64.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/data.xls" beforeDir="false" afterPath="$PROJECT_DIR$/venv/data.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/flins/test/MD5WithRSAUtil1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/com/flins/test/MD5WithRSAUtil1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/flins/test2/MD5WithRSAUtil2_result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/com/flins/test2/MD5WithRSAUtil2_result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/image/util/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/com/image/util/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/image_base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/renbao/image_base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zb/src/main/java/com/flins/zb/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zb/src/main/java/com/flins/zb/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zb/src/main/java/com/flins/zb/FileName.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/base64$B_base64.coverage" NAME="B_base64 Coverage Results" MODIFIED="1560321021726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/base64$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1560318719616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/base64$logDemo.coverage" NAME="logDemo Coverage Results" MODIFIED="1565768430254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/base64$logger.coverage" NAME="logger Coverage Results" MODIFIED="1565768492747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/base64$Logger.coverage" NAME="Logger Coverage Results" MODIFIED="1565764343246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/base64$image_base64__1_.coverage" NAME="image_base64 (1) Coverage Results" MODIFIED="1565840004218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/renbao" />
+    <SUITE FILE_PATH="coverage/base64$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1565769858812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1995058190">
@@ -60,56 +64,52 @@
     <session id="1446690210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="110" />
+          <entry key="dummy" value="1" />
+          <entry key="py" value="1350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="110" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="log" value="9" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Log" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/image_base64.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
-              <folding>
-                <marker date="1560318717263" expanded="true" signature="146:533" ph="..." />
-                <marker date="1560318717263" expanded="true" signature="2213:2470" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/B_base64.py">
+        <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+            <state relative-caret-position="-23">
+              <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
               <folding>
-                <element signature="e#24#37#0" expanded="true" />
+                <element signature="e#15#28#0" expanded="true" />
+                <marker date="1565840744333" expanded="true" signature="171:172" ph="..." />
+                <marker date="1565840744333" expanded="true" signature="171:3651" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,8 +130,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/venv/image_base64.py" />
         <option value="$PROJECT_DIR$/venv/B_base64.py" />
+        <option value="$PROJECT_DIR$/venv/Logger.py" />
+        <option value="$PROJECT_DIR$/util/logDemo.py" />
+        <option value="$PROJECT_DIR$/venv/logger.py" />
+        <option value="$PROJECT_DIR$/venv/image_base64.py" />
+        <option value="$PROJECT_DIR$/venv/renbao/__init__.py" />
+        <option value="$PROJECT_DIR$/renbao/test.py" />
+        <option value="$PROJECT_DIR$/renbao/logger.py" />
+        <option value="$PROJECT_DIR$/renbao/image_base64.py" />
       </list>
     </option>
   </component>
@@ -142,9 +149,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="152" />
-    <option name="y" value="466" />
-    <option name="width" value="1766" />
+    <option name="x" value="531" />
+    <option name="y" value="164" />
+    <option name="width" value="1036" />
     <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -163,6 +170,11 @@
               <item name="base64" type="b2602c69:ProjectViewProjectNode" />
               <item name="base64" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="base64" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base64" type="462c0819:PsiDirectoryNode" />
+              <item name="renbao" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,13 +183,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/git_flins_api/test_flins_api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_repo\base64" />
+      <recent name="E:\git_repo\base64\venv\renbao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_repo\base64\venv\renbao" />
       <recent name="D:\Users\cathy\PycharmProjects\base64\venv\images" />
     </key>
   </component>
@@ -193,8 +210,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.B_base64">
-    <configuration name="B_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.image_base64 (1)">
+    <configuration name="Logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="base64" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,7 +224,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/B_base64.py" />
+      <option name="SCRIPT_NAME" value="E:\git_repo\base64\venv\renbao\logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_base64 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="base64" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/renbao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/renbao/image_base64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,12 +263,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/image_base64.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/renbao/image_base64.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="base64" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/logDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="base64" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\git_repo\base64\venv\renbao\logger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,12 +323,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.image_base64" />
-      <item itemvalue="Python.B_base64" />
+      <item itemvalue="Python.logDemo" />
+      <item itemvalue="Python.Logger" />
+      <item itemvalue="Python.logger" />
+      <item itemvalue="Python.image_base64 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.B_base64" />
+        <item itemvalue="Python.image_base64 (1)" />
         <item itemvalue="Python.image_base64" />
+        <item itemvalue="Python.logger" />
+        <item itemvalue="Python.logDemo" />
+        <item itemvalue="Python.Logger" />
       </list>
     </recent_temporary>
   </component>
@@ -262,20 +351,28 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104477614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102878466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35357916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -299,23 +396,63 @@
     <entry file="file://C:/Python27/Lib/site-packages/xlwt/Workbook.py" />
     <entry file="file://C:/Python27/Lib/site-packages/xlrd/book.py" />
     <entry file="file://C:/Python27/Lib/site-packages/xlrd/sheet.py" />
-    <entry file="file://$PROJECT_DIR$/venv/image_base64.py">
+    <entry file="file://$PROJECT_DIR$/venv/pingLogs.log" />
+    <entry file="file://$PROJECT_DIR$/util/logDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <marker date="1560318717263" expanded="true" signature="146:533" ph="..." />
-            <marker date="1560318717263" expanded="true" signature="2213:2470" ph="..." />
-          </folding>
+        <state relative-caret-position="950">
+          <caret line="50" column="24" lean-forward="true" selection-end-line="50" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/B_base64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        <state relative-caret-position="437">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renbao/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renbao/test.py" />
+    <entry file="file://$PROJECT_DIR$/renbao/log/a8fd7a36-b7cd-439e-adcb-b9d8d63fa2e9.log" />
+    <entry file="file://$PROJECT_DIR$/renbao/log/18a81d8f-16be-4804-9b3e-1b288c3157f9.log" />
+    <entry file="file://$PROJECT_DIR$/renbao/log/184e9e65-db95-4279-85a7-b789094394ec.log" />
+    <entry file="file://C:/Python37/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1120" selection-start-line="1120" selection-end-line="1120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renbao/log/13d4291a-b329-44f2-95fc-eb9ca9a166aa.log" />
+    <entry file="file://$PROJECT_DIR$/renbao/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renbao/log/185a2bee-585f-42a6-b0a7-6dc9cebe69c5.log" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1055577769/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="149" column="4" lean-forward="true" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renbao/log/1d83fa60-cc54-45de-8ce8-7ab3f4365410.log" />
+    <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <folding>
+            <element signature="e#15#28#0" expanded="true" />
+            <marker date="1565840744333" expanded="true" signature="171:172" ph="..." />
+            <marker date="1565840744333" expanded="true" signature="171:3651" ph="..." />
           </folding>
         </state>
       </provider>

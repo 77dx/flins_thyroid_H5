@@ -70,7 +70,7 @@ public class App {
 		return response;
 	}
 	
-	//提取响应值
+	//从测评请求提取url
 	public String stringToJson(String str) {
 		JSONObject object = JSONObject.parseObject(str);
 		JSONObject data = object.getJSONObject("data");
