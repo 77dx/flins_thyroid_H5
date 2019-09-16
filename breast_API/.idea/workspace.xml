@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b6440fa-b6fe-4304-92c1-71bbe126ddcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/runtest_Report_BS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/send_Mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/test_breast_api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpRunnerManager/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpRunnerManager/logs/all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpRunnerManager/logs/script.log" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpRunnerManager/logs/script.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/breast_API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/breast_API.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/gloVal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/gloVal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/mg_female_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/mg_female_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/test_ev_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/test_ev_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/test_ev_restrict.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/test_ev_restrict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/test_qa_operlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/test_qa_operlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/test_qa_opersave.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/test_qa_opersave.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/test_qa_result_current.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/test_qa_result_current.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase/ty_female_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_breast_api/TestCase/ty_female_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/runtest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medbrain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../medbrain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base64/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../base64/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check_image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check_image/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,9 +104,9 @@
     <session id="2043444949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -155,11 +136,11 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/send_Mail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="38">
               <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
@@ -235,11 +216,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="133" />
-    <option name="y" value="24" />
-    <option name="width" value="1932" />
-    <option name="height" value="991" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -249,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,33 +245,17 @@
             </path>
             <path>
               <item name="breast_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="breast_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (breast_API) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="breast_API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (breast_API) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="breast_API" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/git_flins_api/test_flins_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../base64" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -494,9 +460,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -540,49 +506,19 @@
     <entry file="file://$PROJECT_DIR$/venv/TestCase/test_qa_opersave.py" />
     <entry file="file://$PROJECT_DIR$/venv/TestCase/ty_female_data.py" />
     <entry file="file://$PROJECT_DIR$/venv/TestCase/test_qa_result_current.py" />
-    <entry file="file://$PROJECT_DIR$/venv/TestCase/test_qa_operlist.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/TestCase/test_ev_restrict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/TestCase/test_ev_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/TestCase/gloVal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/TestCase/mg_female_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/runtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/TestCase/test_qa_operlist.py" />
+    <entry file="file://$PROJECT_DIR$/venv/TestCase/test_ev_restrict.py" />
+    <entry file="file://$PROJECT_DIR$/venv/TestCase/test_ev_count.py" />
+    <entry file="file://$PROJECT_DIR$/venv/TestCase/gloVal.py" />
+    <entry file="file://$PROJECT_DIR$/venv/TestCase/mg_female_data.py" />
+    <entry file="file://$PROJECT_DIR$/venv/runtest.py" />
     <entry file="file://$PROJECT_DIR$/venv/Include/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/pip-selfcheck.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/__init__.py" />
     <entry file="file://$PROJECT_DIR$/venv/test_breast_api/TestCase/gloVal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -595,7 +531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/send_Mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="38">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />

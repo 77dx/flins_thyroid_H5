@@ -1,0 +1,33 @@
+2019-09-16 09:55:22,393 - image_base64.py[line:140] - INFO: image:008.jpg
+2019-09-16 09:55:22,426 - image_base64.py[line:28] - INFO: 七牛token:kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:0C1qfDweYW3c2TubfetUKPHbOTM=:eyJzY29wZSI6InByZS1waG90b3MiLCJkZWFkbGluZSI6MTU2ODU5ODk3OH0=
+2019-09-16 09:55:23,037 - image_base64.py[line:46] - INFO: key:FpkvHPPt4mszG4A0sfzeYR-BVhaQ
+2019-09-16 09:55:30,493 - image_base64.py[line:58] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'id': 3147}}
+2019-09-16 09:55:30,522 - image_base64.py[line:74] - INFO: [3147, 'http://preimage.flins.com.cn/FpkvHPPt4mszG4A0sfzeYR-BVhaQ?e=1568602526&token=kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:m4gkQzVy5K44VA5tR7dwEkLEOi8=', '超声所见:甲状腺大小形态正常。左侧叶大小约22mm×15mm,右侧叶大小约23mm×18mm,甲状腺右侧叶可见数个囊性回声,较大者大小约5.2mm×4.0m×3.4mm,边界清,内透声峡部厚约4.0mm。甲状腺左侧叶中下部深层可见一大小约3mmX2.1mmX25mm低回声结节,边界欠清,形态好。不规则,内回声欠均匀,CDFI:内未见明显血流信号。余实质回声减低、分布欠均匀。CDFI:内未见明显异常血流信号。双侧颈部探查未见明显肿大淋巴结回声。芳超声提示:甲状腺性回声改变甲腺右侧多发囊性结节(11-D分级2级)左侧低回声结节(T1-ADS分级级,建议穿检定性)', '3', 'TR2', None, None]
+2019-09-16 09:55:30,536 - image_base64.py[line:140] - INFO: image:00e93901213fb80ebd01ffb33bd12f2eb8389486.jpg
+2019-09-16 09:55:30,552 - image_base64.py[line:28] - INFO: 七牛token:kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:OFarpVUE4RQjcVWgHiEdTKwO1dA=:eyJzY29wZSI6InByZS1waG90b3MiLCJkZWFkbGluZSI6MTU2ODU5ODk4Nn0=
+2019-09-16 09:55:30,636 - image_base64.py[line:46] - INFO: key:FhtQ143FqmEjfxo6qkOiGvsk2S6N
+2019-09-16 09:55:31,266 - image_base64.py[line:58] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'id': 3148}}
+2019-09-16 09:55:31,287 - image_base64.py[line:74] - INFO: [3148, 'http://preimage.flins.com.cn/FhtQ143FqmEjfxo6qkOiGvsk2S6N?e=1568602527&token=kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:wY6kP9UUwpftQZTncP0pUCVQ-w8=', '检查部位:甲状腺超声所见:甲状右叶44*1413m,左叶38*13*12mm,峡部厚1.6mm,边界清,腺体回声增粗不均句,未见明确结节回声,CDFI:腺体内部血流略丰富常声提示:甲状腺弥漫性病变', '0', '', None, None]
+2019-09-16 09:55:31,297 - image_base64.py[line:140] - INFO: image:010.jpg
+2019-09-16 09:55:31,313 - image_base64.py[line:28] - INFO: 七牛token:kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:LtawTKv91kTDe6Nw5yryVRiuxqc=:eyJzY29wZSI6InByZS1waG90b3MiLCJkZWFkbGluZSI6MTU2ODU5ODk4N30=
+2019-09-16 09:55:31,393 - image_base64.py[line:46] - INFO: key:Fh_uErG_H_E44qCA74kTPhXkBp8T
+2019-09-16 09:55:32,191 - image_base64.py[line:58] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'id': 3149}}
+2019-09-16 09:55:32,211 - image_base64.py[line:74] - INFO: [3149, 'http://preimage.flins.com.cn/Fh_uErG_H_E44qCA74kTPhXkBp8T?e=1568602528&token=kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:RxuhqnT7fg8jXYr0NoHoj5qSiVI=', '巴结彩超超声描述:甲状腺:左侧叶:16x14x41mm右侧叶:18.7x15x42mm峡部:2.0mm甲状腺右侧叶可见13.4x9.3mm低回声结节,边界尚清晰,内可见散在强回声钙化斑,另可见数个囊肿,较大3.2×3.0mm,左侧叶可见数个囊性结节,较大4.4x5.0mm,CDFI:血流信号未见异常。弹性成像:质地偏软。双侧颈部未探及明显增大淋巴结超声提示:甲状腺右侧叶低回声结节,考虑结甲伴钙化,建议复查甲状腺双侧叶滤泡囊肿优超声造', '4a', 'TR3', None, None]
+2019-09-16 09:55:32,220 - image_base64.py[line:140] - INFO: image:011.jpg
+2019-09-16 09:55:32,236 - image_base64.py[line:28] - INFO: 七牛token:kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:SIUTPx-Wyq7DJCVoieH8yJk82Ss=:eyJzY29wZSI6InByZS1waG90b3MiLCJkZWFkbGluZSI6MTU2ODU5ODk4OH0=
+2019-09-16 09:55:32,321 - image_base64.py[line:46] - INFO: key:FpXKaDrmr3yjcHFX9dwp3_v_kqmc
+2019-09-16 09:55:33,193 - image_base64.py[line:58] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'id': 3150}}
+2019-09-16 09:55:33,214 - image_base64.py[line:74] - INFO: [3150, 'http://preimage.flins.com.cn/FpXKaDrmr3yjcHFX9dwp3_v_kqmc?e=1568602529&token=kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:2vWJE0EpxcPDalTMbICE0jPi788=', '诊室:五诊室仪器型号: toshiba APLIO超声所见:检查项目:甲状腺及颈部淋巴结左侧叶内径约43*21*15mm,形态正常,回声均匀。右侧叶内径约37*24*16mm,形态正常,回声不均匀,可见低回声,大小约13.7*9.6mm,其内强回声光斑较大长约0.5m,弹性成像(EI):以蓝绿色为主(从红→蓝表示软→硬)。峡部厚约2.7mm。CDFI:甲状腺双侧叶内均未见明显异常血流信号。左侧颈部可见非均质低回声,最大的范围约16*6.2mm,边界清。右侧颈部可见非均质低回声,最大的范围约14.7*4.6mm,边界清。超声提示:甲状腺右侧叶低回声(I-RD:4a类)双侧颈部多发低回声,考虑淋巴结请随诊', '3', 'TR2', None, None]
+2019-09-16 09:55:33,223 - image_base64.py[line:140] - INFO: image:013.jpg
+2019-09-16 09:55:33,245 - image_base64.py[line:28] - INFO: 七牛token:kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:22aaJdXSzbvGo2ob4uVSnp6WVQ0=:eyJzY29wZSI6InByZS1waG90b3MiLCJkZWFkbGluZSI6MTU2ODU5ODk4OX0=
+2019-09-16 09:55:33,330 - image_base64.py[line:46] - INFO: key:FkQwjOqc1GFxgaIz6tYdHpDho9bu
+2019-09-16 09:55:34,074 - image_base64.py[line:58] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'id': 3151}}
+2019-09-16 09:55:34,099 - image_base64.py[line:74] - INFO: [3151, 'http://preimage.flins.com.cn/FkQwjOqc1GFxgaIz6tYdHpDho9bu?e=1568602530&token=kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:PrPKqiXYGMOD2yB368eJAuuq6fo=', '超声所见:甲状腺右叶大小约47x17x16mm,左叶大小约51x20x20mm,峡部厚约2.8mm,轮廓清晰,左叶中下部可见大小约25X20X13mm椭圆形混合性回声,内大部为无回声,还可见不规则片状稍强回声,CDFI:周边及内部实性部分可见血流信号,右叶中下段前侧可见大小约2.4x1.3mm低回声区诊断意见甲状腺结节(左叶囊实混合性)(T-RADS:2级)', '4a', 'TR3', None, '其他回声']
+2019-09-16 09:55:34,108 - image_base64.py[line:140] - INFO: image:014.jpg
+2019-09-16 09:55:34,125 - image_base64.py[line:28] - INFO: 七牛token:kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:R_MdR01R_v3MMjNfpe3j2hpuBc4=:eyJzY29wZSI6InByZS1waG90b3MiLCJkZWFkbGluZSI6MTU2ODU5ODk5MH0=
+2019-09-16 09:55:34,215 - image_base64.py[line:46] - INFO: key:FoajIp30vzSen2HUlybb9ZJCUy6e
+2019-09-16 09:55:34,957 - image_base64.py[line:58] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'id': 3152}}
+2019-09-16 09:55:34,976 - image_base64.py[line:74] - INFO: [3152, 'http://preimage.flins.com.cn/FoajIp30vzSen2HUlybb9ZJCUy6e?e=1568602531&token=kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:U03yt8oi7nVrXU_3Hfi9MT-VpXA=', '别:内分泌科门诊 ble7检查部位:甲状腺及颈部淋巴结(常规)超声号:118超声所见:甲状腺:轮廓清,大小形态正常,峡部不厚,右叶内可见大小约2.5*1.9cm混合回声,边界欠清,形态尚规则,CDF:其实质内可见条状血流信号,余实质回声均匀双侧颈部未见明显肿大淋巴结。超声诊断:甲状腺右叶混合性肿物TI-aDS4a类报告医师:贾蓉录入员:审核医师检查日期:打印日:2083010:04', '2', 'TR1', None, '其他回声']
+2019-09-16 09:55:34,987 - image_base64.py[line:140] - INFO: image:018.jpg
+2019-09-16 09:55:35,004 - image_base64.py[line:28] - INFO: 七牛token:kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:WG-70x4XpjtbBd3tbw3b6Q-GwUY=:eyJzY29wZSI6InByZS1waG90b3MiLCJkZWFkbGluZSI6MTU2ODU5ODk5MX0=
+2019-09-16 09:55:35,137 - image_base64.py[line:46] - INFO: key:Fknq1kRFLeTGNe4In3nH2HsAaq6S
