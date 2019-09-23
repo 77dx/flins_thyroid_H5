@@ -1,0 +1,18 @@
+2019-09-20 10:13:21,053 - runMain.py[line:116] - INFO: image:008.jpg
+2019-09-20 10:13:21,120 - runMain.py[line:60] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:mjzJmIba8x9uvrSwec8ir3TBbZM=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk0NTY2MX0=', 'key': 'RkwyMDE5MDkyMC0xMDoxMzoyMTAwMDAwNw=='}}
+2019-09-20 10:13:21,344 - runMain.py[line:78] - INFO: {'hash': 'FpkvHPPt4mszG4A0sfzeYR-BVhaQ', 'key': 'FpkvHPPt4mszG4A0sfzeYR-BVhaQ'}
+2019-09-20 10:13:22,734 - runMain.py[line:116] - INFO: image:00e93901213fb80ebd01ffb33bd12f2eb8389486.jpg
+2019-09-20 10:13:22,781 - runMain.py[line:60] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:-_k-omFHazOnmvz8cogq27kMCgw=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk0NTY2Mn0=', 'key': 'RkwyMDE5MDkyMC0xMDoxMzoyMjAwMDAwOA=='}}
+2019-09-20 10:13:22,863 - runMain.py[line:78] - INFO: {'hash': 'FhtQ143FqmEjfxo6qkOiGvsk2S6N', 'key': 'FhtQ143FqmEjfxo6qkOiGvsk2S6N'}
+2019-09-20 10:13:23,351 - runMain.py[line:116] - INFO: image:010.jpg
+2019-09-20 10:13:23,375 - runMain.py[line:60] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:NbS0mCfa0hSFm-1E_EIyhUiGBHE=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk0NTY2M30=', 'key': 'RkwyMDE5MDkyMC0xMDoxMzoyMzAwMDAwOQ=='}}
+2019-09-20 10:13:23,457 - runMain.py[line:78] - INFO: {'hash': 'Fh_uErG_H_E44qCA74kTPhXkBp8T', 'key': 'Fh_uErG_H_E44qCA74kTPhXkBp8T'}
+2019-09-20 10:13:24,039 - runMain.py[line:116] - INFO: image:011.jpg
+2019-09-20 10:13:24,093 - runMain.py[line:60] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:KLDFaoBeyNxAo9eYxcNTzz8sij0=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk0NTY2NH0=', 'key': 'RkwyMDE5MDkyMC0xMDoxMzoyNDAwMDAxMA=='}}
+2019-09-20 10:13:24,171 - runMain.py[line:78] - INFO: {'hash': 'FpXKaDrmr3yjcHFX9dwp3_v_kqmc', 'key': 'FpXKaDrmr3yjcHFX9dwp3_v_kqmc'}
+2019-09-20 10:13:24,879 - runMain.py[line:116] - INFO: image:013.jpg
+2019-09-20 10:13:24,893 - runMain.py[line:60] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:K0_P6hWJm4dg4tKH1kV_gBjlXi0=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk0NTY2NX0=', 'key': 'RkwyMDE5MDkyMC0xMDoxMzoyNTAwMDAxMQ=='}}
+2019-09-20 10:13:24,967 - runMain.py[line:78] - INFO: {'hash': 'FkQwjOqc1GFxgaIz6tYdHpDho9bu', 'key': 'FkQwjOqc1GFxgaIz6tYdHpDho9bu'}
+2019-09-20 10:13:25,183 - runMain.py[line:116] - INFO: image:014.jpg
+2019-09-20 10:13:25,226 - runMain.py[line:60] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:K0_P6hWJm4dg4tKH1kV_gBjlXi0=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk0NTY2NX0=', 'key': 'RkwyMDE5MDkyMC0xMDoxMzoyNTAwMDAxMg=='}}
+2019-09-20 10:13:25,308 - runMain.py[line:78] - INFO: {'hash': 'FoajIp30vzSen2HUlybb9ZJCUy6e', 'key': 'FoajIp30vzSen2HUlybb9ZJCUy6e'}

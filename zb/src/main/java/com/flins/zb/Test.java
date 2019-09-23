@@ -1,22 +1,16 @@
 package com.flins.zb;
+import java.util.regex.Pattern;
+
 import com.alibaba.fastjson.JSONObject;
 
+
 public class Test {
+	
+
 
 	public static void main(String[] args) {
-		String response_data = "{\"code\":\"0000\",\"desc\":\"请求成功\",\"data\":[]}";
-		JSONObject object = JSONObject.parseObject(response_data);
-		Object data = object.getString("data");
-		System.out.println(data);
+	String unicode = "\u8d85\u58f0\u6240\u89c1:\u7532\u72b6\u817a:\u5de6\u53f6\u524d\u540e\u5f84\u9f8d.\u9f8dcm\u3001\u5ce1\u90e8\u524d\u540e\u5f84\u9f8d.cm\u3001\u53f3\u53f6\u524d\u540e\u5f84\u9f8d.\u9f8dcm,\u88ab\u819c\u6b20\u5149\u6ed1,\u5b9e\u8d28\u56de\u58f0\u5206\u5e03\u6b20\u5747\u5300\u53f3\u53f6\u8fd1\u5ce1\u90e8\u53ef\u89c1\u4f4e\u56de\u58f0\u533a,\u524d\u540e\u5f84\u9f8d.\u9f8dcm\u3001\u957f\u5f84\u9f8d.\u9f8dcm,\u8fb9\u754c\u6e05\u6670,\u5f62\u6001\u89c4\u5219,\u5185\u56de\u58f0\u5206\u5e03\u5747\u5300,\u5f69\u8272\u591a\u666e\u52d2\u663e\u793a\u5176\u5185\u8840\u6d41\u4e0d\u4e30\u5bcc\u3002\u8d85\u58f0\u63d0\u793a\u7532\u72b6\u817a\u53f3\u53f6\u8fd1\u5ce1\u90e8\u4f4e\u56de\u58f0\u7ed3\u8282,\u8003\u8651\u826f\u6027,ti-rads-us:\u9f8d\u7c7b";
 		
-		String result = "true";
-
-		if(data.equals("[]")){
-			result = "true";	
-		}else{
-			result = "false";	
-		}
-		System.out.println(result);
 
 	}
 

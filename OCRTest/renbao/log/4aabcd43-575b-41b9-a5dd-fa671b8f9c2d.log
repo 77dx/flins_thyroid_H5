@@ -1,0 +1,67 @@
+2019-09-20 11:29:36,904 - image_base64.py[line:159] - INFO: image:008.jpg
+2019-09-20 11:29:36,936 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:MtcJDL60zlOdWomFP5OLMeQJpNY=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDIzOX0='}}
+2019-09-20 11:29:37,066 - image_base64.py[line:45] - INFO: {'hash': 'FpkvHPPt4mszG4A0sfzeYR-BVhaQ', 'key': 'FpkvHPPt4mszG4A0sfzeYR-BVhaQ'}
+2019-09-20 11:29:40,880 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:40,983 - image_base64.py[line:159] - INFO: image:00e93901213fb80ebd01ffb33bd12f2eb8389486.jpg
+2019-09-20 11:29:40,992 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:lxuDagJwnVXXU2_VXNWPqs3S7PI=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI0M30='}}
+2019-09-20 11:29:41,064 - image_base64.py[line:45] - INFO: {'hash': 'FhtQ143FqmEjfxo6qkOiGvsk2S6N', 'key': 'FhtQ143FqmEjfxo6qkOiGvsk2S6N'}
+2019-09-20 11:29:46,868 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:46,878 - image_base64.py[line:159] - INFO: image:010.jpg
+2019-09-20 11:29:46,915 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:pcqbpoWopvbTTbc4IspnknoRibw=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI0OX0='}}
+2019-09-20 11:29:46,973 - image_base64.py[line:45] - INFO: {'hash': 'Fh_uErG_H_E44qCA74kTPhXkBp8T', 'key': 'Fh_uErG_H_E44qCA74kTPhXkBp8T'}
+2019-09-20 11:29:47,636 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:47,660 - image_base64.py[line:159] - INFO: image:011.jpg
+2019-09-20 11:29:47,667 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:MDS2MYG1jyAB3Y8BT4-474wxGug=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1MH0='}}
+2019-09-20 11:29:47,733 - image_base64.py[line:45] - INFO: {'hash': 'FpXKaDrmr3yjcHFX9dwp3_v_kqmc', 'key': 'FpXKaDrmr3yjcHFX9dwp3_v_kqmc'}
+2019-09-20 11:29:48,433 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:48,442 - image_base64.py[line:159] - INFO: image:013.jpg
+2019-09-20 11:29:48,450 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:fVe_OLqML78PG6XaU-Bfd0Q-aDI=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1MX0='}}
+2019-09-20 11:29:48,505 - image_base64.py[line:45] - INFO: {'hash': 'FkQwjOqc1GFxgaIz6tYdHpDho9bu', 'key': 'FkQwjOqc1GFxgaIz6tYdHpDho9bu'}
+2019-09-20 11:29:50,135 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:50,145 - image_base64.py[line:159] - INFO: image:014.jpg
+2019-09-20 11:29:50,154 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:BTWr0DK0JusT0rw_WpS4cUAfGHU=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1Mn0='}}
+2019-09-20 11:29:50,234 - image_base64.py[line:45] - INFO: {'hash': 'FoajIp30vzSen2HUlybb9ZJCUy6e', 'key': 'FoajIp30vzSen2HUlybb9ZJCUy6e'}
+2019-09-20 11:29:50,843 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:50,862 - image_base64.py[line:159] - INFO: image:018.jpg
+2019-09-20 11:29:50,870 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:ab5xdfahmwiHnWPhLGNDuTGvAJ8=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1M30='}}
+2019-09-20 11:29:50,945 - image_base64.py[line:45] - INFO: {'hash': 'Fknq1kRFLeTGNe4In3nH2HsAaq6S', 'key': 'Fknq1kRFLeTGNe4In3nH2HsAaq6S'}
+2019-09-20 11:29:51,596 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:51,606 - image_base64.py[line:159] - INFO: image:019.jpg
+2019-09-20 11:29:51,759 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:-Ph_vHAlPHJHcwXckmRRujostDY=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1NH0='}}
+2019-09-20 11:29:51,876 - image_base64.py[line:45] - INFO: {'hash': 'FjxKb5NgRbUAHYvCS6DjK-YJsNqn', 'key': 'FjxKb5NgRbUAHYvCS6DjK-YJsNqn'}
+2019-09-20 11:29:53,018 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:53,028 - image_base64.py[line:159] - INFO: image:022.jpg
+2019-09-20 11:29:53,035 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:vvN7aLKerfDThNlQEEl9zT_3hTI=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1NX0='}}
+2019-09-20 11:29:53,107 - image_base64.py[line:45] - INFO: {'hash': 'FtG2b5rlBPWfWeyfpm23Z709YzYi', 'key': 'FtG2b5rlBPWfWeyfpm23Z709YzYi'}
+2019-09-20 11:29:54,039 - image_base64.py[line:57] - INFO: {'code': '5103', 'desc': '您的报告干扰信息较多，为了不影响您准确的评估是否满足核保条件，请按照示例图片上传报告', 'data': None}
+2019-09-20 11:29:54,049 - image_base64.py[line:159] - INFO: image:023b5bb5c9ea15ce4ab605d0ba003af33b87b28b.jpg
+2019-09-20 11:29:54,261 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:rGkH6RH8BZYIrtNr5kalFOqF5Mc=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1N30='}}
+2019-09-20 11:29:54,342 - image_base64.py[line:45] - INFO: {'hash': 'FsXHRZxoHz-e4rUo9rXaN8bqMP0B', 'key': 'FsXHRZxoHz-e4rUo9rXaN8bqMP0B'}
+2019-09-20 11:29:55,523 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:29:55,536 - image_base64.py[line:159] - INFO: image:023b5bb5c9ea15cee4e0af3fba003af33a87b2fe.jpg
+2019-09-20 11:29:55,543 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:zzJYMWVcS7xbfPzykk0mLK1LxqM=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI1OH0='}}
+2019-09-20 11:29:55,621 - image_base64.py[line:45] - INFO: {'hash': 'FqPKCm6PQPy2S3w--MEcPKEqM-aw', 'key': 'FqPKCm6PQPy2S3w--MEcPKEqM-aw'}
+2019-09-20 11:30:00,773 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:30:00,788 - image_base64.py[line:159] - INFO: image:024.jpg
+2019-09-20 11:30:00,796 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:GOhfhaQkFQexjkYpjF_L0cHe6tQ=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI2M30='}}
+2019-09-20 11:30:00,874 - image_base64.py[line:45] - INFO: {'hash': 'Fg23SG2QAvJLpIQvTnINtPAdiSpp', 'key': 'Fg23SG2QAvJLpIQvTnINtPAdiSpp'}
+2019-09-20 11:30:02,151 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:30:02,161 - image_base64.py[line:159] - INFO: image:024f78f0f736afc31b2e80ffbf19ebc4b745120d.jpg
+2019-09-20 11:30:02,435 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:qyXNvmQgTxlMxsfCAs41_SU7P3k=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI2NX0='}}
+2019-09-20 11:30:02,543 - image_base64.py[line:45] - INFO: {'hash': 'FrGiQ2ddPNl9siTTNLqFuyxQI_g7', 'key': 'FrGiQ2ddPNl9siTTNLqFuyxQI_g7'}
+2019-09-20 11:30:03,392 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:30:03,403 - image_base64.py[line:159] - INFO: image:03087bf40ad162d98de4cdea1ddfa9ec8a13cd3a.jpg
+2019-09-20 11:30:03,411 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:8od6SEH3xv3_1P0mImZvQjlXllg=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI2Nn0='}}
+2019-09-20 11:30:03,474 - image_base64.py[line:45] - INFO: {'hash': 'FpH3nqbpsQsoDQYkygaEIZL2PEm-', 'key': 'FpH3nqbpsQsoDQYkygaEIZL2PEm-'}
+2019-09-20 11:30:12,685 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:30:12,697 - image_base64.py[line:159] - INFO: image:03087bf40ad162d9b90a99c51ddfa9ec8b13cd07.jpg
+2019-09-20 11:30:12,840 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:qoBQLkJfsl_I8SP19mrxbAgJAD8=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI3NX0='}}
+2019-09-20 11:30:13,009 - image_base64.py[line:45] - INFO: {'hash': 'FvLSaEB7wkP2lhGZA5-VSFoPimBU', 'key': 'FvLSaEB7wkP2lhGZA5-VSFoPimBU'}
+2019-09-20 11:30:19,243 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:30:19,255 - image_base64.py[line:159] - INFO: image:031.jpg
+2019-09-20 11:30:19,267 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:wJTU7p2vxoU4YLP9hBnwT-atHn8=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI4Mn0='}}
+2019-09-20 11:30:19,342 - image_base64.py[line:45] - INFO: {'hash': 'FjPOoSjcr10Zv73SE-84cg3sKID2', 'key': 'FjPOoSjcr10Zv73SE-84cg3sKID2'}
+2019-09-20 11:30:20,135 - image_base64.py[line:57] - INFO: {'code': '9999', 'desc': '500 Internal Server Error', 'data': None}
+2019-09-20 11:30:20,146 - image_base64.py[line:159] - INFO: image:035.jpg
+2019-09-20 11:30:20,154 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:wJTU7p2vxoU4YLP9hBnwT-atHn8=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODk1MDI4Mn0='}}
+2019-09-20 11:30:20,233 - image_base64.py[line:45] - INFO: {'hash': 'FrqXb4Ldz-36MVSpebahw_pqI6lB', 'key': 'FrqXb4Ldz-36MVSpebahw_pqI6lB'}
