@@ -1,3 +1,0 @@
-2019-09-20 08:24:53,946 - image_base64.py[line:159] - INFO: image:008.jpg
-2019-09-20 08:24:54,129 - image_base64.py[line:27] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:JOFJdYWT8LqVIP2I1kDbtM0dY_w=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU2ODkzOTE1Nn0='}}
-2019-09-20 08:24:54,859 - image_base64.py[line:45] - INFO: {'hash': 'FpkvHPPt4mszG4A0sfzeYR-BVhaQ', 'key': 'FpkvHPPt4mszG4A0sfzeYR-BVhaQ'}

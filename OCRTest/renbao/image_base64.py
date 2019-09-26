@@ -7,7 +7,7 @@ import json
 import xlwt
 import xlrd
 from xlutils.copy import copy
-from renbao.logger import Loggers
+from util.logger import Loggers
 import pandas as pd
 import datetime
 
@@ -155,6 +155,20 @@ def renbao_sample(image_url,file):
         except:
             continue
 
+def renbao_sample2(file):
+    new_xls(file)
+    df = pd.read_excel('labels_key.xls')
+    image = df['image'].values
+    list = image.tolist()
+    keys = df["key"].values.tolist()
+    for i,key in zip(list,keys):
+        try:
+            xls_image(file,i)
+            log.logger.info("image:"+i)
+            id = submit(key,file)  # 提交测评#
+            query(id,file)  # 获取测评结果
+        except:
+            continue
 
 
 
@@ -162,7 +176,7 @@ if __name__ == '__main__':
     #开始时间
     start = datetime.datetime.now()
     #执行人保测评
-    renbao_sample('D:/samples2','data_1009.xls')
+    renbao_sample2('data_9-26.xls')
    # 结束时间
     end = datetime.datetime.now()
     print('运行时长：'+str((end - start).seconds)+'秒')
