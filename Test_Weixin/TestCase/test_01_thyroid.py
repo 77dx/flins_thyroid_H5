@@ -23,12 +23,12 @@ class TestH5(unittest.TestCase):
             os.system('adb -s %s shell rm /sdcard/case01.mp4' % (device))
             print  device + '手机MP4已删除'
             # 删除电脑的MP4文件
-            vivo_mp4 = 'd:/vivo_MP4/case01.mp4'
+            vivo_mp4 = 'd:/MP4/case01.mp4'
             if os.path.exists(vivo_mp4):
                 os.remove(vivo_mp4)
-                print '电脑vivo_MP4已删除'
+                print '电脑MP4已删除'
             else:
-                print '电脑没有vivo_MP4文件'
+                print '电脑没有MP4文件'
 
             # 初始化uiautomator2
             d2 = self.change_device(device)

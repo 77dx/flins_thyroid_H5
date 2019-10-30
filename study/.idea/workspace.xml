@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0018d79-9c78-4742-a6f8-69071f393c31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cookbook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbook/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbook/demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numpy/numpyTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_library/BuiltInFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小玩具/ascii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小玩具/bubbleSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小玩具/daxiong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/闭包和装饰器/Advanced decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/闭包和装饰器/Closure.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OCRTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OCRTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase/test_01_thyroid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase/test_01_thyroid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../check_image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check_image/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zb/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,24 +26,33 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/check_image$base64_image.coverage" NAME="base64_image Coverage Results" MODIFIED="1562997726698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base64_image" />
-    <SUITE FILE_PATH="coverage/check_image$locust_demo.coverage" NAME="locust_demo Coverage Results" MODIFIED="1561343849873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locust_api" />
+    <SUITE FILE_PATH="coverage/study$Closure.coverage" NAME="Closure Coverage Results" MODIFIED="1571970573732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/闭包和装饰器" />
     <SUITE FILE_PATH="coverage/check_image$upload_file.coverage" NAME="upload_file Coverage Results" MODIFIED="1560993078621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/study$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1572343487137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookbook" />
     <SUITE FILE_PATH="coverage/check_image$love.coverage" NAME="love Coverage Results" MODIFIED="1561014613089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_demo" />
+    <SUITE FILE_PATH="coverage/check_image$socket_server_udp.coverage" NAME="socket_server_udp Coverage Results" MODIFIED="1561621522255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scoket网络编程" />
+    <SUITE FILE_PATH="coverage/study$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1572340682747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookbook" />
+    <SUITE FILE_PATH="coverage/check_image$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1561018278738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conn-mysql" />
+    <SUITE FILE_PATH="coverage/study$xmlDemo.coverage" NAME="xmlDemo Coverage Results" MODIFIED="1569566445856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml文件读写" />
+    <SUITE FILE_PATH="coverage/study$numpyTest.coverage" NAME="numpyTest Coverage Results" MODIFIED="1571901827582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numpy" />
+    <SUITE FILE_PATH="coverage/check_image$decorator_demo.coverage" NAME="decorator_demo Coverage Results" MODIFIED="1561616808477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python装饰器" />
+    <SUITE FILE_PATH="coverage/study$Multiprocessing.coverage" NAME="Multiprocessing Coverage Results" MODIFIED="1568863190330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
+    <SUITE FILE_PATH="coverage/check_image$locust_demo.coverage" NAME="locust_demo Coverage Results" MODIFIED="1561343849873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locust_api" />
+    <SUITE FILE_PATH="coverage/study$BuiltInFunction.coverage" NAME="BuiltInFunction Coverage Results" MODIFIED="1571017558734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_library" />
+    <SUITE FILE_PATH="coverage/study$captcha_word.coverage" NAME="captcha_word Coverage Results" MODIFIED="1569566508890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha_word" />
     <SUITE FILE_PATH="coverage/check_image$rose.coverage" NAME="rose Coverage Results" MODIFIED="1561014334585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_demo" />
+    <SUITE FILE_PATH="coverage/study$bubbleSort__1_.coverage" NAME="bubbleSort (1) Coverage Results" MODIFIED="1570842446022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小玩具" />
     <SUITE FILE_PATH="coverage/check_image$socket_client_udp.coverage" NAME="socket_client_udp Coverage Results" MODIFIED="1561621482374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scoket网络编程" />
     <SUITE FILE_PATH="coverage/check_image$image_base64__1_.coverage" NAME="image_base64 (1) Coverage Results" MODIFIED="1561016788641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/picc_demo" />
     <SUITE FILE_PATH="coverage/check_image$socketclient.coverage" NAME="socketclient Coverage Results" MODIFIED="1561620308647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scoket网络编程" />
     <SUITE FILE_PATH="coverage/check_image$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1561342040235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/check_image$socket_server_udp.coverage" NAME="socket_server_udp Coverage Results" MODIFIED="1561621522255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scoket网络编程" />
     <SUITE FILE_PATH="coverage/study$Multithreading.coverage" NAME="Multithreading Coverage Results" MODIFIED="1568862890204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
+    <SUITE FILE_PATH="coverage/study$bubbleSort.coverage" NAME="bubbleSort Coverage Results" MODIFIED="1569567960160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/排序算法" />
     <SUITE FILE_PATH="coverage/check_image$captcha_word.coverage" NAME="captcha_word Coverage Results" MODIFIED="1561705690830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/captcha_word" />
     <SUITE FILE_PATH="coverage/study$fileDemo.coverage" NAME="fileDemo Coverage Results" MODIFIED="1568770039334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/把文件名写入文件" />
     <SUITE FILE_PATH="coverage/study$testYaml.coverage" NAME="testYaml Coverage Results" MODIFIED="1568874876230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yaml文件学习" />
-    <SUITE FILE_PATH="coverage/check_image$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1561018278738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conn-mysql" />
     <SUITE FILE_PATH="coverage/check_image$socketserver.coverage" NAME="socketserver Coverage Results" MODIFIED="1561620231447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scoket网络编程" />
-    <SUITE FILE_PATH="coverage/study$xmlDemo.coverage" NAME="xmlDemo Coverage Results" MODIFIED="1568968365534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml文件读写" />
-    <SUITE FILE_PATH="coverage/check_image$decorator_demo.coverage" NAME="decorator_demo Coverage Results" MODIFIED="1561616808477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python装饰器" />
-    <SUITE FILE_PATH="coverage/study$Multiprocessing.coverage" NAME="Multiprocessing Coverage Results" MODIFIED="1568863190330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
+    <SUITE FILE_PATH="coverage/study$ascii.coverage" NAME="ascii Coverage Results" MODIFIED="1569569576631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/小玩具" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="524486600">
@@ -101,18 +120,22 @@
     <session id="169921366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="md" value="2" />
+          <entry key="py" value="29" />
           <entry key="txt" value="7" />
           <entry key="xml" value="1" />
           <entry key="yaml" value="1" />
@@ -120,21 +143,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="29" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="927" />
+          <entry key="py" value="3651" />
           <entry key="yaml" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="927" />
+          <entry key="Python" value="3651" />
           <entry key="YAML" value="126" />
         </counts>
       </usages-collector>
@@ -142,29 +166,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml文件读写/xmlDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/把文件名写入文件/fileDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/picc_demo/image_base64.py">
+        <entry file="file://$PROJECT_DIR$/cookbook/demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="81" selection-start-line="81" selection-end-line="95" />
+            <state relative-caret-position="395">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+              <folding>
+                <marker date="1572343568081" expanded="true" signature="261:266" ph="..." />
+                <marker date="1572343568081" expanded="true" signature="399:404" ph="..." />
+                <marker date="1572343568081" expanded="true" signature="1577:1582" ph="..." />
+                <marker date="1572343568081" expanded="true" signature="1614:1619" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,6 +226,15 @@
         <option value="$PROJECT_DIR$/yaml文件学习/female.yaml" />
         <option value="$PROJECT_DIR$/yaml文件学习/testYaml.py" />
         <option value="$PROJECT_DIR$/xml文件读写/xmlDemo.py" />
+        <option value="$PROJECT_DIR$/排序算法/bubbleSort.py" />
+        <option value="$PROJECT_DIR$/小玩具/ascii.py" />
+        <option value="$PROJECT_DIR$/小玩具/bubbleSort.py" />
+        <option value="$PROJECT_DIR$/python_library/BuiltInFunction.py" />
+        <option value="$PROJECT_DIR$/numpy/numpyTest.py" />
+        <option value="$PROJECT_DIR$/闭包和装饰器/Closure.py" />
+        <option value="$PROJECT_DIR$/闭包和装饰器/Advanced decorator.py" />
+        <option value="$PROJECT_DIR$/cookbook/demo1.py" />
+        <option value="$PROJECT_DIR$/cookbook/demo2.py" />
       </list>
     </option>
   </component>
@@ -223,11 +244,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1036" />
-    <option name="height" value="733" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="424" />
+    <option name="y" value="183" />
+    <option name="width" value="1295" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -236,25 +257,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="picc_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="he&#9;null&#9;null" />
@@ -265,15 +268,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git_repo\check_image\my_demo\love_mac" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_repo\study\小玩具" />
       <recent name="E:\git_repo\study\xml文件读写" />
       <recent name="E:\git_repo\study\把文件名写入文件" />
       <recent name="E:\git_repo\check_image" />
       <recent name="E:\git_repo\check_image\picc_demo" />
-      <recent name="E:\git_repo\check_image\venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_repo\check_image\my_demo\love_mac" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,8 +291,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xmlDemo">
-    <configuration name="Multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.demo2">
+    <configuration name="BuiltInFunction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,12 +300,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_library" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多线程/Multiprocessing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_library/BuiltInFunction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Closure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,12 +322,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包和装饰器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多线程/Multithreading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/闭包和装饰器/Closure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fileDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,12 +344,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/把文件名写入文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookbook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/把文件名写入文件/fileDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookbook/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +358,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testYaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,12 +366,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yaml文件学习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookbook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yaml文件学习/testYaml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookbook/demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,7 +380,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xmlDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="numpyTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,12 +388,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xml文件读写" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/numpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xml文件读写/xmlDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numpy/numpyTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,19 +403,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.fileDemo" />
-      <item itemvalue="Python.Multithreading" />
-      <item itemvalue="Python.Multiprocessing" />
-      <item itemvalue="Python.testYaml" />
-      <item itemvalue="Python.xmlDemo" />
+      <item itemvalue="Python.BuiltInFunction" />
+      <item itemvalue="Python.numpyTest" />
+      <item itemvalue="Python.Closure" />
+      <item itemvalue="Python.demo1" />
+      <item itemvalue="Python.demo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.xmlDemo" />
-        <item itemvalue="Python.testYaml" />
-        <item itemvalue="Python.Multiprocessing" />
-        <item itemvalue="Python.Multithreading" />
-        <item itemvalue="Python.fileDemo" />
+        <item itemvalue="Python.demo2" />
+        <item itemvalue="Python.demo1" />
+        <item itemvalue="Python.Closure" />
+        <item itemvalue="Python.numpyTest" />
+        <item itemvalue="Python.BuiltInFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -430,15 +433,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="424" y="183" width="1371" height="714" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11567164" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20823799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28524947" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2862069" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,7 +449,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.59173554" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5911063" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -485,13 +488,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/upload_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -539,19 +535,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络基础/dns_demo.py" />
-    <entry file="file://$PROJECT_DIR$/网络基础/1.2TCP-IP四层模型.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络基础/1.4端口的作用">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -626,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WireShark教程/wireshark_demo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_demo/love.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -643,13 +618,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base64_image/test.jpg" />
     <entry file="file://$PROJECT_DIR$/base64_image/base64_image.py" />
-    <entry file="file://$PROJECT_DIR$/conn-mysql/test_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locust_api/locust_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -657,24 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json_server/mock_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json_server/db.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_word/captcha_word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -707,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/多线程/Multiprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yaml文件学习/testYaml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -732,10 +679,17 @@
     <entry file="file://$PROJECT_DIR$/把文件名写入文件/image.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/picc_demo/image_base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xml文件读写/xmlDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="304">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -746,10 +700,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/picc_demo/image_base64.py">
+    <entry file="file://$PROJECT_DIR$/网络基础/1.2TCP-IP四层模型.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WireShark教程/wireshark_demo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json_server/mock_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="81" selection-start-line="81" selection-end-line="95" />
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conn-mysql/test_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha_word/captcha_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="111" column="58" lean-forward="true" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小玩具/ascii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小玩具/bubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多线程/Multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numpy/numpyTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_library/BuiltInFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包和装饰器/Closure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包和装饰器/Advanced decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbook/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding>
+            <marker date="1572343568081" expanded="true" signature="261:266" ph="..." />
+            <marker date="1572343568081" expanded="true" signature="399:404" ph="..." />
+            <marker date="1572343568081" expanded="true" signature="1577:1582" ph="..." />
+            <marker date="1572343568081" expanded="true" signature="1614:1619" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renbao/labels_key.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/image_base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/renbao/image_base64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/04e8f48a-83e0-412f-99c5-afc490ccbf9d.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/0fc6b245-748b-45f3-ae56-ae9d253a85df.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/13eb867e-0f82-437f-8ffa-8e018590259d.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/240f9435-150a-49a7-9e1d-ea42e5d7c07e.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/26ec811a-8e82-40de-88ed-ac08e01c81a8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/3c67fa31-84c5-4037-afc2-3ac126acce0a.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/3e08ab81-16a3-4b62-8741-14ebd4826a9c.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/40ace4ea-bdac-4067-bc4e-336831f0966f.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/449976ca-0f84-4116-b25f-82b0167fc1a4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/4a91d39d-1807-4247-a378-3789594c964f.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/4aabcd43-575b-41b9-a5dd-fa671b8f9c2d.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/4da74619-cc4f-4581-b859-c1f08c02441b.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/4e371d5f-75ef-4703-a1c3-14693068db33.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/61346ca1-c67c-4024-a173-780c8452157f.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/6f3e8bb8-d583-4e65-9f2b-02ff7d204a02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/7094d35a-36c0-48a8-8c3f-dd0612f98330.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/77ed4c30-1702-4e88-991f-605064e80b67.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/794d2712-adff-4fca-930e-e001c9d42421.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/7e36b05e-ac23-474e-8729-467a3c5ca7ab.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/84f11964-b0e1-4c53-81f2-606bab04f490.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/854032fc-538d-4c16-88f1-6e637dee2b42.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/87070fb6-0e81-40c7-9530-5125d6bd2cd8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/89521e79-83ae-46ff-8e71-b05543041583.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/a53e3831-c551-42c5-9e3f-5d0dbef374cb.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/bbafffaa-f149-4acb-99ca-a5b1604e9e08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/bbdc5de3-0ca4-4ef9-838b-344bdf62c3a9.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/bd41ca94-765b-447f-836b-969c1182534c.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/bd6157cd-bf4d-4934-97cf-3ea8198e3d4b.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/c850a564-f8ca-499d-9c3a-a44c794f1c60.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/cb378acc-e2f4-4637-8da8-fdcf62194421.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/cebc45b6-f0af-4a04-ac7c-73363c36ae76.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/e69c045e-2a5f-416d-9757-2445dad2448e.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/eba1bb89-6a5d-4806-bfcc-2a574e35f921.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/log/ecce885d-8b73-4d41-b423-fc119a0d9793.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renbao/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validImage/image_base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/validImage/image_base64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../check_image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check_image/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zb/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +102,7 @@
     <session id="280116122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -187,46 +142,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modelTest/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
-              <folding>
-                <element signature="e#15#28#0" expanded="true" />
-                <marker date="1569457777498" expanded="true" signature="189:190" ph="..." />
-                <marker date="1569457777498" expanded="true" signature="189:5286" ph="..." />
-                <marker date="1569457777498" expanded="true" signature="3735:4192" ph="..." />
-                <marker date="1569457777498" expanded="true" signature="5285:5286" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/validImage/image_base64.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/logger.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -270,7 +195,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1036" />
@@ -291,16 +216,6 @@
             <path>
               <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="OCRTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCRTest" type="462c0819:PsiDirectoryNode" />
-              <item name="renbao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OCRTest" type="462c0819:PsiDirectoryNode" />
-              <item name="validImage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -492,8 +407,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -727,21 +641,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modelTest/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/logger.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Logs/2019-09-26 08_29_45.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validImage/image_base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2567">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,10 +668,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validImage/image_base64.py">
+    <entry file="file://$PROJECT_DIR$/modelTest/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
