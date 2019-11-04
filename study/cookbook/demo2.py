@@ -66,18 +66,51 @@ records = [
     ('foo',3,4),
 ]
 
-def do_foo(x,y):
-    print('foo',x,y)
+# def do_foo(x,y):
+#     print('foo',x,y)
+#
+# def do_bar(s):
+#     print('bar',s)
+#
+# for tag,*args in records:
+#     if tag == 'foo':
+#         do_foo(*args)
+#     elif tag == 'bar':
+#         do_bar(*args)
 
-def do_bar(s):
-    print('bar',s)
 
-for tag,*args in records:
-    if tag == 'foo':
-        do_foo(*args)
-    elif tag == 'bar':
-        do_bar(*args)
+#星号解压语法在字符串操作的时候也会很有用，比如字符串的分割
+line = 'nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false'
+uname,*fields,homedir,sh = line.split(':')
+# print(uname)
+# print(homedir)
+# print(sh)
+
+
+#有时候，你想解压一些元素后丢弃它们，你不能简单就使用 * ，
+# 但是你可以使用一个普通的废弃名称，比如 _ 或者 ign （ignore）。
+#如果一个整体有多个数据，取其中几个的话，就可以使用*_代替其中多个数据。
+record = ('ACME',50,123.45,(12,118,2012))
+name,*_,(*_,year) = record
+# print(name)
+
+#在很多函数式语言中，星号解压语法跟列表处理有许多相似之处。比如
+# ，如果你有一个列表， 你可以很容易的将它分割成前后两部分：
+items = [1,10,7,4,5,9]
+head,*tail = items
+# print(tail)
+
+#实现相加
+def sum(items):
+    head,*tail = items
+    return head+sum(tail) if tail else head
+
+print(sum(items))
+
+
 
 '''
 总结：在参数长度可变时，运用*args参数，可以实现参数个数可变。
+     在字符串分割时，也可以用到*号和*_，用来代替一些不想用的元素。
+     还可以用来做递归运算，不太懂。
 '''

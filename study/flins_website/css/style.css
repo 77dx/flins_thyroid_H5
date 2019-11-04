@@ -1,0 +1,13 @@
+
+
+/**********首页**********/
+.service{
+    display: block;
+    line-height: 118px;
+    letter-spacing: 10px;
+    float: left;
+    font-size: 84px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+}
