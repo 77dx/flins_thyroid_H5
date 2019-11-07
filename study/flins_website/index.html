@@ -8,14 +8,19 @@
 </head>
 
 <!-- 先把页面划分为几块div，再在div设置样式 -->
-<body>
+<body class="top">
     <!-- 顶部 -->
-    <div class="index_top">
-        <a href="javascript:;">首页</a>
-        <a href="medicalThink.html">医学智库</a>
-        <a href="industry.html">智慧医疗</a>
-        <a href="insuranceIndustry.html">保险行业应用</a>
-        <a href="aboutUs.html">关于我们</a>
+    <div class="header">
+        <div class="section">
+            <div class="section_right">
+                <span class="section_left"></span>
+                <a href="javascript:;">首页</a>
+                <a href="medicalThink.html">医学智库</a>
+                <a href="industry.html">智慧医疗</a>
+                <a href="insuranceIndustry.html">保险行业应用</a>
+                <a href="aboutUs.html">关于我们</a>
+            </div>
+        </div>
     </div>
 
     <!-- 轮播 -->
@@ -27,21 +32,154 @@
     <div class="index_industry">
         <div class="industry_left">
             <img src="images/profile.png" />
-
+        </div>
+        <div class="industry_right">
+            <label>公司简介<br/></label>
+            <label style="color: #2CA8E9;">Company<br/>Profile</label>
+            <p style="width: 437px;text-align: justify;opacity: 0.6;letter-spacing: 0;margin-top: 30px;line-height: 34px;color: aliceblue;font-size: 20px;">
+                广州风林火山网络科技有限公司，2018年成立于中国广州，是一家基于健康医疗大数据及人工智能技术的创新科技企业。我们的主要股东为互联网保险、保险公司及A股上市公司，核心成员50%以上具备医学背景。
+            </p>
+            <a href="aboutUs.html">read more</a>
         </div>
     </div>
 
     <!-- 服务内容-->
     <div class="service">
-        <div class="">
+       <div class="service_left">
+            <div class="service_left_top">
+                <label style="font-size: 80px;color: #fff;">服务内容</label>
+                <div style="font-size: 60px;color: #2CA8E9;float: right;">Service<br/>Content</div>
+            </div>
 
+            <div class="service_left_bottom">
+                <div class="content_left">
+                    <a href="industry.html">Read more</a>
+                    <img src="images/icon_group13.png" />
+                </div>
+                <div class="content_right">
+                    <label style="font-size: 50px;font-weight: bold;">智慧医疗<br/></label>
+                    <label style="font-size: 50px;font-weight: bold;">行业应用</label>
+                    <p>整合医疗服务</p>
+                    <p>特定场景引流</p>
+                    <p>场景化产品定制</p>
+                    <p>客户服务采</p>
+                </div>
+            </div>
+       </div>
+        <!-- 医学智库服务-->
+        <div class="service_right">
+            <div class="service_right_up">
+                <label>医学智库</label>
+                <label>服务</label>
+                <p>疾病知识图谱</p>
+                <p>医疗数据分析</p>
+                <p>AI技术应</p>
+            </div>
+            <div class="service_right_down">
+                <p>疾病研究报告</p>
+                <p>智能风控系统</p>
+                <p>保险产品定制</p>
+                <p>营销渠道支持</p>
+                <label>保险行业</label>
+                <label>应用服务</label>
+            </div>
         </div>
-        <label>服务内容</label>
     </div>
 
+    <!-- 投资机构-->
+    <div class="investment">
+        <label>投资机构</label>
+        <p>Investment Organization</p>
+        <div class="investment_common">
+            <a href="javascript:;"><img src="images/investment_1.png"></a>
+            <a href="javascript:;" style="margin-left: 15px;"><img src="images/investment_2.png"></a>
+            <a href="javascript:;" style="margin-left: 15px;"><img src="images/investment_3.png"></a>
+            <a href="javascript:;" style="margin-left: 10px;"><img src="images/investment_4.png"></a>
+        </div>
+    </div>
 
+    <!-- 合作伙伴-->
+    <div class="cooperative_all">
+        <span class="image_right"></span>
+        <div class="cooperative">
+            <label>合作伙伴</label>
+            <p class="cooperative_p1">Cooperative Partner</p>
+            <div class="cooperative_partner">
 
+                <div class="cooperative_partner_line1">
+                    <div class="cooperative_partner_line1_2  partner">
+                        <img src="images/icon_zryh.png" />
+                        <p>中日友好医院</p>
+                    </div>
 
+                    <div class="cooperative_partner_line1_1  partner">
+                        <img src="images/icon_bjdx.png" />
+                        <p>北京大学附属</p>
+                        <p>肿瘤医院</p>
+                    </div>
+                </div>
+                <div class="cooperative_partner_line2">
+                    <div class="cooperative_partner_line2_1  partner">
+                        <img src="images/icon_bjxh.png" />
+                        <p>北京协和医院</p>
+                    </div>
 
+                    <div class="cooperative_partner_line2_2  partner">
+                        <img src="images/icon_fddx.png" />
+                        <p>复旦大学附属 </p>
+                        <p>肿瘤医院</p>
+                    </div>
+
+                     <div class="cooperative_partner_line2_3  partner">
+                        <img src="images/icon_bjtr.png" />
+                        <p>首都医科大学附属 </p>
+                        <p>北京同仁医院</p>
+                    </div>
+
+                </div>
+
+                <div class="cooperative_partner_line3">
+                    <div class="cooperative_partner_line3_1  partner">
+                        <img src="images/icon_zgkx.png" />
+                        <p>中国科学医学院</p>
+                        <p>肿瘤研究院</p>
+                    </div>
+                    <div class="cooperative_partner_line3_2  partner">
+                        <img src="images/icon_tjyy.png" />
+                        <p>同济医院</p>
+                    </div>
+                    <div class="cooperative_partner_line3_3  partner">
+                        <img src="images/icon_zsyy.png" />
+                        <p>复旦大学附属</p>
+                        <p>中山医院</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+
+    </div>
+
+    <!--- 页尾---->
+    <div class="foot">
+        <div class="foot_content">
+            <ul>
+                <li><img src="images/logo_bottom.png" /></li>
+                <li><a href="medicalThink.html">医学智库</a></li>
+                <li><a href="industry.html">智慧医疗</a></li>
+                <li><a href="insuranceIndustry.html">保险行业应用</a></li>
+                <li class="about"><a href="aboutUs.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--- 页脚 ---->
+    <div class="foot_bottom">
+        <label>
+            <span>
+                粤ICP备18131427号-1
+            </span>
+             Copyright © 2018 - 2019 Flins. All Rights Reserved.
+        </label>
+    </div>
 </body>
 </html>
