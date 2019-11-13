@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html" line="18" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c0018d79-9c78-4742-a6f8-69071f393c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webPage/Pregnancy_management/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webPage/Pregnancy_management/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flins_website/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flins_website/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flins_website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flins_website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webPage/Pregnancy_management/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webPage/Pregnancy_management/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html" beforeDir="false" afterPath="$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,27 +116,29 @@
     <session id="169921366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="3" />
+          <entry key="css" value="10" />
+          <entry key="html" value="6" />
           <entry key="identity_comfire" value="2" />
+          <entry key="jpg" value="3" />
+          <entry key="js" value="1" />
           <entry key="md" value="2" />
           <entry key="png" value="13" />
           <entry key="py" value="36" />
@@ -145,9 +149,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="5" />
-          <entry key="Image" value="13" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="8" />
+          <entry key="Image" value="16" />
+          <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="36" />
@@ -157,9 +162,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7275" />
-          <entry key="html" value="2799" />
+          <entry key="css" value="7810" />
+          <entry key="html" value="3235" />
           <entry key="identity_comfire" value="324" />
+          <entry key="js" value="178" />
           <entry key="py" value="5840" />
           <entry key="txt" value="26" />
           <entry key="yaml" value="126" />
@@ -167,8 +173,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7275" />
-          <entry key="HTML" value="3123" />
+          <entry key="CSS" value="7810" />
+          <entry key="HTML" value="3559" />
+          <entry key="JavaScript" value="178" />
           <entry key="PLAIN_TEXT" value="26" />
           <entry key="Python" value="5840" />
           <entry key="YAML" value="126" />
@@ -178,7 +185,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -187,11 +194,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="494">
+              <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -258,8 +265,9 @@
         <option value="$PROJECT_DIR$/flins_website/css/style.css" />
         <option value="$PROJECT_DIR$/flins_website/index.html" />
         <option value="$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire" />
-        <option value="$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html" />
+        <option value="$PROJECT_DIR$/webPage/Pregnancy_management/js/common.js" />
         <option value="$PROJECT_DIR$/webPage/Pregnancy_management/css/style.css" />
+        <option value="$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html" />
       </list>
     </option>
   </component>
@@ -269,11 +277,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="480" />
-    <option name="y" value="167" />
-    <option name="width" value="1193" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -293,17 +301,6 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="flins_website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="flins_website" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="webPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,13 +308,6 @@
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="webPage" type="462c0819:PsiDirectoryNode" />
               <item name="Pregnancy_management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="webPage" type="462c0819:PsiDirectoryNode" />
-              <item name="Pregnancy_management" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,21 +319,21 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="he&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stylegan-master" />
+    <property name="last_opened_file_path" value="E:/git_automation_platform/automation_platform" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git_repo\check_image\my_demo\love_mac" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_repo\study\webPage\Pregnancy_management\images" />
       <recent name="E:\git_repo\study\flins_website\images" />
       <recent name="E:\git_repo\study\小玩具" />
       <recent name="E:\git_repo\study\xml文件读写" />
       <recent name="E:\git_repo\study\把文件名写入文件" />
-      <recent name="E:\git_repo\check_image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_repo\check_image\my_demo\love_mac" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,9 +471,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="480" y="167" width="1193" height="735" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.283045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21321961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -536,27 +527,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/json_server/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python装饰器/decorator_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scoket网络编程/socket_client_udp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scoket网络编程/socket_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -798,16 +768,22 @@
     <entry file="file://$PROJECT_DIR$/flins_website/images/icon_group7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/flins_website/css/style.css">
+    <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/images/dark.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/images/light.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7391">
-          <caret line="389" selection-start-line="389" selection-start-column="2" selection-end-line="399" selection-end-column="3" />
+        <state relative-caret-position="38">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flins_website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="-912">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#label#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -823,17 +799,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html">
+    <entry file="file://$PROJECT_DIR$/flins_website/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="342">
+          <caret line="73" column="47" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="494">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPage/Pregnancy_management/identity_comfire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
