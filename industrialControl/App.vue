@@ -21,4 +21,5 @@
 </style>
 <style lang="scss">  
 	@import '/common/css.scss';
+	@import '/common/css1.scss';
 </style>

@@ -1,0 +1,42 @@
+.tab_list_4{
+		width: 686rpx;
+		border-bottom: 1px solid #efefef;
+		padding: 0 32rpx;
+		.tab_list_4_inner{
+			width: 100%;
+			margin: 0 auto;
+			padding: 30rpx 0;
+			position: relative;
+			.article_title{
+				font-size: 28rpx;
+				line-height: 40rpx;
+				color: #333333;
+			}
+			.tab_list2_label{
+				display: inline-block;
+				background: #eef6ff;
+				border-radius: 5px;
+				padding: 0 15rpx;
+				margin-right: 20rpx;
+				font-size: 18rpx;
+				color: #005cb7;
+			}
+			.watch_people{
+				margin-top: 18rpx;
+				font-size: 20rpx;
+				color: #999999;
+			}
+			.botton_right{
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				margin-top: -60rpx;
+				
+				.money_style{
+					font-size: 30rpx;
+					color: #e81616;
+					margin-top: 10rpx;
+				}
+			}
+		}
+	}
