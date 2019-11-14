@@ -1,15 +1,16 @@
 {
   "pages": [
+    "pages/information/information",
+    "pages/index/index",
+    "pages/myPay/myPay",
     "pages/ask/ask",
     "pages/questionToTalent/questionToTalent",
-    "pages/index/index",
     "pages/question/question",
     "pages/my/my",
     "pages/myQuestion/myQuestion",
     "pages/myAnswer/myAnswer",
     "pages/login/login",
-    "pages/login/login",
-    "pages/information/information"
+    "pages/login/login"
   ],
   "window": {
     "navigationBarTextStyle": "white",

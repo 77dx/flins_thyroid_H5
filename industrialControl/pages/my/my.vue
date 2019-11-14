@@ -35,7 +35,7 @@
 					<image class="my_list_arrow" src="../../static/img/btn_in@2x.png" mode=""></image>
 				</view>
 			</view>
-			<view class="my_list_inner">
+			<view class="my_list_inner"  @tap="toMypay">
 				<view class="my_list_left">
 					<image class="my_list_img" src="../../static/img/icon_purchase@2x.png" mode=""></image>
 					<view class="my_list_title">我购买的资料</view>
@@ -137,7 +137,13 @@
 				uni.redirectTo({
 				    url: '../myAnswer/myAnswer'
 				});
-			}
+			},
+			//跳转我购买的资料
+			toMypay(){
+				uni.redirectTo({
+					url: '../myPay/myPay'
+				});
+			},
 		}
 	}
 </script>

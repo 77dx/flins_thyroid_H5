@@ -1,1 +1,1 @@
-<view class="content"></view>
+<view class="content"><view class="searchBox"><view class="searchBox_inner"><image class="search_img" src="../../static/img/icon_search@2x.png"></image><input class="search_input" type="text" placeholder="点击搜索" data-event-opts="{{[['input',[['__set_model',['','searchContent','$event',[]]]]]]}}" value="{{searchContent}}" bindinput="__e"/></view></view></view>

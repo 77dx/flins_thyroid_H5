@@ -1,0 +1,14 @@
+.tab_content{
+	.tab_list_4{
+			margin: 30rpx,32rpx;
+			border: 1px solid #efefef;
+			padding: 0 32rpx;
+			.tab_list_4_inner{
+				width: 100%;
+				margin: 0 auto;
+				padding: 30rpx 0;
+				position: relative;
+			}
+		}
+}
+

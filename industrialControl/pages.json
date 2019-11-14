@@ -1,6 +1,32 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "资料",
+				"app-plus" : {
+					"titleNView" : false,
+					"scrollIndicator":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首 页",
+				"app-plus" : {
+					"titleNView" : false,
+					"scrollIndicator":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/myPay/myPay",
+			"style": {
+				"navigationBarTitleText": "我购买的资料"
+			}
+		},
+		{
 			"path": "pages/ask/ask",
 			"style": {
 				"navigationBarTitleText": "问答",
@@ -16,16 +42,7 @@
 				"navigationBarTitleText": "向工控达人提问"
 			}
 		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "首 页",
-				"app-plus" : {
-					"titleNView" : false,
-					"scrollIndicator":"none"
-				}
-			}
-		},
+		
 		{
 			"path": "pages/question/question",
 			"style": {
@@ -68,15 +85,9 @@
 					"scrollIndicator":"none"
 				}
 			}
-		},
-		{
-			"path": "pages/information/information",
-			"style": {
-				"navigationBarTitleText": "资料"
-			}
 		}
 		
-	],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "工控系统",
