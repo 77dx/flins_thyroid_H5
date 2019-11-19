@@ -2,9 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c1d7cf-16c8-4148-abff-be4385134138" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../OCRTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OCRTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../breast_API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/common/css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/common/css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/common/css1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/common/css1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/pages/information/information.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/pages/information/information.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/common/main.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/common/main.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/common/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse-item/uni-collapse-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse-item/uni-collapse-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse/uni-collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse/uni-collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-icons/uni-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-icons/uni-icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-popup/uni-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/components/uni-popup/uni-popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/ask/ask.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/ask/ask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/information/information.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/information/information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/information/information.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/information/information.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/my/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/my/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/myAnswer/myAnswer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/myAnswer/myAnswer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/myPay/myPay.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/myPay/myPay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/myQuestion/myQuestion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/myQuestion/myQuestion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/question/question.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/question/question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/questionToTalent/questionToTalent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/.tmp/app-plus/pages/questionToTalent/questionToTalent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/__uniappview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/__uniappview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/app-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/app-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../industrialControl/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../study/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,26 +45,36 @@
     <session id="524486600">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../study/picc_demo/image_base64.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -47,7 +85,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="656" />
     <option name="y" value="122" />
     <option name="width" value="1493" />
@@ -59,6 +97,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,7 +119,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -113,9 +151,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12739871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -153,7 +192,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../study/picc_demo/image_base64.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

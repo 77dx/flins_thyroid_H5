@@ -1,11 +1,13 @@
+/* 资料 */
 .tab_list_4{
 		width: 686rpx;
 		border-bottom: 1px solid #efefef;
-		padding: 0 32rpx;
+		margin: 0 auto;
+		padding: 30rpx 32rpx ;
 		.tab_list_4_inner{
 			width: 100%;
 			margin: 0 auto;
-			padding: 30rpx 0;
+			/* padding: 30rpx 32rpx; */
 			position: relative;
 			.article_title{
 				font-size: 28rpx;
@@ -16,7 +18,7 @@
 				display: inline-block;
 				background: #eef6ff;
 				border-radius: 5px;
-				padding: 0 15rpx;
+				/* padding: 0 15rpx; */
 				margin-right: 20rpx;
 				font-size: 18rpx;
 				color: #005cb7;
@@ -31,7 +33,7 @@
 				align-items: center;
 				justify-content: flex-end;
 				margin-top: -60rpx;
-				
+				margin-right: 15rpx;
 				.money_style{
 					font-size: 30rpx;
 					color: #e81616;
@@ -40,3 +42,90 @@
 			}
 		}
 	}
+.info_share{
+	width: 100%;
+	.info_share_tab{
+		padding: 40rpx 48rpx 0 48rpx;
+		.info_share_title{
+			font-size: 30rpx;
+		}
+		.info_share_content{
+			text-indent: 55rpx;
+		}
+	}
+}
+/* 视频未购买详情页 */
+.video_detail{
+	width: 100%;
+	margin-top: 70rpx;;
+	.navigation_Bar{
+		height: 88rpx;
+	}
+	.video_detail_preview{
+		height: 420rpx;
+		border: 1rpx solid red;
+	}
+	.video_detail_intro{
+		border: 1rpx solid blue;
+		border-bottom: 10rpx solid #f2f2f2;
+		.intro_title{
+			padding: 30rpx 32rpx 0;
+			font-size: 36rpx;
+			color: #333333;
+		}
+		.intro_info{
+			padding: 20rpx 32rpx;
+			.intro_labels{
+				display: flex;
+				flex-direction: row;
+				font-size: 18rpx;
+				height: 50rpx;
+				margin-top: 20rpx;
+				.intro_label_1{
+					color: #005CB7;
+					background-color: #eef6ff;
+					padding: 0 12rpx;
+					margin-right: 20rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.intro_auth{
+				display: flex;
+				margin: 24rpx 0 30rpx 0;
+				.intro_auth_left{
+					color: #666666;
+					font-size: 20rpx;
+				}
+				.intro_auth_right{
+					display: inline-flex;
+					margin-left: auto;
+					color: #999999;
+					font-size: 18rpx;
+				}
+			}
+		}
+		.intro_content{
+			padding: 20rpx 32rpx;
+			margin-bottom: 40rpx;
+			font-size: 24rpx;
+			display: flex;
+			.intro_content_detail{
+				color: #888888;
+			}
+		}	
+	}
+	
+}
+.add{
+	.focus_btn{
+		width: 102rpx;
+		height: 44rpx;
+		line-height: 44rpx;
+		text-align: center;
+		font-size: 24rpx;
+		color: #005cb7;
+		border: 1px solid #005cb7;
+		border-radius: 2px;
+		margin-right: 50rpx;
+	}
+}

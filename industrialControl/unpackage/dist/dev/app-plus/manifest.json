@@ -91,7 +91,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "2.3.7",
+      "compilerVersion": "2.4.2",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",
@@ -135,11 +135,7 @@
         }
       ],
       "borderStyle": "rgba(0,0,0,0.4)",
-      "height": "50px",
-      "child": [
-        "lauchwebview"
-      ],
-      "selected": 3
+      "height": "50px"
     }
   }
 }

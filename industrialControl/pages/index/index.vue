@@ -112,7 +112,7 @@
 						</view>
 					</view>
 				</view>
-				<view class="tab_list_2" style="1px solid blue">
+				<view class="tab_list_2">
 					<image class="tab_list_2_img" src="../../static/img/test.jpeg"></image>
 					<view class="tab_list_2_right">
 						<view class="article_title">2019年全国"安全生产月"和"安全生产万里行"活动开幕式</view>

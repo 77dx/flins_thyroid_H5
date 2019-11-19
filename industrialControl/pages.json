@@ -1,6 +1,16 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+		    "path" : "pages/videoDetail_nopay/videoDetail_nopay",
+		    "style": {
+		    	"navigationBarTitleText": "资料",
+		    	"app-plus" : {
+		    		"titleNView" : false,
+		    		"scrollIndicator":"none"
+		    	}
+		    }
+		},
+		{
 			"path": "pages/information/information",
 			"style": {
 				"navigationBarTitleText": "资料",
@@ -85,8 +95,7 @@
 					"scrollIndicator":"none"
 				}
 			}
-		}
-		
+		} 
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

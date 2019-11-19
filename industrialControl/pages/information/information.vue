@@ -76,6 +76,14 @@
 				</view>
 			</view>
 			
+			<!-- 分享资料 -->
+			<view class="info_share" v-if="tabCurrentIndex === 2">
+				<view class="info_share_tab">
+					<view class="info_share_title">资料分享说明:</view>
+					<view class="info_share_content">如果你有好的资料，可以通过以下方式在平台上给大家分享如果你有好的资料，可以通过以下方式在平台上给大家分享</view>
+				</view>
+			</view>
+			
 		</view>
 		
 		<!-- 弹出框 -->
