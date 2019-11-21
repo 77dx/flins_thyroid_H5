@@ -1,4 +1,4 @@
-#coding=utf-8
+# coding=utf-8
 import unittest
 from fastAutoTest.core.h5.h5Engine import H5Driver
 import uiautomator2
@@ -7,13 +7,13 @@ import subprocess
 from time import sleep
 import test_02_breast
 
+
 class TestH5(unittest.TestCase):
 
-    #运行case的初始化
+    # 运行case的初始化
     @classmethod
     def setUp(self):
         print 'case开始执行了'
-
 
     # case01首页-问卷-问卷结果---mi8
     def test_01(self):
@@ -33,8 +33,8 @@ class TestH5(unittest.TestCase):
             # 初始化uiautomator2
             d2 = self.change_device(device)
 
-            #解锁手机屏幕--mi8
-            cmd = ' adb -s %s shell dumpsys power | findstr "Display Power:state=" '%(device)
+            # 解锁手机屏幕--mi8
+            cmd = ' adb -s %s shell dumpsys power | findstr "Display Power:state=" ' % (device)
             r = os.popen(cmd)
             result = r.readlines()
             for i in result:
@@ -58,9 +58,9 @@ class TestH5(unittest.TestCase):
             # self.index(self.vivo_h5Driver)  # 首页
             # self.evaluation()  # 做问卷
             self.vivo_h5Driver.clickElementByXpath('//*[@id="app"]/div/div[3]/label')
-            self.vip_test01()  #检查黄金会员
-            self.vip_test02()  #检查铂金会员
-            self.vip_test03()  #检查钻石会员
+            self.vip_test01()  # 检查黄金会员
+            self.vip_test02()  # 检查铂金会员
+            self.vip_test03()  # 检查钻石会员
             d2(resourceId="com.tencent.mm:id/kx").click()
         except:
             print 'case01发生异常'
@@ -101,9 +101,9 @@ class TestH5(unittest.TestCase):
             self.eva_result()  # 问卷结果页
             self.B_report(d2)  # 上传B超页
 
-            #判断用例是否执行成功--是否进入最后一页
+            # 判断用例是否执行成功--是否进入最后一页
             submit = self.mi9_h5Driver.getElementTextByXpath('//*[@id="app"]/div/div[2]')
-            result = self.assertNotEqual("完成",submit,msg='图片没有上传成功')
+            result = self.assertNotEqual("完成", submit, msg='图片没有上传成功')
             if result:
                 self.B_report(d2)
 
@@ -117,33 +117,31 @@ class TestH5(unittest.TestCase):
             mi9_child.kill()  # 关闭录屏
             print '关闭录屏'
 
-
     # 所有用例运行完执行一次
     @classmethod
     def tearDown(self):
         print 'case已经执行完毕'
 
-
-    #重启微信，需传入手机pid
-    def open_weixin(self,device):
+    # 重启微信，需传入手机pid
+    def open_weixin(self, device):
         os.system('adb -s %s shell am force-stop com.tencent.mm' % (device))
         os.system('adb -s %s shell am start com.tencent.mm/.ui.LauncherUI' % (device))
         print '微信已重启'
 
-    #选择设备
-    def change_device(self,phone):
+    # 选择设备
+    def change_device(self, phone):
         # 初始化uiautomator2
         d2 = uiautomator2.connect_usb(phone)
         print 'uiautomator初始化完成'
         return d2
 
-    #mi9初始化H5
-    def mi9_H5(self,device,d2):
+    # mi9初始化H5
+    def mi9_H5(self, device, d2):
 
-        #打开微信X5调试
+        # 打开微信X5调试
         d2(resourceId="com.tencent.mm:id/b6e", text=u"文件传输助手").click()
 
-        #重置微信调试
+        # 重置微信调试
         # d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=5).click()
         # sleep(4)
         # d2.click(482, 1394)
@@ -152,23 +150,23 @@ class TestH5(unittest.TestCase):
         # sleep(35)
         # d2(resourceId="android:id/button1").click()
 
-        #进入H5链接
+        # 进入H5链接
         d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=7).click()
         sleep(3)
 
-        #初始化mi9_H5Driver
+        # 初始化mi9_H5Driver
         self.mi9_h5Driver = H5Driver(device)
         self.mi9_h5Driver.initDriver()
         print 'mi9初始化H5Driver完成'
         self.mi9_h5Driver.wait(2)
 
-    #mi8初始化H5
-    def vivo_H5(self,device,d2):
+    # mi8初始化H5
+    def vivo_H5(self, device, d2):
 
-        #微信X5内核调试打开
+        # 微信X5内核调试打开
         d2(resourceId="com.tencent.mm:id/b6e", text=u"文件传输助手").click()
 
-        #重置微信调试
+        # 重置微信调试
         # d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=1).click()
         # sleep(4)
         # d2.click(681, 1602)
@@ -177,7 +175,7 @@ class TestH5(unittest.TestCase):
         # sleep(30)
         # d2(resourceId="android:id/button1").click()
 
-        #进入H5链接
+        # 进入H5链接
         d2(resourceId="com.tencent.mm:id/oe", className="android.view.View", instance=3).click()
         sleep(3)
 
@@ -188,9 +186,8 @@ class TestH5(unittest.TestCase):
         self.vivo_h5Driver.wait(3)
         return self.vivo_h5Driver
 
-
     # 首页
-    def index(self,vivo_h5Driver):
+    def index(self, vivo_h5Driver):
         self.vivo_h5Driver = vivo_h5Driver
         self.vivo_h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div/a')
         self.vivo_h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div/div[77]')
@@ -203,40 +200,40 @@ class TestH5(unittest.TestCase):
 
     # 做测评
     def evaluation(self):
-        #做问卷题目
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="box"]/div/div[3]/div[2]/a[1]')#选择男性
-        self.vivo_h5Driver.wait(1)#等待1s
-        self.vivo_h5Driver.textElementByXpath('//*[@id="divHeight"]/div[2]/div[2]/div/div[2]/input', '185')#输入身高185
+        # 做问卷题目
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="box"]/div/div[3]/div[2]/a[1]')  # 选择男性
+        self.vivo_h5Driver.wait(1)  # 等待1s
+        self.vivo_h5Driver.textElementByXpath('//*[@id="divHeight"]/div[2]/div[2]/div/div[2]/input', '185')  # 输入身高185
         self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]')
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[3]/div[2]/div/a[1]')#选择<40岁
-        self.vivo_h5Driver.textElementByXpath('//*[@id="divHeight"]/div[4]/div[2]/div/div[2]/input', '45')#输入体重70
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[3]/div[2]/div/a[1]')  # 选择<40岁
+        self.vivo_h5Driver.textElementByXpath('//*[@id="divHeight"]/div[4]/div[2]/div/div[2]/input', '45')  # 输入体重70
         self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]')
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[5]/div[2]/div/a[1]')#选择北上广
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[6]/div[2]/div/a[1]')#选择大专、本科
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[5]/div[2]/div/a[1]')  # 选择北上广
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[6]/div[2]/div/a[1]')  # 选择大专、本科
         self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[7]/div[2]/div/a[3]')
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[7]/div[2]/div/label')#没有或者不知道
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[7]/div[2]/div/label')  # 没有或者不知道
         self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[8]/div[2]/div/a[1]')
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[8]/div[2]/div/label')#父母子女
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[8]/div[2]/div/label')  # 父母子女
         self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[9]/div[2]/div/a[3]')
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[9]/div[2]/div/label')#以上都没有
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[10]/div[2]/div/a[2]')#没有或者不知道
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[11]/div[2]/div/a[2]')#没有或者不知道
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[12]/div[2]/div/a[2]')#有
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[9]/div[2]/div/label')  # 以上都没有
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[10]/div[2]/div/a[2]')  # 没有或者不知道
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[11]/div[2]/div/a[2]')  # 没有或者不知道
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[12]/div[2]/div/a[2]')  # 有
         self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[13]/div[2]/div/a[5]')
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[13]/div[2]/div/label')#我是乐天派
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[14]/div[2]/div/a[1]')#压力山大
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[15]/div[2]/div/a[2]')#特立独行
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[16]/div[2]/div/a[2]')#没兴趣
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[13]/div[2]/div/label')  # 我是乐天派
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[14]/div[2]/div/a[1]')  # 压力山大
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[15]/div[2]/div/a[2]')  # 特立独行
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="divHeight"]/div[16]/div[2]/div/a[2]')  # 没兴趣
         # 提交问卷
-        self.vivo_h5Driver.clickElementByXpath('//*[@id="box"]/div/div[5]/div/div[2]/a')#提交
+        self.vivo_h5Driver.clickElementByXpath('//*[@id="box"]/div/div[5]/div/div[2]/a')  # 提交
 
     # 问卷结果页
     def eva_result(self):
-        self.mi9_h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[1]/div[1]/label')#滚到页面顶部
-        self.mi9_h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[6]/span')#滚到页面底部
-        self.mi9_h5Driver.clickElementByXpath('//*[@id="app"]/div/div[3]/label')#点击超声评估
+        self.mi9_h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[1]/div[1]/label')  # 滚到页面顶部
+        self.mi9_h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[6]/span')  # 滚到页面底部
+        self.mi9_h5Driver.clickElementByXpath('//*[@id="app"]/div/div[3]/label')  # 点击超声评估
 
-    #黄金会员会员套餐页面
+    # 黄金会员会员套餐页面
     def vip_test01(self):
         # 获取会员类型
         gold = self.vivo_h5Driver.getElementTextByXpath('//*[@id="app"]/div/div[2]/div/div[1]/div[1]/label')
@@ -336,24 +333,23 @@ class TestH5(unittest.TestCase):
         self.vivo_h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div/div[77]')
 
     # 上传B超报告
-    def B_report(self,d2):
-        self.mi9_h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[2]/div[1]/span')#详情示范
+    def B_report(self, d2):
+        self.mi9_h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[2]/div[1]/span')  # 详情示范
         self.mi9_h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[12]/label')
-        self.mi9_h5Driver.returnLastPage()#返回上一页
+        self.mi9_h5Driver.returnLastPage()  # 返回上一页
         # 上传图片
         self.mi9_h5Driver.clickElementByXpath('//*[@id="file"]')
-        d2(resourceId="android:id/icon", className="android.widget.ImageView", instance=1).click()#文件
+        d2(resourceId="android:id/icon", className="android.widget.ImageView", instance=1).click()  # 文件
         sleep(5)
-        d2(resourceId="com.android.documentsui:id/icon_thumb").click() # mi9选择图片
-        self.mi9_h5Driver.wait(5)#等待5s
+        d2(resourceId="com.android.documentsui:id/icon_thumb").click()  # mi9选择图片
+        self.mi9_h5Driver.wait(5)  # 等待5s
         self.mi9_h5Driver.clickElementByXpath('//*[@id="checkTimeStr"]')
-        self.mi9_h5Driver.clickElementByXpath('/html/body/div[6]/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/span')#选择体检时间
+        self.mi9_h5Driver.clickElementByXpath(
+            '/html/body/div[6]/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/span')  # 选择体检时间
         # 提交报告
         self.mi9_h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[3]/div[2]')
-        self.mi9_h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[4]')#点击提交
-
+        self.mi9_h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[4]')  # 点击提交
 
 
 if __name__ == '__main__':
-
     unittest.main()

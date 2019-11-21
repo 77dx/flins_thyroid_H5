@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Test Report Flins</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    
+<style type="text/css" media="screen">
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 500px;
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div class="container">
+    <div class='heading'>
+<h1>Test Report Flins</h1>
+<p><strong>Start Time:</strong> 2019-11-19 13:51:47</p>
+<p><strong>Duration:</strong> 0:01:17.476000</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>1</strong></span> <span class="text text-warning">Error <strong>1</strong></span></p>
+
+<p class='description'>H5</p>
+</div>
+
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">Summary</span>
+<span class="label label-danger" onclick="showCase(1)">Failed</span>
+<span class="label label-default" onclick="showCase(2)">All</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>Test Group/Test case</td>
+            <th>Count</td>
+            <th>Pass</td>
+            <th>Fail</td>
+            <th>Error</td>
+            <th>View</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-success'>
+    <td>test_01_thyroid.TestH5</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',1)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: case开始执行了
+9f85839手机MP4已删除
+电脑没有MP4文件
+uiautomator初始化完成
+微信已重启
+2019-11-19 13:52:02,240 63984 initDriver url ----&gt; ws://localhost:9222/devtools/page/EDA026CD85C9D2A8C9DA8B4646B1C5DD
+vivo初始化H5Driver完成
+9f85839录屏启动成功
+2019-11-19 13:52:05,243 63984 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-11-19 13:52:05,743 63984 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-11-19 13:52:05,759 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-11-19 13:52:06,098 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[77]
+2019-11-19 13:52:21,717 63984 returnLastPage 
+2019-11-19 13:52:22,750 63984 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-11-19 13:52:23,252 63984 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-11-19 13:52:23,269 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-11-19 13:52:23,543 63984 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-11-19 13:52:24,043 63984 isElementExist xpath ---&gt; //*[@id="app"]/div/div/a
+2019-11-19 13:52:24,076 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-11-19 13:52:24,391 63984 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-11-19 13:52:24,891 63984 isElementExist xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-11-19 13:52:24,910 63984 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-11-19 13:52:26,221 63984 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/input text ---&gt; 185
+2019-11-19 13:52:26,848 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:27,348 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:27,382 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:27,746 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-11-19 13:52:28,246 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-11-19 13:52:28,263 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-11-19 13:52:28,553 63984 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/input text ---&gt; 45
+2019-11-19 13:52:29,122 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:29,624 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:29,655 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:29,944 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-11-19 13:52:30,444 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-11-19 13:52:30,479 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-11-19 13:52:30,821 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-11-19 13:52:31,321 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-11-19 13:52:31,357 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-11-19 13:52:31,618 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-11-19 13:52:32,118 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-11-19 13:52:32,135 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-11-19 13:52:32,365 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-11-19 13:52:32,865 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-11-19 13:52:32,884 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-11-19 13:52:33,160 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-11-19 13:52:33,660 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-11-19 13:52:33,676 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-11-19 13:52:33,895 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-11-19 13:52:34,397 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-11-19 13:52:34,414 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-11-19 13:52:34,655 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-11-19 13:52:35,157 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-11-19 13:52:35,167 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-11-19 13:52:35,441 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-11-19 13:52:35,941 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-11-19 13:52:35,976 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-11-19 13:52:36,296 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-11-19 13:52:36,796 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-11-19 13:52:36,815 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-11-19 13:52:37,105 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-11-19 13:52:37,607 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-11-19 13:52:37,615 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-11-19 13:52:37,882 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-11-19 13:52:38,382 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-11-19 13:52:38,401 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-11-19 13:52:38,683 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-11-19 13:52:39,184 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-11-19 13:52:39,217 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-11-19 13:52:39,450 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-11-19 13:52:39,950 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-11-19 13:52:39,967 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-11-19 13:52:40,276 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-11-19 13:52:40,776 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-11-19 13:52:40,793 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-11-19 13:52:41,092 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-11-19 13:52:41,594 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-11-19 13:52:41,611 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-11-19 13:52:41,862 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-11-19 13:52:42,364 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-11-19 13:52:42,397 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-11-19 13:52:42,681 63984 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-11-19 13:52:43,183 63984 isElementExist xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-11-19 13:52:43,217 63984 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+already quit
+关闭9f85839录屏
+关闭9f85839手机录屏
+case已经执行完毕
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr class='text text-warning'>
+    <td>test_02_breast.breast_H5</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c2',1)">Detail</a></td>
+</tr>
+
+<tr id='ft2.1' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        error</a>
+    <div id='div_ft2.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.1: case开始执行了
+9f85839手机MP4已删除
+电脑没有MP4文件
+uiautomator初始化完成
+微信已重启
+2019-11-19 13:52:02,240 63984 initDriver url ----&gt; ws://localhost:9222/devtools/page/EDA026CD85C9D2A8C9DA8B4646B1C5DD
+vivo初始化H5Driver完成
+9f85839录屏启动成功
+2019-11-19 13:52:05,243 63984 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-11-19 13:52:05,743 63984 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-11-19 13:52:05,759 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div/a
+2019-11-19 13:52:06,098 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[77]
+2019-11-19 13:52:21,717 63984 returnLastPage 
+2019-11-19 13:52:22,750 63984 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-11-19 13:52:23,252 63984 isElementExist xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-11-19 13:52:23,269 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/div[2]/label
+2019-11-19 13:52:23,543 63984 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-11-19 13:52:24,043 63984 isElementExist xpath ---&gt; //*[@id="app"]/div/div/a
+2019-11-19 13:52:24,076 63984 scrollToElementByXpath xpath ---&gt; //*[@id="app"]/div/div/a
+2019-11-19 13:52:24,391 63984 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-11-19 13:52:24,891 63984 isElementExist xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-11-19 13:52:24,910 63984 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[3]/div[2]/a[1]
+2019-11-19 13:52:26,221 63984 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/input text ---&gt; 185
+2019-11-19 13:52:26,848 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:27,348 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:27,382 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[2]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:27,746 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-11-19 13:52:28,246 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-11-19 13:52:28,263 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[3]/div[2]/div/a[1]
+2019-11-19 13:52:28,553 63984 textElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/input text ---&gt; 45
+2019-11-19 13:52:29,122 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:29,624 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:29,655 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[4]/div[2]/div/div[2]/label[2]
+2019-11-19 13:52:29,944 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-11-19 13:52:30,444 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-11-19 13:52:30,479 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[5]/div[2]/div/a[1]
+2019-11-19 13:52:30,821 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-11-19 13:52:31,321 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-11-19 13:52:31,357 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[6]/div[2]/div/a[1]
+2019-11-19 13:52:31,618 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-11-19 13:52:32,118 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-11-19 13:52:32,135 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/a[3]
+2019-11-19 13:52:32,365 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-11-19 13:52:32,865 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-11-19 13:52:32,884 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[7]/div[2]/div/label
+2019-11-19 13:52:33,160 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-11-19 13:52:33,660 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-11-19 13:52:33,676 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/a[1]
+2019-11-19 13:52:33,895 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-11-19 13:52:34,397 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-11-19 13:52:34,414 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[8]/div[2]/div/label
+2019-11-19 13:52:34,655 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-11-19 13:52:35,157 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-11-19 13:52:35,167 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/a[3]
+2019-11-19 13:52:35,441 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-11-19 13:52:35,941 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-11-19 13:52:35,976 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[9]/div[2]/div/label
+2019-11-19 13:52:36,296 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-11-19 13:52:36,796 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-11-19 13:52:36,815 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[10]/div[2]/div/a[2]
+2019-11-19 13:52:37,105 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-11-19 13:52:37,607 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-11-19 13:52:37,615 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[11]/div[2]/div/a[2]
+2019-11-19 13:52:37,882 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-11-19 13:52:38,382 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-11-19 13:52:38,401 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[12]/div[2]/div/a[2]
+2019-11-19 13:52:38,683 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-11-19 13:52:39,184 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-11-19 13:52:39,217 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/a[5]
+2019-11-19 13:52:39,450 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-11-19 13:52:39,950 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-11-19 13:52:39,967 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[13]/div[2]/div/label
+2019-11-19 13:52:40,276 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-11-19 13:52:40,776 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-11-19 13:52:40,793 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[14]/div[2]/div/a[1]
+2019-11-19 13:52:41,092 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-11-19 13:52:41,594 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-11-19 13:52:41,611 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[15]/div[2]/div/a[2]
+2019-11-19 13:52:41,862 63984 clickElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-11-19 13:52:42,364 63984 isElementExist xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-11-19 13:52:42,397 63984 scrollToElementByXpath xpath ---&gt; //*[@id="divHeight"]/div[16]/div[2]/div/a[2]
+2019-11-19 13:52:42,681 63984 clickElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-11-19 13:52:43,183 63984 isElementExist xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+2019-11-19 13:52:43,217 63984 scrollToElementByXpath xpath ---&gt; //*[@id="box"]/div/div[5]/div/div[2]/a
+already quit
+关闭9f85839录屏
+关闭9f85839手机录屏
+case已经执行完毕
+9f85839手机MP4已删除
+电脑vivo_MP4已删除
+uiautomator初始化完成
+Traceback (most recent call last):
+  File "E:\git_repo\Test_Weixin\TestCase\test_02_breast.py", line 38, in setUp
+    d2(resourceId="com.tencent.mm:id/apn").click()
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 39, in _inner
+    return fn(self, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 745, in click
+    self.must_wait(timeout=timeout)
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 938, in must_wait
+    raise UiObjectNotFoundError({'code': -32002, 'method': 'wait'})
+UiObjectNotFoundError: -32002 Client error: &lt;&gt; data: , method: None
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>2</td>
+            <td class="text text-success">1</td>
+            <td class="text text-danger">0</td>
+            <td class="text text-warning">1</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+</body>
+</html>

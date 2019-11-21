@@ -128,19 +128,19 @@
 		methods: {
 			// 跳转我的提问
 			toQuestion(){
-				uni.redirectTo({
+				uni.navigateTo({
 				    url: '../myQuestion/myQuestion'
 				});
 			},
 			// 跳转我的回答
 			toAnswer(){
-				uni.redirectTo({
+				uni.navigateTo({
 				    url: '../myAnswer/myAnswer'
 				});
 			},
 			//跳转我购买的资料
 			toMypay(){
-				uni.redirectTo({
+				uni.navigateTo({
 					url: '../myPay/myPay'
 				});
 			},

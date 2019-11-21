@@ -1,0 +1,233 @@
+/* 资料 */
+.tab_list_4{
+		width: 686rpx;
+		border-bottom: 1px solid #efefef;
+		margin: 0 auto;
+		padding: 30rpx 32rpx ;
+		.tab_list_4_inner{
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+			.article_title{
+				font-size: 28rpx;
+				line-height: 40rpx;
+				color: #333333;
+			}
+			.tab_list2_label{
+				display: inline-block;
+				background: #eef6ff;
+				border-radius: 5px;
+				margin-right: 20rpx;
+				font-size: 18rpx;
+				color: #005cb7;
+			}
+			.watch_people{
+				margin-top: 18rpx;
+				font-size: 20rpx;
+				color: #999999;
+			}
+			.botton_right{
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				margin-top: -60rpx;
+				margin-right: 15rpx;
+				.money_style{
+					font-size: 30rpx;
+					color: #e81616;
+					margin-top: 10rpx;
+				}
+			}
+		}
+	}
+.info_share{
+	width: 100%;
+	.info_share_tab{
+		padding: 40rpx 48rpx 0 48rpx;
+		.info_share_title{
+			font-size: 30rpx;
+		}
+		.info_share_content{
+			text-indent: 55rpx;
+		}
+	}
+}
+/* 视频未购买详情页 */
+.video_detail{
+	width: 100%;
+	.video_detail_preview{
+		width: 100%;
+		height: 420rpx;
+		position: relative;
+		.no_view{
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.7);
+			position: absolute;
+			top: 0;
+			left: 0;
+			.lock_img{
+				width: 86rpx;
+				height: 86rpx;
+				display: block;
+				margin: 0 auto;
+				margin-top: 100rpx;
+			}
+			.to_buy{
+				font-size: 24rpx;
+				color: #453008;
+				line-height: 60rpx;
+				text-align: center;
+				width: 300rpx;
+				border-radius: 30rpx;
+				background: #F5BC6E;
+				border: 1px solid #F5BC6E;
+				margin: 0 auto;
+				margin-top: 20rpx;
+			}
+		}
+	}
+	.video_detail_intro{
+		border-bottom: 10rpx solid #f2f2f2;
+		.intro_title{
+			padding: 30rpx 32rpx 0;
+			font-size: 36rpx;
+			color: #333333;
+		}
+		.intro_info{
+			padding: 20rpx 32rpx 0 32rpx;
+			border-bottom: 1rpx solid #f2f2f2;
+			.intro_labels{
+				display: flex;
+				flex-direction: row;
+				font-size: 18rpx;
+				.intro_label_1{
+					color: #005CB7;
+					font-size: 18rpx;
+					background-color: #eef6ff;
+					padding: 0 12rpx;
+					margin-right: 20rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.intro_auth{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin: 24rpx 0 30rpx 0;
+				.intro_auth_left{
+					color: #666666;
+					font-size: 20rpx;
+					.intro_auth_left_inner{
+						font-size: 20rpx;
+						color: #666666;
+					}
+				}
+				.intro_auth_right{
+					margin-left: 32rpx;
+				}
+			}
+		}
+		.intro_content{
+			padding: 20rpx 32rpx;
+			margin-bottom: 20rpx;
+			font-size: 24rpx;
+			display: flex;
+			.intro_content_detail{
+				color: #888888;
+				font-size: 24rpx;
+			}
+		}	
+	}
+}
+.add{
+	.focus_btn{
+		width: 102rpx;
+		height: 44rpx;
+		line-height: 44rpx;
+		text-align: center;
+		font-size: 24rpx;
+		color: #005cb7;
+		border: 1px solid #005cb7;
+		border-radius: 2px;
+		margin-right: 50rpx;
+	}
+}
+.popup_content{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.2);
+}
+.popup_shadow{
+	position:absolute;
+	top:50%;
+	left:50%; 
+	width:400rpx; 
+	height:300rpx; 
+	margin-top:-200rpx; 
+	margin-left:-200rpx;
+	background: rgba(255,255,255,1);
+	-webkit-box-shadow: #aaa 0px 0px 5px;
+	-moz-box-shadow: #aaa 0px 0px 5px;
+	box-shadow: #aaa 0px 0px 5px;
+	border-radius: 5rpx;
+	z-index: 3;
+	.popup_tips{
+		width: 90%;
+		margin: 60rpx auto 50rpx auto;
+		font-size: 24rpx;
+		color: #666666;
+	}
+	.popup_know{
+		width: 100%;
+		height: 80rpx;
+		line-height: 80rpx;
+		color: #005cb7;
+		font-size: 28rpx;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		border-top: 1rpx solid #efefef;
+	}
+	.buy_title{
+		width: 100%;
+		height: 88rpx;
+		text-align: center;
+		line-height: 88rpx;
+		color: #333333;
+		font-size: 30rpx;
+		border-bottom: 1rpx solid #efefef;
+	}
+	.buy_money{
+		font-size: 36rpx;
+		text-align: center;
+		color: #f64427;
+		margin: 70rpx 0 auto 0;
+	}
+	.buy_btn{
+		width: 100%;
+		height: 80rpx;
+		line-height: 80rpx;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		border-top: 1rpx solid #efefef;
+		.buy_btn_inner{
+			width: 50%;
+			border-right: 1rpx solid #efefef;
+			text-align: center;
+		}
+		.to_pay_btn{
+			color: #0db700;
+			border-right: none;
+		}
+	}
+}
+

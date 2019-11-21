@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式</title>
+</head>
+<body>
+
+    <p>replace的用法</p>
+    <p id = "demo">hello microsoft</p>
+    <button onclick="myfuc()">点我修改文字</button>
+
+    <script>
+        function myfuc(){
+            var str = document.getElementById("demo").innerHTML;
+            var text = str.replace(/microsoft/i,"Runoob");
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+
+</body>
+</html>
+
+<!--正则表达式修饰符
+修饰符 可以在全局搜索中不区分大小写:
+
+修饰符	描述
+i	执行对大小写不敏感的匹配。
+g	执行全局匹配（查找所有匹配而非在找到第一个匹配后停止）。
+m	执行多行匹配。
+
+-->

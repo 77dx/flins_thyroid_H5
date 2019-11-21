@@ -6,6 +6,11 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Logs/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestCase/test_02_breast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase2/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase2/model/thyroid_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase2/test_01_thyroid2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase2/thyroidCase.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Util/getQiniuKey/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Util/getQiniuKey/getKey.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Util/getQiniuKey/keys.xls" afterDir="false" />
@@ -21,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_01_thyroid_TestH5_test_01.coverage" NAME="Unittests for test_01_thyroid.TestH5.test_01 Coverage Results" MODIFIED="1560395062559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_01_thyroid_TestH5_test_01.coverage" NAME="Unittests for test_01_thyroid.TestH5.test_01 Coverage Results" MODIFIED="1574143940691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_02_breast_breast_H5.coverage" NAME="Unittests for test_02_breast.breast_H5 Coverage Results" MODIFIED="1560392394458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1560991759511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5_test_01.coverage" NAME="Unittests for test_H5_B.TestH5.test_01 Coverage Results" MODIFIED="1557972550097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -38,7 +43,7 @@
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_thyroid_TestH5.coverage" NAME="Unittests for test_thyroid.TestH5 Coverage Results" MODIFIED="1560231350416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_Thyroid_H5_TestH5.coverage" NAME="Unittests for test_Thyroid_H5.TestH5 Coverage Results" MODIFIED="1557214741697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_main_test_main.coverage" NAME="Unittests for test_main.test_main Coverage Results" MODIFIED="1559207512655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_01_thyroid_TestH5.coverage" NAME="Unittests for test_01_thyroid.TestH5 Coverage Results" MODIFIED="1560394142901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_01_thyroid_TestH5.coverage" NAME="Unittests for test_01_thyroid.TestH5 Coverage Results" MODIFIED="1574135858827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_in_test_Thyroid_H5_py.coverage" NAME="Unittests in test_Thyroid_H5.py Coverage Results" MODIFIED="1557051202612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_Thyroid_H5_TestH5_test_0index.coverage" NAME="Unittests for test_Thyroid_H5.TestH5.test_0index Coverage Results" MODIFIED="1557036605647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_Thyroid_H5_TestH5_test_index.coverage" NAME="Unittests for test_Thyroid_H5.TestH5.test_index Coverage Results" MODIFIED="1556532095133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -51,7 +56,7 @@
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5.coverage" NAME="Unittests for test.TestH5 Coverage Results" MODIFIED="1560213522380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report.coverage" NAME="runtest_Report Coverage Results" MODIFIED="1556529960147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_Test_ThyroidH5_TestH5.coverage" NAME="Unittests for Test_ThyroidH5.TestH5 Coverage Results" MODIFIED="1556527620267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1560395273103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_Weixin$runtest_Report_BS.coverage" NAME="runtest_Report_BS Coverage Results" MODIFIED="1574142707464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_H5_B_TestH5_test_02.coverage" NAME="Unittests for test_H5_B.TestH5.test_02 Coverage Results" MODIFIED="1557911510277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_TestH5_test_02.coverage" NAME="Unittests for test.TestH5.test_02 Coverage Results" MODIFIED="1560212224687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/Test_Weixin$Unittests_for_test_main_TestH5.coverage" NAME="Unittests for test_main.TestH5 Coverage Results" MODIFIED="1557992435983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -152,9 +157,9 @@
     <session id="-244299420">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -164,35 +169,100 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="40" />
+          <entry key="html" value="1" />
+          <entry key="py" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="40" />
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="9" />
-          <entry key="py" value="697" />
+          <entry key="dummy" value="10" />
+          <entry key="py" value="1358" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="697" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="1358" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase2/thyroidCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="e#23#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase2/test_01_thyroid2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#38#53#0" expanded="true" />
+                <marker date="1574153604673" expanded="true" signature="313:314" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase2/model/thyroid_init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
+                <marker date="1574156552203" expanded="true" signature="173:174" ph="..." />
+                <marker date="1574156552203" expanded="true" signature="435:436" ph="..." />
+                <marker date="1574156552203" expanded="true" signature="595:684" ph="..." />
+                <marker date="1574156552203" expanded="true" signature="715:716" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="29" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="29" selection-start-line="27" selection-start-column="8" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,9 +274,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>self.vivo_h5Driver</find>
+      <find>self.H</find>
+      <find>self.H5Driver</find>
+      <find>vivo_h5Driver</find>
+      <find>mi9_h5Driver</find>
     </findStrings>
     <replaceStrings>
       <replace>device1_h5Driver</replace>
+      <replace>self.H5Driver</replace>
+      <replace>self.h5Driver</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -239,14 +315,18 @@
         <option value="$PROJECT_DIR$/send_Mail.py" />
         <option value="$PROJECT_DIR$/TestCase/test_breast.py" />
         <option value="C:/Python27/Lib/BSTestRunner.py" />
-        <option value="$PROJECT_DIR$/runtest_Report_BS.py" />
         <option value="$PROJECT_DIR$/TestCase/test_thyroid.py" />
         <option value="$PROJECT_DIR$/test_demo.py" />
         <option value="$PROJECT_DIR$/TestCase/test_02_breast.py" />
         <option value="$PROJECT_DIR$/mail_breast.py" />
         <option value="$PROJECT_DIR$/ddos_demo/scapy_demo.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_01_thyroid.py" />
         <option value="$PROJECT_DIR$/Util/operateMysql.py" />
+        <option value="$PROJECT_DIR$/runtest_Report_BS.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_01_thyroid.py" />
+        <option value="$PROJECT_DIR$/TestCase2/test_01_thyroid.py" />
+        <option value="$PROJECT_DIR$/TestCase2/thyroidCase.py" />
+        <option value="$PROJECT_DIR$/TestCase2/test_01_thyroid2.py" />
+        <option value="$PROJECT_DIR$/TestCase2/model/thyroid_init.py" />
       </list>
     </option>
   </component>
@@ -256,11 +336,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="850" />
-    <option name="y" value="221" />
-    <option name="width" value="1036" />
-    <option name="height" value="733" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="398" />
+    <option name="y" value="163" />
+    <option name="width" value="1371" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -270,6 +350,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,35 +361,34 @@
             <path>
               <item name="Test_Weixin" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test_Weixin" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCase2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/git_OCRTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_repo\Test_Weixin\Util" />
+      <recent name="E:\git_repo\Test_Weixin" />
+      <recent name="C:\Python27\Lib" />
+      <recent name="D:\git_repo\Test_Weixin" />
+      <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\Util" />
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin" />
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\venv" />
       <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\TestCase" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\git_repo\Test_Weixin" />
-      <recent name="C:\Python27\Lib" />
-      <recent name="D:\git_repo\Test_Weixin" />
-      <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin" />
-      <recent name="D:\Users\cathy\PycharmProjects\Test_Weixin\Util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,7 +403,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_demo">
+  <component name="RunManager" selected="Python tests.Unittests for test_01_thyroid.TestH5.test_01">
     <configuration name="runtest_Report_BS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test_Weixin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -429,11 +509,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5.test_01" />
+        <item itemvalue="Python.runtest_Report_BS" />
+        <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5" />
         <item itemvalue="Python.test_demo" />
         <item itemvalue="Python.scapy_demo" />
-        <item itemvalue="Python.runtest_Report_BS" />
-        <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5.test_01" />
-        <item itemvalue="Python tests.Unittests for test_01_thyroid.TestH5" />
       </list>
     </recent_temporary>
   </component>
@@ -459,27 +539,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 18h 11m 10s.xml">
-      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.12 at 18h 13m 10s.xml">
-      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_02_breast_breast_H5 - 2019.06.13 at 10h 00m 44s.xml">
-      <configuration name="Unittests for test_02_breast.breast_H5" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_02_breast_breast_H5 - 2019.06.13 at 10h 05m 27s.xml">
-      <configuration name="Unittests for test_02_breast.breast_H5" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_02_breast_py - 2019.06.13 at 10h 18m 55s.xml">
-      <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_02_breast_breast_H5 - 2019.06.13 at 10h 19m 27s.xml">
-      <configuration name="Unittests for test_02_breast.breast_H5" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_02_breast_breast_H5 - 2019.06.13 at 10h 19m 55s.xml">
-      <configuration name="Unittests for test_02_breast.breast_H5" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_02_breast_py - 2019.06.13 at 10h 34m 24s.xml">
       <configuration name="Unittests in test_02_breast.py" configurationId="tests" />
     </history-entry>
@@ -487,6 +546,27 @@
       <configuration name="Unittests for test_01_thyroid.TestH5" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_01_thyroid_TestH5_test_01 - 2019.06.13 at 11h 05m 54s.xml">
+      <configuration name="Unittests for test_01_thyroid.TestH5.test_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01_thyroid_TestH5 - 2019.11.19 at 11h 57m 32s.xml">
+      <configuration name="Unittests for test_01_thyroid.TestH5" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01_thyroid_TestH5 - 2019.11.19 at 11h 58m 01s.xml">
+      <configuration name="Unittests for test_01_thyroid.TestH5" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01_thyroid_TestH5_test_01 - 2019.11.19 at 11h 58m 31s.xml">
+      <configuration name="Unittests for test_01_thyroid.TestH5.test_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01_thyroid_TestH5_test_01 - 2019.11.19 at 12h 00m 16s.xml">
+      <configuration name="Unittests for test_01_thyroid.TestH5.test_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01_thyroid_TestH5_test_01 - 2019.11.19 at 12h 32m 00s.xml">
+      <configuration name="Unittests for test_01_thyroid.TestH5.test_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01_thyroid_TestH5_test_01 - 2019.11.19 at 13h 42m 12s.xml">
+      <configuration name="Unittests for test_01_thyroid.TestH5.test_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_01_thyroid_TestH5_test_01 - 2019.11.19 at 14h 12m 59s.xml">
       <configuration name="Unittests for test_01_thyroid.TestH5.test_01" configurationId="tests" />
     </history-entry>
   </component>
@@ -500,14 +580,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117803834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36334056" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31236443" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,7 +602,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.023987208" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.01705757" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
@@ -559,13 +639,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="初次上传" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/ss.png" />
-    <entry file="file://$PROJECT_DIR$/TestCase/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestReport/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/pic27.png" />
-    <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/pic28.png" />
     <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/pic29.png" />
     <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/pic03.png" />
     <entry file="file://$PROJECT_DIR$/TestReport/PIC_screenshot/pic02.png" />
@@ -660,30 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Util/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Util/operateMysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/operateMysql.py" />
     <entry file="file://$PROJECT_DIR$/Util/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -691,17 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
+    <entry file="file://$PROJECT_DIR$/test_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5496">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -712,10 +755,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_demo.py">
+    <entry file="file://$PROJECT_DIR$/Util/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="342">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestReport/19-11-19 13_51_47result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase2/test_01_thyroid.py" />
+    <entry file="file://$PROJECT_DIR$/runtest_Report_BS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase2/thyroidCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#23#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase2/test_01_thyroid2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+            <marker date="1574153604673" expanded="true" signature="313:314" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase2/model/thyroid_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+            <marker date="1574156552203" expanded="true" signature="173:174" ph="..." />
+            <marker date="1574156552203" expanded="true" signature="435:436" ph="..." />
+            <marker date="1574156552203" expanded="true" signature="595:684" ph="..." />
+            <marker date="1574156552203" expanded="true" signature="715:716" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_01_thyroid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_02_breast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" selection-start-line="27" selection-start-column="8" selection-end-line="29" />
         </state>
       </provider>
     </entry>

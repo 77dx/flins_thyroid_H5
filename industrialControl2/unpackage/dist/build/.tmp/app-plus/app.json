@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/ask/ask",
+    "pages/myQuestion/myQuestion",
+    "pages/questionToTalent/questionToTalent",
+    "pages/question/question",
+    "pages/answerDetail/answerDetail",
+    "pages/questionDetail/questionDetail",
+    "pages/myAnswer/myAnswer",
+    "pages/questionDetail/questionDetail",
+    "pages/login/login",
+    "pages/setTag/setTag",
+    "pages/setTag/setTag",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/information/information"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "工控系统",
+    "navigationBarBackgroundColor": "#005CB7",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#005cb7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/btn_home@2x.png",
+        "selectedIconPath": "static/img/btn_home_pre@2x.png"
+      },
+      {
+        "pagePath": "pages/ask/ask",
+        "text": "问答",
+        "iconPath": "static/img/btn_answer@2x.png",
+        "selectedIconPath": "static/img/btn_answer_pre@2x.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "资料",
+        "iconPath": "static/img/btn_ziliao@2x.png",
+        "selectedIconPath": "static/img/btn_ziliao_pre@2x.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/img/btn_mine@2x.png",
+        "selectedIconPath": "static/img/btn_mine_pre@2x.png"
+      }
+    ],
+    "midButton": {
+      "width": "80px",
+      "height": "70px",
+      "text": "",
+      "iconWidth": "24px",
+      "backgroundImage": "static/img/btn_ask@2x.png"
+    }
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "com.lanchonggk.gk",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}

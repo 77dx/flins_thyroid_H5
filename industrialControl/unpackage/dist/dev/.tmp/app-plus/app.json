@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/videoDetail_nopay/videoDetail_nopay",
     "pages/information/information",
-    "pages/index/index",
     "pages/myPay/myPay",
     "pages/ask/ask",
     "pages/questionToTalent/questionToTalent",

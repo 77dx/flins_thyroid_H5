@@ -25,5 +25,5 @@ def run():
 if __name__ == '__main__':
    run()
    send_Mail.send_email()
-   mail_breast.send_email()
+   # mail_breast.send_email()
 

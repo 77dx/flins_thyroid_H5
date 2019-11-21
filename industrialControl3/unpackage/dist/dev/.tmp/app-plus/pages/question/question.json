@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "提 问",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-tag": "/components/uni-tag/uni-tag"
+  }
+}
