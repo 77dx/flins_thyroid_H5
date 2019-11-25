@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 from time import sleep
-from Util.logger import Logger
+from util.logger import Logger
 
 
 
@@ -8,14 +8,14 @@ from Util.logger import Logger
 甲状腺页面case
 '''
 
-logger = Logger(logger="LoginPage").getlog()
+logger = Logger(logger="ThyroidPage").getlog()
 class ThyroidCase():
 
     def __init__(self,h5Driver):
         self.h5Driver = h5Driver
 
     # 首页
-    def index(self, h5Driver):
+    def index(self):
         self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div/a')
         logger.info('查看用户使用协议')
         self.h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div/div[77]')
@@ -167,23 +167,27 @@ class ThyroidCase():
 
     # 上传B超报告
     def B_report(self, d2):
-        self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[2]/div[1]/span')  # 详情示范
-        logger.info('点击详情示范')
-        self.h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[12]/label')
-        self.h5Driver.returnLastPage()  # 返回上一页
-        # 上传图片
-        self.h5Driver.clickElementByXpath('//*[@id="file"]')
-        d2(resourceId="android:id/icon", className="android.widget.ImageView", instance=1).click()  # 文件
-        sleep(5)
-        d2(resourceId="com.android.documentsui:id/icon_thumb").click()  # mi9选择图片
-        self.h5Driver.wait(5)  # 等待5s
-        self.h5Driver.clickElementByXpath('//*[@id="checkTimeStr"]')
-        self.h5Driver.clickElementByXpath(
-            '/html/body/div[6]/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/span')  # 选择体检时间
-        # 提交报告
-        self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[3]/div[2]')
-        self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[4]')  # 点击提交
-        logger.info('B超报告提交成功')
+        try:
+            self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div[3]/label')  # 点击超声评估
+            self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[2]/div[1]/span')  # 详情示范
+            logger.info('点击详情示范')
+            self.h5Driver.scrollToElementByXpath('//*[@id="app"]/div/div[12]/label')
+            self.h5Driver.returnLastPage()  # 返回上一页
+            # 上传图片
+            self.h5Driver.clickElementByXpath('//*[@id="file"]')
+            d2(resourceId="android:id/icon", className="android.widget.ImageView", instance=1).click()  # 文件
+            sleep(5)
+            d2(resourceId="com.android.documentsui:id/icon_thumb").click()  # mi9选择图片
+            self.h5Driver.wait(5)  # 等待5s
+            self.h5Driver.clickElementByXpath('//*[@id="checkTimeStr"]')
+            self.h5Driver.clickElementByXpath(
+                '/html/body/div[6]/div/div[2]/div[2]/div/div[2]/div[1]/div[3]/span')  # 选择体检时间
+            # 提交报告
+            self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[3]/div[2]')
+            self.h5Driver.clickElementByXpath('//*[@id="app"]/div/div/div[4]')  # 点击提交
+            logger.info('B超报告提交成功')
+        except:
+            logger.error('系统异常，未进入结果页')
 
 
 

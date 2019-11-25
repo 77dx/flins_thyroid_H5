@@ -1,0 +1,7 @@
+datasource:
+  user: root
+  password: flins123
+  db: evaluation
+  port: 3306
+  host: 192.168.5.108
+  charset: utf8

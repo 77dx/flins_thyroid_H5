@@ -8,7 +8,7 @@ from email import encoders
 from email.utils import formataddr
 from email.mime.application import MIMEApplication
 import os
-from Util import util
+from util import util
 
 
 def mail(file,filename):

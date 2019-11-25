@@ -1,0 +1,7 @@
+2019-11-25 15:06:05,368 - LoginPage - INFO - uiautomator2初始化完成
+2019-11-25 15:06:24,183 - LoginPage - INFO - Loading Finished
+2019-11-25 15:06:24,183 - LoginPage - INFO - Test start...
+2019-11-25 15:06:26,055 - ThyroidPage - INFO - 点击详情示范
+2019-11-25 15:06:47,630 - ThyroidPage - INFO - B超报告提交成功
+2019-11-25 15:06:47,630 - LoginPage - INFO - 已做过测评，进入结果页
+2019-11-25 15:06:47,634 - LoginPage - INFO - Test End!
