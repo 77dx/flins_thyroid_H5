@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0018d79-9c78-4742-a6f8-69071f393c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/formDemo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/model/thyroid_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase2/model/thyroid_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/model/thyroid_init.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/test_01_thyroid2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase2/test_01_thyroid2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/thyroidCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase2/thyroidCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_Weixin/send_Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/send_Mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Util/operatedb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/Util/operatedb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/config/loadYaml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/config/params/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/config/params/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/test_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/test_demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +29,7 @@
     <SUITE FILE_PATH="coverage/study$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1572406568987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookbook" />
     <SUITE FILE_PATH="coverage/study$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1572417290317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookbook" />
     <SUITE FILE_PATH="coverage/check_image$love.coverage" NAME="love Coverage Results" MODIFIED="1561014613089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_demo" />
+    <SUITE FILE_PATH="coverage/study$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1574757654789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conn-mysql" />
     <SUITE FILE_PATH="coverage/check_image$socket_server_udp.coverage" NAME="socket_server_udp Coverage Results" MODIFIED="1561621522255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scoket网络编程" />
     <SUITE FILE_PATH="coverage/study$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1572340682747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookbook" />
     <SUITE FILE_PATH="coverage/check_image$test_mysql.coverage" NAME="test_mysql Coverage Results" MODIFIED="1561018278738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conn-mysql" />
@@ -119,9 +123,9 @@
     <session id="169921366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -133,7 +137,7 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -201,7 +205,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/formDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
+            <state relative-caret-position="513">
               <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
             </state>
           </provider>
@@ -210,8 +214,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conn-mysql/test_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="342">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -293,8 +297,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
-    <option name="y" value="46" />
+    <option name="x" value="317" />
+    <option name="y" value="153" />
     <option name="width" value="1514" />
     <option name="height" value="733" />
   </component>
@@ -306,6 +310,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,14 +327,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="he&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/git_flins_api/api2" />
+    <property name="last_opened_file_path" value="E:/git_httprunnermanager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
@@ -358,30 +362,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Python.test_mysql">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/flins_website/index.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="demo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookbook" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookbook/demo3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -450,20 +432,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conn-mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conn-mysql/test_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.demo3" />
       <item itemvalue="Python.demo4" />
       <item itemvalue="Python.demo5" />
       <item itemvalue="Python.demo6" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Python.test_mysql" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_mysql" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Python.demo6" />
         <item itemvalue="Python.demo5" />
         <item itemvalue="Python.demo4" />
-        <item itemvalue="Python.demo3" />
       </list>
     </recent_temporary>
   </component>
@@ -481,15 +485,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="121" y="46" width="1514" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="317" y="153" width="1514" height="733" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12517194" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12654746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32845744" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17678958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17529215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,15 +573,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络基础/1.2TCP-IP四层模型.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -797,15 +800,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/formDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
+        <state relative-caret-position="513">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conn-mysql/test_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="342">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>

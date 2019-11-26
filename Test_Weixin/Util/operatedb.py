@@ -2,14 +2,25 @@
 import pymysql
 
 
-def executeSql():
-    sql = "select `nick_name` from customer_user_wechat where user_id=1"
-    conn = pymysql.connect(user='root', passwd='flins123', db='member', port=3306, host='192.168.5.108', charset='utf8')
+def operatedb(db,type,sql):
+    conn = pymysql.connect(user='root', passwd='flins123', db=db, port=3306, host='192.168.5.108',charset='utf8')
     cursor = conn.cursor()
-    action = cursor.execute(sql)
-    result = cursor.fetchmany(action)
-    print(result)
+    cursor.execute(sql)
+    result = cursor.fetchone()
+    try:
+        if type != 'select':
+            conn.commit()
+        else:
+            return result[0]
+    finally:
+        cursor.close()
+        conn.close()
 
-    # conn.commit()
-    cursor.close()
-    conn.close()
+
+
+
+if __name__ == '__main__':
+    sql = "select `nick_name` from customer_user_wechat where user_id=1477"
+    sql2 = 'UPDATE customer_user_wechat SET city = "上海" WHERE nick_name like "鱼小七%"'
+    r = operatedb('member','update',sql2)
+    print r

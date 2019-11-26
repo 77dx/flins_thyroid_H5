@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-import unittest
 import unittest
-from model.thyroid_init import *
+from initialize.thyroid_init import *
 from thyroidCase import ThyroidCase
 
 
