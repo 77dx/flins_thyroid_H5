@@ -8,7 +8,6 @@ from email import encoders
 from email.utils import formataddr
 from email.mime.application import MIMEApplication
 import os
-from util import util
 
 
 def mail(file,filename):
@@ -32,16 +31,16 @@ def mail(file,filename):
         msg.attach(html)
 
         # 附件二：case01视频
-        os.system('adb -s %s pull /sdcard/case01.mp4 E:/vivo_MP4' % ('9f85839'))
-        vivomp4 = MIMEApplication(open('E:/vivo_MP4/case01.mp4', 'rb').read())
-        vivomp4.add_header('Content-Disposition', 'attachment', filename='case01.mp4')
-        msg.attach(vivomp4)
+        os.system('adb pull /sdcard/case.mp4 D:/MP4')
+        mp4 = MIMEApplication(open('D:/MP4/case.mp4', 'rb').read())
+        mp4.add_header('Content-Disposition', 'attachment', filename='case.mp4')
+        msg.attach(mp4)
 
-        # 附件三：case02视频
-        os.system('adb -s %s pull /sdcard/case02.mp4 E:/mi9_MP4' % ('9b1dee49'))
-        mi9mp4 = MIMEApplication(open('E:/mi9_MP4/case02.mp4', 'rb').read())
-        mi9mp4.add_header('Content-Disposition', 'attachment', filename='case02.mp4')
-        msg.attach(mi9mp4)
+        # # 附件三：case02视频
+        # os.system('adb -s %s pull /sdcard/case02.mp4 E:/mi9_MP4' % ('9b1dee49'))
+        # mi9mp4 = MIMEApplication(open('E:/mi9_MP4/case02.mp4', 'rb').read())
+        # mi9mp4.add_header('Content-Disposition', 'attachment', filename='case02.mp4')
+        # msg.attach(mi9mp4)
 
         #发送邮件
         server = smtplib.SMTP_SSL("smtp.qq.com", 465)  # 发件人邮箱中的SMTP服务器，端口是25

@@ -2,6 +2,7 @@
 import logging
 import os.path
 import time
+import sys
 
 
 class Logger(object):
@@ -17,9 +18,9 @@ class Logger(object):
 
         # 创建一个handler，用于写入日志文件
         rq = time.strftime("%Y-%m-%d %H_%M_%S",time.localtime(time.time()))
-        log_path = os.path.dirname(os.path.abspath('.')) + '/logs/'
+        log_path = 'E:\git_repo\Test_Weixin\logs/'
         log_name = log_path + rq + '.log'
-
+        print log_name
         fh = logging.FileHandler(log_name)
         fh.setLevel(logging.INFO)
 
@@ -38,3 +39,10 @@ class Logger(object):
 
     def getlog(self):
         return self.logger
+
+
+if __name__ == '__main__':
+    # logger = 'test'
+    # l = Logger(logger)
+    path = os.path.abspath(os.path.dirname(__file__)).split('Test_Weixin')[0]
+    print path

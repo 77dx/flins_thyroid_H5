@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="" />
+    <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/newModel-sun/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newModel-sun/images.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newModel-sun/modeltest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/pandasDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/api/ocr_unmanagelist.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/ev_current.har" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/testsuites/param_login.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/util/jars/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/util/jars/commons-codec-1.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/util/jars/fastjson-1.2.58.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/httpRunner/apitest/util/jars/zb_sign.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/interviewQuestions/测试开发题/algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study/js/JQuery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B_util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelTest/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelTest/runMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest/runMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_00_19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_02_35.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_03_19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_14_41.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_14_55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_26_30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_28_12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_28_43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 14_59_38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 15_02_14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 15_03_41.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 15_05_05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 15_06_04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/2019-11-25 15_08_03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Logs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/logs/2019-11-26 18_13_02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase2/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/test_01_thyroid2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase2/test_01_thyroid2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/TestCase2/thyroidCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/TestCase2/thyroidCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Util/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/Util/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/Util/operatedb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/Util/operatedb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/runtest_Report_BS.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/runtest_Report_BS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/send_Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_Weixin/send_Mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/util2019-11-26 18_08_42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/util2019-11-26 18_09_39.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/util2019-11-26 18_10_06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_Weixin/util2019-11-26 18_10_17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sign.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,18 +60,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/base64$B_base64.coverage" NAME="B_base64 Coverage Results" MODIFIED="1560321021726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/OCRTest$image_base64__1_.coverage" NAME="image_base64 (1) Coverage Results" MODIFIED="1569458018810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/renbao" />
-    <SUITE FILE_PATH="coverage/base64$renameTest.coverage" NAME="renameTest Coverage Results" MODIFIED="1568090931590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
     <SUITE FILE_PATH="coverage/OCRTest$run.coverage" NAME="run Coverage Results" MODIFIED="1568702199788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modelTest" />
     <SUITE FILE_PATH="coverage/base64$logDemo.coverage" NAME="logDemo Coverage Results" MODIFIED="1565768430254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/base64$logger.coverage" NAME="logger Coverage Results" MODIFIED="1565768492747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/base64$Logger.coverage" NAME="Logger Coverage Results" MODIFIED="1565764343246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/base64$imageTest.coverage" NAME="imageTest Coverage Results" MODIFIED="1568095410737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
-    <SUITE FILE_PATH="coverage/OCRTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1568946209373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modelTest" />
     <SUITE FILE_PATH="coverage/base64$image_base64__1_.coverage" NAME="image_base64 (1) Coverage Results" MODIFIED="1568599036003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/renbao" />
     <SUITE FILE_PATH="coverage/base64$image_base64.coverage" NAME="image_base64 Coverage Results" MODIFIED="1565769858812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/base64$baiduOCR.coverage" NAME="baiduOCR Coverage Results" MODIFIED="1568253802727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
+    <SUITE FILE_PATH="coverage/base64$B_base64.coverage" NAME="B_base64 Coverage Results" MODIFIED="1560321021726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/OCRTest$image_base64__1_.coverage" NAME="image_base64 (1) Coverage Results" MODIFIED="1569458018810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/renbao" />
+    <SUITE FILE_PATH="coverage/base64$renameTest.coverage" NAME="renameTest Coverage Results" MODIFIED="1568090931590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
+    <SUITE FILE_PATH="coverage/base64$Logger.coverage" NAME="Logger Coverage Results" MODIFIED="1565764343246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/base64$imageTest.coverage" NAME="imageTest Coverage Results" MODIFIED="1568095410737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
+    <SUITE FILE_PATH="coverage/OCRTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1568946209373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modelTest" />
+    <SUITE FILE_PATH="coverage/OCRTest$modeltest.coverage" NAME="modeltest Coverage Results" MODIFIED="1576052946168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newModel-sun" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1995058190">
@@ -103,18 +155,18 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="11" />
           <entry key="log" value="2" />
-          <entry key="py" value="23" />
+          <entry key="py" value="36" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -124,18 +176,20 @@
           <entry key="CSV" value="11" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="23" />
+          <entry key="Python" value="36" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2829" />
+          <entry key="dummy" value="9" />
+          <entry key="py" value="3057" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2829" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="3057" />
         </counts>
       </usages-collector>
     </session>
@@ -143,12 +197,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modelTest/run.py">
+        <entry file="file://$PROJECT_DIR$/newModel-sun/modeltest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="721">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
-                <element signature="e#24#39#0" expanded="true" />
+                <marker date="1576052931116" expanded="true" signature="2752:3338" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modelTest/runMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+                <marker date="1576049635546" expanded="true" signature="2351:2687" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+              <folding>
+                <element signature="e#15#28#0" expanded="true" />
+                <marker date="1569457777498" expanded="true" signature="189:190" ph="..." />
+                <marker date="1569457777498" expanded="true" signature="189:5286" ph="..." />
+                <marker date="1569457777498" expanded="true" signature="3735:4192" ph="..." />
+                <marker date="1569457777498" expanded="true" signature="5285:5286" ph="..." />
               </folding>
             </state>
           </provider>
@@ -182,10 +265,11 @@
         <option value="$PROJECT_DIR$/ocrTest/imageTest.py" />
         <option value="$PROJECT_DIR$/ocrTest/tencentOCR.py" />
         <option value="$PROJECT_DIR$/ocrTest/baiduOCR.py" />
-        <option value="$PROJECT_DIR$/modelTest/runMain.py" />
-        <option value="$PROJECT_DIR$/modelTest/run.py" />
         <option value="$PROJECT_DIR$/renbao/image_base64.py" />
         <option value="$PROJECT_DIR$/validImage/image_base64.py" />
+        <option value="$PROJECT_DIR$/modelTest/run.py" />
+        <option value="$PROJECT_DIR$/modelTest/runMain.py" />
+        <option value="$PROJECT_DIR$/newModel-sun/modeltest.py" />
       </list>
     </option>
   </component>
@@ -196,10 +280,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1036" />
-    <option name="height" value="733" />
+    <option name="x" value="11" />
+    <option name="y" value="10" />
+    <option name="width" value="1166" />
+    <option name="height" value="872" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -209,7 +293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,10 +300,21 @@
               <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="OCRTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCRTest" type="462c0819:PsiDirectoryNode" />
+              <item name="renbao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OCRTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OCRTest" type="462c0819:PsiDirectoryNode" />
+              <item name="validImage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,17 +325,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git_repo\OCRTest\renbao" />
-      <recent name="E:\git_repo\base64" />
-      <recent name="E:\git_repo\base64\venv\renbao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_repo\OCRTest\newModel-sun" />
       <recent name="E:\git_repo\OCRTest\renbao" />
       <recent name="E:\git_repo\OCRTest\util" />
       <recent name="E:\git_repo\OCRTest\modelTest" />
       <recent name="E:\git_repo\OCRTest\validImage" />
-      <recent name="E:\git_repo\base64\renbao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_repo\OCRTest\renbao" />
+      <recent name="E:\git_repo\base64" />
+      <recent name="E:\git_repo\base64\venv\renbao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,30 +350,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image_base64 (1)">
+  <component name="RunManager" selected="Python.modeltest">
     <configuration name="baiduOCR" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OCRTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ocrTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\git_repo\base64\ocrTest\OCRTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="imageTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OCRTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,6 +387,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/renbao/image_base64.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="modeltest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OCRTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newModel-sun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newModel-sun/modeltest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,18 +463,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.image_base64 (1)" />
-      <item itemvalue="Python.imageTest" />
       <item itemvalue="Python.baiduOCR" />
       <item itemvalue="Python.run" />
       <item itemvalue="Python.runMain" />
+      <item itemvalue="Python.modeltest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.modeltest" />
         <item itemvalue="Python.image_base64 (1)" />
         <item itemvalue="Python.runMain" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.baiduOCR" />
-        <item itemvalue="Python.imageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -408,8 +502,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10127932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -438,57 +533,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>96</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modelTest/runMain.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Python27/Lib/site-packages/xlwt/Workbook.py" />
     <entry file="file://C:/Python27/Lib/site-packages/xlrd/book.py" />
@@ -516,13 +560,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/renbao/log/13d4291a-b329-44f2-95fc-eb9ca9a166aa.log" />
-    <entry file="file://$PROJECT_DIR$/renbao/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/renbao/logger.py" />
     <entry file="file://$PROJECT_DIR$/renbao/log/185a2bee-585f-42a6-b0a7-6dc9cebe69c5.log" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1055577769/time.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -564,13 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3439">
           <caret line="187" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocrTest/OCRTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -630,33 +661,51 @@
     <entry file="file://E:/git_document/linux软件安装笔记.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modelTest/runMain.py">
+    <entry file="file://$PROJECT_DIR$/util/logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2019-09-26 08_29_45.log" />
+    <entry file="file://$PROJECT_DIR$/ocrTest/OCRTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="105" column="17" lean-forward="true" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        <state relative-caret-position="-380">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validImage/image_base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <marker date="1568946207372" expanded="true" signature="2353:2692" ph="..." />
+            <element signature="e#15#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/logger.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/2019-09-26 08_29_45.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validImage/image_base64.py">
+    <entry file="file://$PROJECT_DIR$/modelTest/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2567">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="646">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelTest/runMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+            <marker date="1576049635546" expanded="true" signature="2351:2687" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/renbao/image_base64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
+        <state relative-caret-position="437">
           <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
           <folding>
             <element signature="e#15#28#0" expanded="true" />
@@ -668,12 +717,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modelTest/run.py">
+    <entry file="file://$PROJECT_DIR$/newModel-sun/modeltest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="721">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <marker date="1576052931116" expanded="true" signature="2752:3338" ph="..." />
           </folding>
         </state>
       </provider>

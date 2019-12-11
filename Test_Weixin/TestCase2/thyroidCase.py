@@ -189,5 +189,3 @@ class ThyroidCase():
         except:
             logger.error('系统异常，未进入结果页')
 
-
-

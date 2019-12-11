@@ -1,0 +1,20 @@
+- config:
+    name: testcase description
+    output:
+        - token
+- test:
+    name: login
+    api: api/login.yml
+    variables:
+        account: ${ENV(account)}
+        pwd: ${ENV(pwd)}
+    extract:
+        token: content.data.token
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - '0000'
+

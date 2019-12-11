@@ -1,0 +1,23 @@
+- config:
+    name: testcase description
+    output:
+      - token
+
+#引用其他case
+- test:
+    name: login
+    testcase: testcases/boss_login.yml
+    output:
+      - token
+
+- test:
+    name: ocr_unmanagelist
+    api: api/ocr_unmanagelist.yml
+
+    variables:
+      token: $token
+
+    validate:
+      - eq:
+        - content.code
+        - '0000'

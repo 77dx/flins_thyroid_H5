@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Test Report Flins</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    
+<style type="text/css" media="screen">
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 500px;
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div class="container">
+    <div class='heading'>
+<h1>Test Report Flins</h1>
+<p><strong>Start Time:</strong> 2019-11-27 10:43:29</p>
+<p><strong>Duration:</strong> 0:01:23.402000</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>1</strong></span> <span class="text text-warning">Error <strong>2</strong></span></p>
+
+<p class='description'>H5</p>
+</div>
+
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">Summary</span>
+<span class="label label-danger" onclick="showCase(1)">Failed</span>
+<span class="label label-default" onclick="showCase(2)">All</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>Test Group/Test case</td>
+            <th>Count</td>
+            <th>Pass</td>
+            <th>Fail</td>
+            <th>Error</td>
+            <th>View</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-warning'>
+    <td>test_01_thyroid.TestH5</td>
+    <td>2</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',2)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: case开始执行了
+9f85839手机MP4已删除
+电脑没有MP4文件
+C:\Python27\lib\site-packages\uiautomator2\__init__.py:151: RuntimeWarning: backend atx-agent is not alive, start again ...
+  RuntimeWarning)
+uiautomator初始化完成
+微信已重启
+C:\Python27\lib\site-packages\uiautomator2\__init__.py:404: RuntimeWarning: uiautomator2 is not reponding, restart uiautomator2 automatically
+  stacklevel=1)
+[2019-11-27 10:43:33] uiautomator is starting ...
+[2019-11-27 10:43:34] uiautomator is starting ...
+[2019-11-27 10:43:35] uiautomator is starting ...
+[2019-11-27 10:43:36] uiautomator is starting ...
+[2019-11-27 10:43:37] uiautomator is starting ...
+[2019-11-27 10:43:38] uiautomator is starting ...
+[2019-11-27 10:43:39] uiautomator is starting ...
+[2019-11-27 10:43:40] uiautomator is starting ...
+uiautomator back to normal
+2019-11-27 10:44:09,989 22460 initDriver url ----&gt; ws://localhost:9222/devtools/page/62365C7BBC88DD00036ACD26ACAF0E03
+vivo初始化H5Driver完成
+9f85839录屏启动成功
+2019-11-27 10:44:12,996 22460 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-11-27 10:44:13,497 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-11-27 10:44:19,634 22460 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-11-27 10:44:19,634 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-11-27 10:44:25,753 22460 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-11-27 10:44:25,753 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+case01发生异常
+case已经执行完毕
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft1.2' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_02</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: case开始执行了
+9f85839手机MP4已删除
+电脑没有MP4文件
+C:\Python27\lib\site-packages\uiautomator2\__init__.py:151: RuntimeWarning: backend atx-agent is not alive, start again ...
+  RuntimeWarning)
+uiautomator初始化完成
+微信已重启
+C:\Python27\lib\site-packages\uiautomator2\__init__.py:404: RuntimeWarning: uiautomator2 is not reponding, restart uiautomator2 automatically
+  stacklevel=1)
+[2019-11-27 10:43:33] uiautomator is starting ...
+[2019-11-27 10:43:34] uiautomator is starting ...
+[2019-11-27 10:43:35] uiautomator is starting ...
+[2019-11-27 10:43:36] uiautomator is starting ...
+[2019-11-27 10:43:37] uiautomator is starting ...
+[2019-11-27 10:43:38] uiautomator is starting ...
+[2019-11-27 10:43:39] uiautomator is starting ...
+[2019-11-27 10:43:40] uiautomator is starting ...
+uiautomator back to normal
+2019-11-27 10:44:09,989 22460 initDriver url ----&gt; ws://localhost:9222/devtools/page/62365C7BBC88DD00036ACD26ACAF0E03
+vivo初始化H5Driver完成
+9f85839录屏启动成功
+2019-11-27 10:44:12,996 22460 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-11-27 10:44:13,497 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-11-27 10:44:19,634 22460 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-11-27 10:44:19,634 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-11-27 10:44:25,753 22460 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-11-27 10:44:25,753 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+case01发生异常
+case已经执行完毕
+case开始执行了
+9b1dee49手机MP4已删除
+电脑没有mi9_MP4文件
+微信已重启
+发生异常
+Traceback (most recent call last):
+  File "E:\git_repo\Test_Weixin\TestCase\test_01_thyroid.py", line 112, in test_02
+    mi9_child.kill()
+UnboundLocalError: local variable 'mi9_child' referenced before assignment
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr class='text text-warning'>
+    <td>test_02_breast.breast_H5</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c2',1)">Detail</a></td>
+</tr>
+
+<tr id='ft2.1' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test01</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        error</a>
+    <div id='div_ft2.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.1: case开始执行了
+9f85839手机MP4已删除
+电脑没有MP4文件
+C:\Python27\lib\site-packages\uiautomator2\__init__.py:151: RuntimeWarning: backend atx-agent is not alive, start again ...
+  RuntimeWarning)
+uiautomator初始化完成
+微信已重启
+C:\Python27\lib\site-packages\uiautomator2\__init__.py:404: RuntimeWarning: uiautomator2 is not reponding, restart uiautomator2 automatically
+  stacklevel=1)
+[2019-11-27 10:43:33] uiautomator is starting ...
+[2019-11-27 10:43:34] uiautomator is starting ...
+[2019-11-27 10:43:35] uiautomator is starting ...
+[2019-11-27 10:43:36] uiautomator is starting ...
+[2019-11-27 10:43:37] uiautomator is starting ...
+[2019-11-27 10:43:38] uiautomator is starting ...
+[2019-11-27 10:43:39] uiautomator is starting ...
+[2019-11-27 10:43:40] uiautomator is starting ...
+uiautomator back to normal
+2019-11-27 10:44:09,989 22460 initDriver url ----&gt; ws://localhost:9222/devtools/page/62365C7BBC88DD00036ACD26ACAF0E03
+vivo初始化H5Driver完成
+9f85839录屏启动成功
+2019-11-27 10:44:12,996 22460 clickElementByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-11-27 10:44:13,497 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/label
+2019-11-27 10:44:19,634 22460 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-11-27 10:44:19,634 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[2]/div/div[1]/div[1]/label
+2019-11-27 10:44:25,753 22460 getElementTextByXpath xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+2019-11-27 10:44:25,753 22460 isElementExist xpath ---&gt; //*[@id="app"]/div/div[3]/div/div[1]/span
+case01发生异常
+case已经执行完毕
+case开始执行了
+9b1dee49手机MP4已删除
+电脑没有mi9_MP4文件
+微信已重启
+发生异常
+9f85839手机MP4已删除
+电脑没有vivo_MP4文件
+uiautomator初始化完成
+Traceback (most recent call last):
+  File "E:\git_repo\Test_Weixin\TestCase\test_02_breast.py", line 38, in setUp
+    d2(resourceId="com.tencent.mm:id/apn").click()
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 39, in _inner
+    return fn(self, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 745, in click
+    self.must_wait(timeout=timeout)
+  File "C:\Python27\lib\site-packages\uiautomator2\session.py", line 938, in must_wait
+    raise UiObjectNotFoundError({'code': -32002, 'method': 'wait'})
+UiObjectNotFoundError: -32002 Client error: &lt;&gt; data: , method: None
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>3</td>
+            <td class="text text-success">1</td>
+            <td class="text text-danger">0</td>
+            <td class="text text-warning">2</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+- config:
+    name: test upload file with httpbin
+    base_url: ${get_httpbin_server()}
+
+- test:
+    name: upload file
+    variables:
+        file_path: "data/test.env"
+        multipart_encoder: ${multipart_encoder(file=$file_path)}
+    request:
+        url: /post
+        method: POST
+        headers:
+            Content-Type: ${multipart_content_type($multipart_encoder)}
+        data: $multipart_encoder
+    validate:
+        - eq: ["status_code", 200]
+        - startswith: ["content.files.file", "UserName=test"]
+

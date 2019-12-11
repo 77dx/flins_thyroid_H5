@@ -6,7 +6,7 @@ import xlrd
 from xlutils.copy import copy
 import pandas as pd
 import os
-from renbao.logger import Loggers
+from util.logger import Loggers
 import xlwt
 import base64
 
@@ -97,9 +97,6 @@ def yidiansan(data):
     data_list = [text,s["state"],s["prediction"]]
     log.logger.info(data_list)
     return data_list
-
-
-
 
 
 def run(image_url,file):

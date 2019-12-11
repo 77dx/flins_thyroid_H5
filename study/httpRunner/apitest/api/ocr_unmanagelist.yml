@@ -1,0 +1,17 @@
+name: ocr_unmanagelist
+base_url: ${ENV(BASE_URL)}
+variables:
+  token: $token
+request:
+    url: /boss/ev/ocr/unmanagelist
+    method: POST
+    headers:
+        Content-Type: "application/json"
+        token: ${token}
+    json:
+      page:
+          pageSize: 10
+          currentPage: 1
+      evRecordNo:
+validate:
+    - eq: ["status_code", 200]

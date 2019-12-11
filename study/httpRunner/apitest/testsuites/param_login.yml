@@ -1,0 +1,13 @@
+
+config:
+    name: "login"
+
+testcases:
+-
+    name: login_test_1
+    testcase: testcases/boss_login.yml
+    variables:
+      account: 1000
+      pwd: ${ENV(pwd)}
+    parameters:
+      account: [admin,jane]

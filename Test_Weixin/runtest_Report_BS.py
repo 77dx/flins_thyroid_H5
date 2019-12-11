@@ -10,7 +10,7 @@ import mail_breast
 
 def run():
     # 定义测试用例的路径
-    test_dir = os.path.join(os.getcwd(), 'TestCase')
+    test_dir = os.path.join(os.getcwd(), 'TestCase2')
     report_dir = os.path.join(os.getcwd(), 'TestReport')
     discover = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
     date = time.strftime("%y-%m-%d %H_%M_%S")

@@ -1,0 +1,18 @@
+
+name: login
+base_url: ${ENV(BASE_URL)}
+variables:
+    account: ${account}
+    pwd: ${pwd}
+request:
+    url: /boss/auth/login
+    method: POST
+    headers:
+        Content-Type: "application/json"
+    json:
+        account: ${account}
+        pwd: ${pwd}
+        captchaToken:
+        captcha:
+validate:
+    - eq: ["status_code", 200]

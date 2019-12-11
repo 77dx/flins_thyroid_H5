@@ -20,7 +20,8 @@ def operatedb(db,type,sql):
 
 
 if __name__ == '__main__':
-    sql = "select `nick_name` from customer_user_wechat where user_id=1477"
+    id = 1478
+    sql = 'select nick_name from customer_user_wechat where user_id = %s' %id
     sql2 = 'UPDATE customer_user_wechat SET city = "上海" WHERE nick_name like "鱼小七%"'
-    r = operatedb('member','update',sql2)
+    r = operatedb('member','select',sql)
     print r
