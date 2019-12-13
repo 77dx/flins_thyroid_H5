@@ -37,6 +37,22 @@ def sheet1_img(id_list,file):
                 image = df.iloc[i]['img_url']
                 xls_image(file,image)
 
+def id():
+    df = pd.read_excel('id.xls')
+    id_list = df['id'].values
+    df2 = pd.read_excel('ss.xls')
+    key_list = df2['id'].values
+    keys = []
+    for i in id_list:
+        for j in key_list:
+            if i == j:
+                key = df2[df2['img_url']]
+                keys.append(key)
+                print(key)
+    # return keys
+
+
+
 # 把image保存excel
 def xls_image(file, data_list):
     workbook = xlrd.open_workbook(file, formatting_info=True)
@@ -57,13 +73,48 @@ def new_xls(file):
     book.save(file)
 
 
+#获取本地图片的名称
+def image_name():
+    list = os.listdir('D:/qiniu')
+    images = []
+    for i in list:
+        image = i.split('.')
+        images.append(image[0])
+    return images
 
 
+#获取excel中的key
+def get_keys():
+    df = pd.read_excel('newkey.xls')
+    keys = df['转义url'].values
+    return keys
 
+
+#拼接要删除图片的本地地址
+def local_url_image():
+    local = image_name()
+    keys = get_keys()
+    s = set(local) - set(keys)
+    url = 'D:/qiniu/'
+    local_url = []
+    for i in s:
+        local_url.append(url + i + '.jpg')
+    return local_url
 
 
 if __name__ == '__main__':
-    list2 = sheet2_content()
-    id_list = sheet1_id(list2)
-    # sheet1_img(id_list,'result.xls')
+    # delete_image = local_url_image()
+    # try:
+    #     for d in delete_image:
+    #         os.remove(d)
+    # except Exception as e:
+    #     print(e)
+
+    id()
+
+
+
+
+
+
 
