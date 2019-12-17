@@ -51,8 +51,8 @@ def baiduOCR(key):
     r = requests.get(url,headers=header)
     d = r.text
     s = json.loads(d)
-    log.logger.info(s["data"]["jSONContent"])
-    return s["data"]["jSONContent"]
+    log.logger.info(s["data"])
+    return s["data"]
 
 # 模型接口
 def yidiansan(data):
@@ -128,7 +128,7 @@ def xls(data_list,file):
     newbook.save(file)
 
 
-#调模型出结果
+#读取excel图片文件，调模型出结果
 def get_score(image_url,file):
     new_xls(file)
     df = pd.read_excel('images.xls')
@@ -149,13 +149,35 @@ def get_score(image_url,file):
             continue
 
 
+#d读取本地文件，调模型
+def local_image_model(image_url,file):
+    new_xls(file)
+    image_list  = os.listdir(image_url)
+    for i in image_list:
+        try:
+            images = image_url + '/' + i
+            xls_image(file,i)        #保存图片名称
+            log.logger.info("image:" + i)
+            qiniutoken = get_qiniuToken()  # 获取七牛token
+            base = open_image(images)  # 图片转base64
+            key = upload(qiniutoken, base)  # 上传图片
+            data = baiduOCR(key)
+            data_list = yidiansan(data)
+            xls(data_list, file)
+        except Exception as e:
+            log.logger.error(e)
+
+
+
+
+
 
 
 if __name__ == '__main__':
     #开始时间
     start = datetime.datetime.now()
     #执行人保测评
-    renbao_sun()
+    local_image_model('d:/pic','ss.xls')
    # 结束时间
     end = datetime.datetime.now()
     print('运行时长：'+str((end - start).seconds)+'秒')

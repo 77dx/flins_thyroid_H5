@@ -1,0 +1,7 @@
+2019-12-17 14:15:27,074 - modeltest.py[line:160] - INFO: image:ZB20191114-090306000002.jpg
+2019-12-17 14:15:29,841 - modeltest.py[line:26] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:Av2OzpS7GP2GsG2Mui6-9E5ADjQ=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU3NjU2MzM5MH0=', 'key': 'UkIyMDE5MTIxNy0xNDoxNTozMDAwMDE4MTM4MWI='}}
+2019-12-17 14:15:30,320 - modeltest.py[line:44] - INFO: {'hash': 'FneUFM14SjNecD0m-y9nfg3TaBnP', 'key': 'FneUFM14SjNecD0m-y9nfg3TaBnP'}
+2019-12-17 14:15:42,667 - modeltest.py[line:168] - ERROR: unsupported operand type(s) for +: 'dict' and 'str'
+2019-12-17 14:15:42,671 - modeltest.py[line:160] - INFO: image:ZB20191114-100117000021.jpg
+2019-12-17 14:15:42,703 - modeltest.py[line:26] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:mKM9-qSHcoYIacqnWToc-0p9qm8=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU3NjU2MzQwM30=', 'key': 'UkIyMDE5MTIxNy0xNDoxNTo0MzAwMDE4MjI4NzA='}}
+2019-12-17 14:15:42,812 - modeltest.py[line:44] - INFO: {'hash': 'Fk2OySo6LAd9lkbmPhBBcftf6IwZ', 'key': 'Fk2OySo6LAd9lkbmPhBBcftf6IwZ'}

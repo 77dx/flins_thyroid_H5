@@ -1,0 +1,11 @@
+2019-12-17 11:01:32,298 - modeltest.py[line:160] - INFO: image:ZB20191114-090306000002.jpg
+2019-12-17 11:01:32,778 - modeltest.py[line:26] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:CIEUI3XNHBq7-1BJsQviv4qm8Ng=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU3NjU1MTc1M30=', 'key': 'UkIyMDE5MTIxNy0xMTowMTozMzAwMDAwNDRiN2U='}}
+2019-12-17 11:01:33,088 - modeltest.py[line:44] - INFO: {'hash': 'FneUFM14SjNecD0m-y9nfg3TaBnP', 'key': 'FneUFM14SjNecD0m-y9nfg3TaBnP'}
+2019-12-17 11:01:34,885 - modeltest.py[line:168] - ERROR: 'jSONContent'
+2019-12-17 11:01:34,891 - modeltest.py[line:160] - INFO: image:ZB20191114-100117000021.jpg
+2019-12-17 11:01:35,123 - modeltest.py[line:26] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:a0lsSpEDPftPjSidsUW_OonT-ps=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU3NjU1MTc1NX0=', 'key': 'UkIyMDE5MTIxNy0xMTowMTozNTAwMDAwNTkwMTc='}}
+2019-12-17 11:01:35,209 - modeltest.py[line:44] - INFO: {'hash': 'Fk2OySo6LAd9lkbmPhBBcftf6IwZ', 'key': 'Fk2OySo6LAd9lkbmPhBBcftf6IwZ'}
+2019-12-17 11:01:36,380 - modeltest.py[line:168] - ERROR: 'jSONContent'
+2019-12-17 11:01:36,392 - modeltest.py[line:160] - INFO: image:ZB20191114-100313000022.jpg
+2019-12-17 11:01:36,404 - modeltest.py[line:26] - INFO: {'code': '0000', 'desc': '请求成功', 'data': {'qiNiuToken': 'kbZyUO0zdM8jvbdoWCqsjv8VjvrgKXIhewyaDXto:lumS2M_uO5DNWbW4Cl0Ud9LF3Qc=:eyJzY29wZSI6ImRldi1waG90b3MiLCJkZWFkbGluZSI6MTU3NjU1MTc1Nn0=', 'key': 'UkIyMDE5MTIxNy0xMTowMTozNjAwMDAwNjQyMDc='}}
+2019-12-17 11:01:36,560 - modeltest.py[line:44] - INFO: {'hash': 'FvY8B2saENwVvGMqKiqs3GeQW9ON', 'key': 'FvY8B2saENwVvGMqKiqs3GeQW9ON'}

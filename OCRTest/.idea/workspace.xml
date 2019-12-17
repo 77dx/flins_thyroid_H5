@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c79f2-bafa-4c45-aae7-8b531afd4035" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newModel-sun/2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newModel-sun/result/newkey.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newModel-sun/result/result.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newModel-sun/result/score.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newModel-sun/results.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/data/2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/data/key.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/data/newkey.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/data/result.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/id.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/excel数据处理/ss.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newModel-sun/images.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/newModel-sun/modeltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/newModel-sun/modeltest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/excel数据处理/2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../study/excel数据处理/data/12.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/excel数据处理/pandasDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../study/excel数据处理/pandasDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/excel数据处理/result.xls" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +24,7 @@
     <SUITE FILE_PATH="coverage/base64$Logger.coverage" NAME="Logger Coverage Results" MODIFIED="1565764343246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/base64$imageTest.coverage" NAME="imageTest Coverage Results" MODIFIED="1568095410737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ocrTest" />
     <SUITE FILE_PATH="coverage/OCRTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1568946209373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modelTest" />
-    <SUITE FILE_PATH="coverage/OCRTest$modeltest.coverage" NAME="modeltest Coverage Results" MODIFIED="1576142927076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newModel-sun" />
+    <SUITE FILE_PATH="coverage/OCRTest$modeltest.coverage" NAME="modeltest Coverage Results" MODIFIED="1576563381497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newModel-sun" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1995058190">
@@ -122,12 +106,12 @@
     <session id="280116122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -151,13 +135,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="py" value="3520" />
+          <entry key="py" value="3807" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="3520" />
+          <entry key="Python" value="3807" />
         </counts>
       </usages-collector>
     </session>
@@ -167,12 +151,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newModel-sun/modeltest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="184">
+              <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
               <folding>
                 <element signature="e#14#27#0" expanded="true" />
-                <marker date="1576142813996" expanded="true" signature="1784:2287" ph="..." />
-                <marker date="1576142813996" expanded="true" signature="3330:3916" ph="..." />
+                <marker date="1576563362182" expanded="true" signature="3947:4505" ph="..." />
               </folding>
             </state>
           </provider>
@@ -220,7 +203,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="60" />
     <option name="width" value="1036" />
@@ -234,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +234,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,15 +421,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="60" width="1036" height="733" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19467214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10341151" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275488" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.74958265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5889371" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,10 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="123" column="35" lean-forward="true" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <marker date="1576049635546" expanded="true" signature="2351:2687" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,13 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-            <marker date="1569457777498" expanded="true" signature="189:190" ph="..." />
-            <marker date="1569457777498" expanded="true" signature="189:5286" ph="..." />
-            <marker date="1569457777498" expanded="true" signature="3735:4192" ph="..." />
-            <marker date="1569457777498" expanded="true" signature="5285:5286" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,20 +616,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newModel-sun/modeltest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="184">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
           <folding>
             <element signature="e#14#27#0" expanded="true" />
-            <marker date="1576142813996" expanded="true" signature="1784:2287" ph="..." />
-            <marker date="1576142813996" expanded="true" signature="3330:3916" ph="..." />
+            <marker date="1576563362182" expanded="true" signature="3947:4505" ph="..." />
           </folding>
         </state>
       </provider>

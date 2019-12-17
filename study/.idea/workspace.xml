@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0018d79-9c78-4742-a6f8-69071f393c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../OCRTest/newModel-sun/2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OCRTest/newModel-sun/result/newkey.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OCRTest/newModel-sun/result/result.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OCRTest/newModel-sun/result/score.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OCRTest/newModel-sun/results.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel数据处理/data/2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel数据处理/data/key.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel数据处理/data/newkey.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel数据处理/data/result.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel数据处理/id.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel数据处理/ss.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OCRTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OCRTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OCRTest/newModel-sun/images.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../OCRTest/newModel-sun/modeltest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../OCRTest/newModel-sun/modeltest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel数据处理/2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/excel数据处理/data/12.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel数据处理/pandasDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel数据处理/pandasDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel数据处理/result.xls" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,13 +118,13 @@
     <session id="169921366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -148,7 +132,7 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -215,7 +199,7 @@
         <entry file="file://$PROJECT_DIR$/excel数据处理/pandasDemo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
                 <marker date="1576142660548" expanded="true" signature="144:149" ph="..." />
@@ -304,11 +288,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="415" />
-    <option name="y" value="197" />
-    <option name="width" value="1038" />
-    <option name="height" value="742" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="60" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -317,25 +301,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="excel数据处理" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -440,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="415" y="197" width="1038" height="742" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23415133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -655,26 +621,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/httpRunner/apitest/testcases/reports/1575861042.html" />
     <entry file="file://$PROJECT_DIR$/httpRunner/apitest/testcases/reports/1575861090.html" />
-    <entry file="file://$PROJECT_DIR$/httpRunner/apitest/testcases/toB">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httpRunner/apitest/util/debugtalk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httpRunner/apitest/testcases/renbao.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/httpRunner/apitest/testcases/toB" />
+    <entry file="file://$PROJECT_DIR$/httpRunner/apitest/util/debugtalk.py" />
+    <entry file="file://$PROJECT_DIR$/httpRunner/apitest/testcases/renbao.yaml" />
     <entry file="file://C:/Python37/Lib/site-packages/httprunner/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -747,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/excel数据处理/pandasDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#23#42#0" expanded="true" />
             <marker date="1576142660548" expanded="true" signature="144:149" ph="..." />
